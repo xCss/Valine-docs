@@ -1,0 +1,25 @@
+{
+  "name": "valine-docs",
+  "version": "2.0.0",
+  "description": "Documentations for Valine.",
+  "author": "xCss <xioveliu@gmail.com> (https://github.com/xCss)",
+  "scripts": {
+    "dev": "vuepress dev .",
+    "build": "vuepress build ."
+  },
+  "keywords": [
+    "simple",
+    "easy-to-use",
+    "fast-and-safe",
+    "comment-system"
+  ],
+  "license": "GPL-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xcss/Valine.git"
+  },
+  "homepage": "https://github.com/xcss/Valine#readme",
+  "devDependencies": {
+    "vuepress": "^0.9.0"
+  }
+}
