@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "ac29ea6c66ce463c7a465075d67987d4"
+    "revision": "06a7abbedfb0f8d76d60e7cdf5ac0ad7"
   },
   {
     "url": "assets/alipay.png",
@@ -112,12 +112,12 @@ self.__precacheManifest = [
     "revision": "e8b833edff6257c73398aa8c41f18d3c"
   },
   {
-    "url": "assets/js/9.7b9acd36.js",
-    "revision": "8d124843ae2fb2fab2c31987c938c73f"
+    "url": "assets/js/9.629e5d50.js",
+    "revision": "d2816910c057b94befba8b60efd3e8cc"
   },
   {
-    "url": "assets/js/app.9e4ce803.js",
-    "revision": "69519527251782152b4b7bba922521cc"
+    "url": "assets/js/app.06e4eb33.js",
+    "revision": "ca6a7e24d1a167ba3a0982eb28dd9bfa"
   },
   {
     "url": "assets/valine.png",
@@ -129,79 +129,79 @@ self.__precacheManifest = [
   },
   {
     "url": "en/guide/avatar.html",
-    "revision": "560100f243032828e08ca181ebc49c42"
+    "revision": "56da38731d964d920f67b4bc5c72127a"
   },
   {
     "url": "en/guide/cdn.html",
-    "revision": "475a8bb34c9cf2e4e7225a8c15e166e7"
+    "revision": "481e716f74fb678d0497eb681bd81fc3"
   },
   {
     "url": "en/guide/config.html",
-    "revision": "5b3530f2b06ad8b4d6b40ec6ecfff973"
+    "revision": "d7cc77a13ec1fb4bc6f4c95248d461d5"
   },
   {
     "url": "en/guide/hexo.html",
-    "revision": "c4f192dd64a41d6fb815e174a32706c0"
+    "revision": "9a02c34ce8f82cdd34e13be6fb83859a"
   },
   {
     "url": "en/guide/index.html",
-    "revision": "6775fc0b57ecc3aeaf91f4d05da2e068"
+    "revision": "0fdc4b514f83a7f38d9bb6e8201e743a"
   },
   {
     "url": "en/guide/notify.html",
-    "revision": "3484056e8fe6962802887ec0be81195e"
+    "revision": "ed6a0075f2a033a7131d57102947454a"
   },
   {
     "url": "en/guide/quickstart.html",
-    "revision": "1dcff0f2a9144235586234ee62f6ddb7"
+    "revision": "1bb64d2eb086dbb207168694f00971ae"
   },
   {
     "url": "en/index.html",
-    "revision": "38937464046cad3b9818ba90fa0a7cea"
+    "revision": "ddf1cb396d5f1eb8b4599dfc5485c1f6"
   },
   {
     "url": "guide/avatar.html",
-    "revision": "00aa48b40814a14889a9a229b1aa75bd"
+    "revision": "021a26f3ecc08debc72f896aba9a514e"
   },
   {
     "url": "guide/cdn.html",
-    "revision": "f638e31b50ed718b4aa682a11ea19aa1"
+    "revision": "99e3b5da9b2b0f0d354b309455c34121"
   },
   {
     "url": "guide/config.html",
-    "revision": "9c86a8a560a2bc26dd19ef42302da9d0"
+    "revision": "bdd6f1f94e4aa849d449f731e13796e8"
   },
   {
     "url": "guide/contact.html",
-    "revision": "59a23d2d920833a8f673ebb70c5e2f15"
+    "revision": "c333112cfdf283671e4dba202677caaa"
   },
   {
     "url": "guide/error.html",
-    "revision": "589a04333a277914cffbb6980baacdaa"
+    "revision": "0c1b43b78a37672517f10b9c6cfa884e"
   },
   {
     "url": "guide/faq.html",
-    "revision": "4f0937dc659af78a62058093cb738961"
+    "revision": "121fb1388dc3191687892fe338a264ce"
   },
   {
     "url": "guide/hexo.html",
-    "revision": "d039d49192982ccc7775909dc0d73782"
+    "revision": "45d09a6859833c4f42b30b58f44c1a3f"
   },
   {
     "url": "guide/i18n.html",
-    "revision": "f212b35ec139849a6aaf5d2d6fd4786a"
+    "revision": "59b64361cbfd1f93c6e3252e6d0cc654"
   },
   {
     "url": "guide/index.html",
-    "revision": "ca55ce001f385a11ab2cfed38c5d43e0"
+    "revision": "8089096687b9b4bd5360ad54dbe01e62"
   },
   {
     "url": "guide/notify.html",
-    "revision": "e3f00d0b5ca536c77c302b82095afa75"
+    "revision": "f8a953ddc1b1ab12a95b7e3c20dcb6ed"
   },
   {
     "url": "guide/quickstart.html",
-    "revision": "cb3f081d712ff5623d182a0cd0fdbca9"
+    "revision": "c62d5c1f874e3622669696232939b80d"
   },
   {
     "url": "icons/android-chrome-192x192.png",
@@ -249,7 +249,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "35f16c957bf2d4f72ce50248a84975b5"
+    "revision": "5287c8578624c8a659575eb957c91c9e"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
