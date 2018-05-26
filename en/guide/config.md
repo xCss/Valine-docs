@@ -5,7 +5,7 @@
 <!-- Write the argument in the constructor -->
 <script>
     new Valine({
-        el:'#comment',
+        el:'#vcomment',
         appId:'your appid',
         appKey:'your appkey'
     })
@@ -15,7 +15,7 @@
 <script>
     var valine = new Valine();
     valine.init({
-        el:'#comment',
+        el:'#vcomment',
         appId:'your appid',
         appKey:'your appkey'
     })
@@ -24,13 +24,13 @@
 
 ## el
 - Type:`String`
-- Default:`#comment`
+- Default:`undefined`
 - Required:`true`
 
 The DOM element to be mounted on initialization. It can be a CSS selector string or an actual HTMLElement.
 ```js
 new Valine({
-    el:'#comment'
+    el:'#vcomment'
 })
 ```
 !> Please ensure that the element is unique.
