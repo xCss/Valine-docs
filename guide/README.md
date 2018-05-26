@@ -26,4 +26,4 @@ Valine 现在仍处于开发阶段，这里有一些目前还不支持、但已�
 
 | 支付宝 | 微信 | 
 | :------: | :------: | 
-| <img width="150" src="/assets/img/alipay.png"> | <img width="135" src="/assets/img/wechat.png"> |
+| <img width="150" src="/assets/alipay.png"> | <img width="135" src="/assets/wechat.png"> |
