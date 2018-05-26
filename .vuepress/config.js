@@ -1,4 +1,5 @@
 module.exports = {
+    base:'./',
     dest: 'docs',
     locales: {
         '/': {
@@ -15,8 +16,8 @@ module.exports = {
     serviceWorker: true,
     head: [
         ['link',{rel:'shortcut icon', href:'/icons/favicon.ico'}],
-        ['link', { rel: 'icon', href: `/logo.png` }],
-        ['link', { rel: 'manifest', href: '/manifest.json' }],
+        ['link', { rel: 'icon', href: `/assets/img/logo.png` }],
+        ['link', { rel: 'manifest', href: '/assets/manifest.json' }],
         ['meta', { name: 'theme-color', content: '#2782D7' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
         ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],

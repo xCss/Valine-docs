@@ -28,7 +28,7 @@ If you are enjoying this app, please consider making a donation to keep it alive
 
 | Alipay | Wechat | 
 | :------: | :------: | 
-| <img width="150" src="/alipay.png"> | <img width="135" src="/wechat.png"> | 
+| <img width="150" src="/assets/img/alipay.png"> | <img width="135" src="/assets/img/wechat.png"> | 
 
 If you are not available for this, simply spreading the word for us would help too!
 
