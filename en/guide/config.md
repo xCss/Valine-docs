@@ -24,7 +24,7 @@
 
 ## el
 - Type:`String`
-- Default:`undefined`
+- Default:`null`
 - Required:`true`
 
 The DOM element to be mounted on initialization. It can be a CSS selector string or an actual HTMLElement.
@@ -52,9 +52,12 @@ Application `APP Key` from `Leancloud`.
 - Default:`cn`
 - Required:`false`
 
-Storage node，Optional value：
+Storage node.
+::: info
+Optional value:
 - `cn` - Chinese mainland node
 - `us` - Overseas node
+:::
 
 ## placeholder
 - Type:`String`
@@ -83,17 +86,22 @@ Validation code.
 - Default:`window.location.pathname`
 - Required:`false`
 
-Article path(just like duoshuo `thread`), Optional value:
+Article path(just like duoshuo `thread`).
+::: info
+Optional value:
 - `window.location.pathname` (recommend)
 - `window.location.href`
 - customize (`Please ensure uniqueness`)
+:::
 
 ## avatar
 - Type:`String`
 - Default:`mm`
 - Required:`false`
 
-`Gravatar` type, Optional value:
+`Gravatar` type.
+::: info
+Optional value:
 - `''`(Empty string)
 - `mm`
 - `identicon`
@@ -103,6 +111,8 @@ Article path(just like duoshuo `thread`), Optional value:
 - `hide` 
 
 See the [Avatar setting](avatar.md) for more details.
+:::
+
 
 ## guest_info
 - Type:`Array`
