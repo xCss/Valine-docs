@@ -53,8 +53,8 @@ Application `APP Key` from `Leancloud`.
 - Required:`false`
 
 Storage node.
-::: tip
-Optional value:
+::: tip Optional value:
+
 - `cn` - Chinese mainland node
 - `us` - Overseas node
 :::
@@ -87,8 +87,7 @@ Validation code.
 - Required:`false`
 
 Article path(just like duoshuo `thread`).
-::: tip
-Optional value:
+::: tip Optional value:
 - `window.location.pathname` (recommend)
 - `window.location.href`
 - customize (`Please ensure uniqueness`)
@@ -100,8 +99,7 @@ Optional value:
 - Required:`false`
 
 `Gravatar` type.
-::: tip
-Optional value:
+::: tip Optional value:
 - `''`(Empty string)
 - `mm`
 - `identicon`
