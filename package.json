@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/xcss/Valine#readme",
   "devDependencies": {
-    "vuepress": "^0.9.0"
+    "vuepress": "^0.10.0"
   }
 }
