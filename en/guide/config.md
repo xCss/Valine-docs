@@ -28,7 +28,8 @@
 - Required:`true`
 
 The DOM element to be mounted on initialization. It can be a CSS selector string or an actual HTMLElement.
-::: wraning
+
+::: warning
 Please ensure that the element is unique.
 :::
 

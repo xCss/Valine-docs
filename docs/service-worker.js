@@ -21,7 +21,7 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "bb40e33693a0f1aefd6b2dac31189b74"
+    "revision": "0eec205e6f7fad6507cb813e5587ef8c"
   },
   {
     "url": "assets/alipay.png",
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "revision": "3d063639907c419c50aa7479c145a526"
   },
   {
-    "url": "assets/js/14.ae3926d5.js",
-    "revision": "708a8c7e348b98d63191d5ad99ba9498"
+    "url": "assets/js/14.9132cf49.js",
+    "revision": "ed792f83a18eb3aa2f391042e7883f84"
   },
   {
     "url": "assets/js/15.504fa876.js",
@@ -104,8 +104,8 @@ self.__precacheManifest = [
     "revision": "16644025a2974a5bc4c4380b8b7896a5"
   },
   {
-    "url": "assets/js/7.6ee61e37.js",
-    "revision": "f3ffeeec3a91410b965b25070c0de843"
+    "url": "assets/js/7.d3d0ddf6.js",
+    "revision": "a839cbe555592f3c9100c5609ad68ba2"
   },
   {
     "url": "assets/js/8.6b9774a3.js",
@@ -116,8 +116,8 @@ self.__precacheManifest = [
     "revision": "34f6d0b760e1241dfa9e1acde5c5e24d"
   },
   {
-    "url": "assets/js/app.3998cf6c.js",
-    "revision": "4f6abf9de0c6e94f4b4904ee8792c553"
+    "url": "assets/js/app.d20eb456.js",
+    "revision": "75da2bfd4193d9d2840787e600e2800f"
   },
   {
     "url": "assets/valine.png",
@@ -129,79 +129,79 @@ self.__precacheManifest = [
   },
   {
     "url": "en/guide/avatar.html",
-    "revision": "62a5d6641f91ae52da55e0e6bd9cf2f4"
+    "revision": "4e83a822718f131bfd7b85fd81ce0967"
   },
   {
     "url": "en/guide/cdn.html",
-    "revision": "f969827ce48254c778ca97f2db3565db"
+    "revision": "f8e69bc5cabe7e33705177f3c3331303"
   },
   {
     "url": "en/guide/config.html",
-    "revision": "88af86ab9b63978e72fc054ca723e0bc"
+    "revision": "ed2bdd2ea0178e6c1ec76544b1e80f31"
   },
   {
     "url": "en/guide/hexo.html",
-    "revision": "eb34bfd771ab3c52fb39c5756cd9318a"
+    "revision": "a17e275639e8904cf48804e90278e203"
   },
   {
     "url": "en/guide/index.html",
-    "revision": "d989de31f0b9395862f3c600cbcb3e57"
+    "revision": "8de1a1ad94b79fa54a9cd16a44ebfc3e"
   },
   {
     "url": "en/guide/notify.html",
-    "revision": "fd6b569356a3dc78869bcc40ef8b52b5"
+    "revision": "29a460c8a4a9aeaf3a74e15a64e33621"
   },
   {
     "url": "en/guide/quickstart.html",
-    "revision": "06cb75daa788b39fbcc5d34fa17e8c59"
+    "revision": "17269d6ae8429b0046c69e42a695fd34"
   },
   {
     "url": "en/index.html",
-    "revision": "d1669ffbbea49580d1207b491976c7f4"
+    "revision": "a66de04f078367902c5ea91c81c32b3b"
   },
   {
     "url": "guide/avatar.html",
-    "revision": "71fae6add6aa45b517ef14284f386878"
+    "revision": "06d83f15e88e594e0a50c70a0da14de5"
   },
   {
     "url": "guide/cdn.html",
-    "revision": "01fcd0a081563294bb8ba022c0fe5b39"
+    "revision": "7c4987c07f638c80a863aabcb491b436"
   },
   {
     "url": "guide/config.html",
-    "revision": "6e252d41f8ff221401fc1c29d06af424"
+    "revision": "493cdd673bc849e21b2d43793e9947da"
   },
   {
     "url": "guide/contact.html",
-    "revision": "fe725dfad8660ac63446c4d23249af3d"
+    "revision": "1c2e585fb5de332af1741b8e0fb3bdc4"
   },
   {
     "url": "guide/error.html",
-    "revision": "62b3ceb4905c0bdee5c5af4f90a29cea"
+    "revision": "4f01ffe20bfcfa0fb35ea0c99cb16e23"
   },
   {
     "url": "guide/faq.html",
-    "revision": "09f6ebe2f17a43a0233e66420373f9ec"
+    "revision": "65d5b2f54c4c0a10abe5c1719a9bb0e1"
   },
   {
     "url": "guide/hexo.html",
-    "revision": "b876abc1bbe377c7785892b7041ca29b"
+    "revision": "d61d443489d6f65b4192f0242240364c"
   },
   {
     "url": "guide/i18n.html",
-    "revision": "5edff8d24b9921a1580b10a866af33fb"
+    "revision": "825d56ee1a8fff7fc063954071eb98ce"
   },
   {
     "url": "guide/index.html",
-    "revision": "85e0a09956191abb4bfe3a27036d4f22"
+    "revision": "f5efde387f995a4646aadf26e9db5532"
   },
   {
     "url": "guide/notify.html",
-    "revision": "9516aa3d599c279701b4b5c4bc1616c1"
+    "revision": "244cdf49e135642b87972b66da7bc263"
   },
   {
     "url": "guide/quickstart.html",
-    "revision": "b04fcf2ceda3ca62d9605364fc067ce5"
+    "revision": "d1cb576841d6c62da51b9053be318448"
   },
   {
     "url": "icons/android-chrome-192x192.png",
@@ -249,7 +249,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "efbfb3a9a15088f506cff7280f5fed9f"
+    "revision": "e109d919c20cf41a55e40d773cda6a9a"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
