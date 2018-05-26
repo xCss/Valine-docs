@@ -21,15 +21,15 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.2.0/workbox
 self.__precacheManifest = [
   {
     "url": "_coverpage.html",
-    "revision": "e566bdda2045661e7442c62bcb331063"
+    "revision": "c8dbd11a96674bf1631bdc6228716927"
   },
   {
     "url": "_navbar.html",
-    "revision": "0fea20c1d8a19b8bed81d08a6853aee1"
+    "revision": "8c871903151d611f019f0da0c1700cc3"
   },
   {
     "url": "404.html",
-    "revision": "825baf2c8d3884c764d0c17f34637bd5"
+    "revision": "d081ab8b58e5b150141adbb0d2c62bb2"
   },
   {
     "url": "assets/alipay.png",
@@ -100,8 +100,8 @@ self.__precacheManifest = [
     "revision": "907fd91b93782ec386d00d8a151a5c89"
   },
   {
-    "url": "assets/js/4.2cbd7135.js",
-    "revision": "120ff01decd83b64703d90840e938ac7"
+    "url": "assets/js/4.2ae58410.js",
+    "revision": "4b7a8feaffbd17dcb15dda35f6b2cea8"
   },
   {
     "url": "assets/js/5.72ad6178.js",
@@ -124,8 +124,8 @@ self.__precacheManifest = [
     "revision": "0da2acdfe24ed7fec8fb2d05b7af5e4a"
   },
   {
-    "url": "assets/js/app.66aafdb8.js",
-    "revision": "bb6177f89a4cb0a6812005813cd15995"
+    "url": "assets/js/app.a2b955da.js",
+    "revision": "063a60a07579859253ec5f4736795acf"
   },
   {
     "url": "assets/valine.png",
@@ -137,71 +137,71 @@ self.__precacheManifest = [
   },
   {
     "url": "avatar.html",
-    "revision": "c957c741ba1c9e3d742110c916aa9f05"
+    "revision": "104a3cd5940d468fe7497f7086332988"
   },
   {
     "url": "cdn.html",
-    "revision": "3e941c36a49d1c4058b4e66b27de329e"
+    "revision": "2d16e7b039c685dd02edfe434f8709a2"
   },
   {
     "url": "contact.html",
-    "revision": "709d6322e7d2eed25773cd3976fbd7c0"
+    "revision": "137334a1f2925d7e8ab55f2a867ae918"
   },
   {
     "url": "en/avatar.html",
-    "revision": "c3e9d961b74ee38bd1e0db40f143d1f0"
+    "revision": "ee6c62bf77e6df72ac97134d709914d6"
   },
   {
     "url": "en/cdn.html",
-    "revision": "1f8e25994821f294447df17f817d440d"
+    "revision": "82ca0f15b7a01068654428592d7eae8d"
   },
   {
     "url": "en/guide/config.html",
-    "revision": "c7863d72359a07b8163295a6bbb47fc4"
+    "revision": "2f9b473a693d450ff34c88756c8c03d3"
   },
   {
     "url": "en/guide/index.html",
-    "revision": "cee696c1b7620ef4419b4c4c73408eb3"
+    "revision": "90c0221e743c855eaa8b58d4802e7d6a"
   },
   {
     "url": "en/guide/quickstart.html",
-    "revision": "aed6d48f294520ea46df5c5c39b404f3"
+    "revision": "3ae82cb2f5e734d1ed6d10ed0cbc3661"
   },
   {
     "url": "en/hexo.html",
-    "revision": "b53389fa1dfe122e8009a6d516b4b097"
+    "revision": "c308e45bb8802d7c6773213231f12780"
   },
   {
     "url": "en/index.html",
-    "revision": "09e1fb55bc41335e812d777a55ecb40f"
+    "revision": "290073039a4f83308ad6ab67e3a2f37c"
   },
   {
     "url": "en/notify.html",
-    "revision": "02a682f8c751034ab1928bb0bf8b326b"
+    "revision": "9aedbdf9105ac95e0df54aaf7c497d68"
   },
   {
     "url": "faq.html",
-    "revision": "01193a876ff5fab9a579175ea0cd9b33"
+    "revision": "e10e951fac90c5300b909db45e61133a"
   },
   {
     "url": "guide/config.html",
-    "revision": "7bf1c8d430076f6d2c944c69ec3c3dfb"
+    "revision": "4a63289f3d98ad4c715d261558e2ed22"
   },
   {
     "url": "guide/index.html",
-    "revision": "9c8cb7ce9a08b890714cbbc138abfdf3"
+    "revision": "92a3d169ade5314d89cd1fe40d711fd6"
   },
   {
     "url": "guide/quickstart.html",
-    "revision": "98af1e0ac7ddb1c05bbec63c2a976084"
+    "revision": "77acce4758dacc221a219c3ab4048575"
   },
   {
     "url": "hexo.html",
-    "revision": "715f5541c472059e96827118302f8b07"
+    "revision": "1772fa5dd83176b58dae020266a26912"
   },
   {
     "url": "i18n.html",
-    "revision": "26f1489b666c09f7bd7d4b18172ad3ce"
+    "revision": "0a7c77069bbef0dbabec52e7cab8992d"
   },
   {
     "url": "icons/android-chrome-192x192.png",
@@ -249,7 +249,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "46785d8019d1c3528e1b15b9da579d60"
+    "revision": "74dc9fd5afd5f350af39afc55345321e"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();

@@ -26,13 +26,15 @@ module.exports = {
     ],
     themeConfig: {
         repo: 'xCss/Valine',
-        editLinks: false,
+        docsRepo: 'xCss/Valine-docs',
         docsDir: 'docs',
+        editLinks: true,
         locales: {
             '/': {
                 label: '简体中文',
                 selectText: '选择语言',
                 lastUpdated: '上次更新',
+                editLinkText: '在 GitHub 上编辑此页',
                 sidebar: {
                     '/guide/': genSidebarConfig('指南')
                 }
@@ -41,6 +43,7 @@ module.exports = {
                 label: 'English',
                 selectText: 'Languages',
                 lastUpdated: 'Last Updated',
+                editLinkText: 'Edit this page on GitHub',
                 sidebar: {
                     '/en/guide/': genSidebarConfig('Guide')
                 }
