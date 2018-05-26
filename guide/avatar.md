@@ -7,7 +7,7 @@ Valine 目前使用的是[Gravatar][1] 作为评论列表头像。
 
 感谢`gravatar.cat.net`提供的镜像服务。  
 
-::: wraning 
+::: warning 
 如果你改了头像后发现没有更新，请不要惊讶，因为`gravatar.cat.net` 有七天的缓存期，安静的等待吧~
 :::
 
