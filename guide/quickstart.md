@@ -36,12 +36,11 @@
 </body>
 ```
 
-好了，赶紧去运行看看效果吧。
-
 
 ::: warning 
 为了你的数据安全，请设置自己的`安全域名`：
 :::
 ![设置安全域名](https://ws1.sinaimg.cn/large/006qRazegy1fkxqmddfh1j30qd0go40h.jpg)
 
-<!-- 更多信息请查看[配置项](configuration.md)。 -->
+
+更多信息请查看[配置](config.md)。

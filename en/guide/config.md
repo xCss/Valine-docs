@@ -1,6 +1,6 @@
-# Configuration
+# Config Reference
 
-**valine** Supports two different initialization methods:
+**Valine** Supports two different initialization methods:
 ```html
 <!-- Write the argument in the constructor -->
 <script>
