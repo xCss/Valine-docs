@@ -59,7 +59,7 @@ Valine 的初始化挂载器。可以是一个`CSS 选择器`，也可以是一�
 - `cn` - 中国大陆节点
 - `us` - 海外节点
 
-Leancloud 服务器[健康状态检查](https://status.leancloud.cn/)`
+Leancloud 服务器[健康状态检查](https://status.leancloud.cn/)
 :::
 
 ## placeholder
