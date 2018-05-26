@@ -35,7 +35,9 @@ Valine 的初始化挂载器。可以是一个`CSS 选择器`，也可以是一�
 - 必要性:`true`
 
 从`LeanCloud`的应用中得到的`appId`.
-> 参考[获取APP ID 和 APP Key](quickstart.md)。
+::: tip 参考
+[获取APP ID 和 APP Key](quickstart.md)。
+:::
 
 ## appKey
 - 类型:`String`
@@ -43,8 +45,9 @@ Valine 的初始化挂载器。可以是一个`CSS 选择器`，也可以是一�
 - 必要性:`true`
 
 从`LeanCloud`的应用中得到的`APP Key`.
-> 参考[获取APP ID 和 APP Key](quickstart.md)。
-
+::: tip 参考
+[获取APP ID 和 APP Key](quickstart.md)。
+:::
 
 ## region
 - 类型:`String`
@@ -55,7 +58,8 @@ Valine 的初始化挂载器。可以是一个`CSS 选择器`，也可以是一�
 ::: tip 可选值
 - `cn` - 中国大陆节点
 - `us` - 海外节点
-> Leancloud 服务器[健康状态检查](https://status.leancloud.cn/)`
+
+Leancloud 服务器[健康状态检查](https://status.leancloud.cn/)`
 :::
 
 ## placeholder
