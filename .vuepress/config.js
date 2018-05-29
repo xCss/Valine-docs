@@ -16,7 +16,7 @@ module.exports = {
     serviceWorker: true,
     head: [
         ['link',{rel:'shortcut icon', href:'/icons/favicon.ico'}],
-        ['link', { rel: 'icon', href: `/assets/logo.png` }],
+        ['link', { rel: 'icon', href: `/assets/valine.png` }],
         ['link', { rel: 'manifest', href: '/assets/manifest.json' }],
         ['meta', { name: 'theme-color', content: '#2782D7' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
