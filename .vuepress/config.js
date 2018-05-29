@@ -1,5 +1,6 @@
 module.exports = {
     dest: 'docs',
+    ga:'UA-61934506-3',
     locales: {
         '/': {
             lang: 'zh-CN',
