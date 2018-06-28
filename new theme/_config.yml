@@ -1,0 +1,56 @@
+title: Valine
+subtitle: A fast, simple & powerful comment system.
+description: A fast, simple & powerful comment system.
+author: xCss
+
+language:
+  - zh-cn
+  - en
+timezone:
+apis:
+  gtm: GTM-9999999
+  marketo: 999-999-9999
+  segment: abcabcabcabc
+  docsearch:
+    apiKey: abcabcabcabc
+    indexName: test_theme
+
+versions: 
+  - 1.1.9
+
+sidebar_categories:
+  null:
+    - index
+    - styles
+    - changelog
+    - syntax-highlighting
+  Sub1:
+    - sub1/doc
+  Sub2:
+    - sub2/doc-1
+    - sub2/doc-2
+    - sub2/doc-3
+    - sub2/doc-4
+    - sub2/doc-5
+    - sub2/doc-6
+    - sub2/doc-7
+    - sub2/doc-8
+    - sub2/doc-9
+    - sub2/doc-10
+    - sub2/doc-11
+    - sub2/doc-12
+  Sub3:
+    - sub3-1
+    - sub3-2
+github_repo: 'xcss/valine'
+content_root: 'source'
+
+theme: meteor
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://yoursite.com/
+root: /
+
+api_box:
+  data_file: 'data/data.js'
