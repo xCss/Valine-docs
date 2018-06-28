@@ -7,5 +7,4 @@ public/
 .deploy*/
 _multiconfig.yml
 
-# This repo should never have a `themes` directory committed.
-themes/
+
