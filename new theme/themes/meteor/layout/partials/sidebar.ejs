@@ -78,10 +78,6 @@
       <% _.each(theme.sidebar, function(pages, category) { %>
 
         <li>
-          <% if (category !== 'null') { %>
-            <div class="heading-toc"><%- __(category) %></div>
-          <% } %>
-
           <ul class="list-toc">
             <% pages.forEach(function(path) { %>
               <% const details = pathDetails(path) %>
