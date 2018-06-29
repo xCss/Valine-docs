@@ -1,28 +1,24 @@
 {
-  "name": "valine-docs",
-  "version": "2.0.0",
-  "description": "Documentations for Valine.",
-  "author": "xCss <xioveliu@gmail.com> (https://github.com/xCss)",
-  "scripts": {
-    "dev": "vuepress dev .",
-    "build": "vuepress build ."
+  "name": "hexo-site",
+  "version": "0.0.0",
+  "private": true,
+  "hexo": {
+    "version": "3.7.1"
   },
-  "keywords": [
-    "simple",
-    "easy-to-use",
-    "fast-and-safe",
-    "comment-system"
-  ],
-  "license": "GPL-2.0",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xcss/Valine.git"
-  },
-  "homepage": "https://github.com/xcss/Valine#readme",
   "devDependencies": {
-    "vuepress": "^0.10.0"
+    "handlebars": "4.0.11",
+    "hexo": "3.7.1",
+    "hexo-generator-archive": "0.1.5",
+    "hexo-generator-category": "0.1.3",
+    "hexo-generator-index": "0.2.1",
+    "hexo-generator-sitemap": "^1.2.0",
+    "hexo-generator-tag": "0.2.0",
+    "hexo-prism-plus": "1.0.0",
+    "hexo-renderer-ejs": "0.3.1",
+    "hexo-renderer-less": "0.2.0",
+    "hexo-renderer-marked": "0.3.2",
+    "hexo-renderer-stylus": "0.3.3",
+    "hexo-server": "0.3.1"
   },
-  "engines": {
-    "node":"8.x"
-  }
+  "dependencies": {}
 }

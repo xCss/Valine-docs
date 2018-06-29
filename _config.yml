@@ -1,0 +1,76 @@
+title: Valine
+subtitle: Valine Docs.
+description: A fast, simple & powerful comment system.
+author: xCss
+
+language:
+  - zh-cn
+  - en
+
+sence: 2017
+
+timezone:
+
+github_repo: 'xcss/valine'
+content_root: 'source'
+
+theme: meteor
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+root: /
+url: http://yoursite.com/
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+
+default_category: uncategorized
+category_map:
+tag_map:
+
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+per_page: 10
+pagination_dir: page
+
+# Match the GitHub style of breaks, since we generally do edits on GitHub.
+marked:
+  breaks: false
+
+# Disable native Syntax highlighting, in order to allow Prism to work properly.
+highlight:
+  enable: false
+
+# Now, enable Prism, for better syntax highlighting which supports things we
+# need.  Note that individual syntax support is provided by the layout in the
+# theme, located at https://github.com/meteor/meteor-theme-hexo.
+prism_plus:
+  enable: true
+  mode: preprocess
+  default_preset:
+    # Line numbering on by default.
+    lineno: true
+
+deploy:
+  type:
