@@ -79,11 +79,12 @@ new Valine({
 由于Valine 是无后端评论系统，所以也就没有开发评论数据管理功能。请自行登录`Leancloud应用`管理。  
 具体步骤：`登录`>`选择你创建的应用`>`存储`>选择Class`Comment`，然后就可以尽情的发挥你的权利啦(～￣▽￣)～
 
-当然，你也可以配合 [@panjunwen](https://github.com/panjunwen) 开发的 [Valine-Admin](https://github.com/panjunwen/Valine-Admin) 来支持`邮件通知`和`评论数据管理`
+当然，你也可以配合 [@panjunwen](https://github.com/panjunwen) 开发的 [Valine-Admin](https://github.com/panjunwen/Valine-Admin) 进行`评论数据管理`
 
 ## 安全域名
 
 为了你的数据安全，请设置自己的`安全域名`：
+
 ![设置安全域名](https://ws1.sinaimg.cn/large/006qRazegy1fkxqmddfh1j30qd0go40h.jpg)
 
 

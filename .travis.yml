@@ -1,13 +1,15 @@
 language: node_js
 # nodejs版本
-node_js: 
-    - '8'
+node_js: stable
 
 # Travis-CI Caching
 cache:
-  directories:
-    - node_modules
+    apt: true
+    directories:
+        - node_modules
 
+before_install:
+    - export TZ='Asia/Shanghai' # 更改时区
 
 # S: Build Lifecycle
 install:
@@ -15,8 +17,8 @@ install:
 
 before_script:
 
-
 script:
+  - hexo clean  #清除
   - hexo g
 
 after_script:
@@ -37,3 +39,12 @@ env:
  global:
    # 我将其添加到了travis-ci的环境变量中
    #- GH_REF: github.com/yimogit/metools.git 
+
+# configure notifications (email, IRC, campfire etc)
+# please update this section to your needs!
+# https://docs.travis-ci.com/user/notifications/
+notifications:
+  email:
+    - xiove@qq.com
+  on_success: change
+  on_failure: always
