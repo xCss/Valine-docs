@@ -1,25 +1,35 @@
 ---
-title: Introducing the Testing Theme
+title: Introduction
+description: Valine - A fast, simple & powerful comment system.
 ---
+[![version](https://img.shields.io/github/release/xCss/Valine.svg?style=flat-square)](https://github.com/xCss/Valine/releases)
+[![](https://data.jsdelivr.com/v1/package/npm/valine/badge)](https://www.jsdelivr.com/package/npm/valine)
+[![npm downloads](https://img.shields.io/npm/dm/valine.svg?style=flat-square)](https://www.npmjs.com/package/valine)
+[![build](https://img.shields.io/circleci/project/github/xCss/Valine/master.svg?style=flat-square)](https://circleci.com/gh/xCss/Valine)
 
-<!--  XXX: note that this content is somewhat duplicated on the guide, and should be updated in parallel -->
-<h2 id="what-is-a-test-theme">What is a test theme?</h2>
+Valine was born in August 7, 2017. It's a fast, simple & efficient Leancloud based no back end comment system.
 
-A test theme is used in order to test the various components which might appear in an actual documentation repository including such nuances like **bold** and _italicized_ text! Check the links on the left for more examples!
+Theoretically, but not limited to static blog. [Hexo](https://hexo.io/), [Jekyll](https://jekyllrb.com/), [Typecho](http://typecho.org/) and other blog programs are currently using Valine.
 
-- test
-- test
-- test
+## Features
+- Emoji 😉
+- High speed.
+- Safe by default.
+- No server-side implementation.
+- Support for full markdown syntax.
+- Simple and lightweight (~15kB gzipped).
 
+## Todo
+Valine is still in the development phase. Here are some features that are not currently supported but are already planned:
+- Article reading statistics
+- Firebase-based comment store
 
-- Aenean quis commodo sem, maximus molestie turpis. Nulla ut nulla.
+## Donate
+If you are enjoying this app, please consider making a donation to keep it alive, I will try my best to dedicate more time or even full time to work on it. 😉
 
-- Ut laoreet laoreet nisi, vitae elementum tortor placerat quis. Quisque.
+| Alipay | Wechat | 
+| :------: | :------: | 
+| <img width="150" src="/images/alipay.png"> | <img width="135" src="/images/wechat.png"> | 
 
-- Pellentesque mattis velit et **quam venenatis sollicitudin** nec nec sapien.
+If you are not available for this, simply spreading the word for us would help too!
 
-<h2 id="testing-more">Testing resources</h2>
-
-1. The place to see how the tests work is on the [docs docs](https://github.com/apollographql/docs-docs/).
-
-2. The theme lives at the [hexo theme](https://github.com/meteor/hexo-theme-meteor).

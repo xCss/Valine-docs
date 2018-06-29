@@ -6,9 +6,9 @@
     <title><%- page.title %> | <%- config.title %></title>
     <meta name="description" content="<%- config.description %>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <% if(config.favicon) { %>
-      <link rel="shortcut icon" href="<%- config.favicon %>.ico">
-      <link rel="icon" href="<%- config.favicon %>.png">
+    <% if(theme.favicon) { %>
+      <link rel="shortcut icon" href="<%- theme.favicon %>">
+      <link rel="icon" href="<%- theme.favicon %>">
     <% } %>
     <!-- Social -->
     <meta property="og:type" content="article">
@@ -80,24 +80,9 @@
     </script>
     <script src="<%= url_for('script/main.js', { relative: true }) %>"></script>
 
-    <% if (config.apis && config.apis.docsearch) { %>
-      <script type="text/javascript" src="//cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
-    <% } %>
     <script type="text/javascript" src="//cdn.jsdelivr.net/fastclick/1.0.6/fastclick.min.js"></script>
 
-    <script>
-      // nectar ninja
-      (function(){
-        var handle = '@meteorjs';
-        var a = document.createElement('script');
-        var m = document.getElementsByTagName('script')[0];
-        a.async = 1;
-        a.src = 'https://nectar.ninja/api/v1/' + handle.slice(1);
-        m.parentNode.insertBefore(a, m);
-      })();
-    </script>
-
-    <% if (config.apis && config.apis.ga) { %>
+    <% if (theme.apis && theme.apis.ga) { %>
       <script>
         // Google analytics
         ;(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -105,56 +90,49 @@
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        ga('create', '<%- config.apis.ga %>', 'auto');
+        ga('create', '<%- theme.apis.ga %>', 'auto');
         ga('send', 'pageview');
       </script>
     <% } %>
 
-    <% if (config.apis && config.apis.segment) { %>
+    <% if (theme.apis && theme.apis.baidu ){ %>
       <script>
-        <%#
-          We define `analytics` in the global context to guard against HTML elements on the page
-          potentially named "analytics".  This is necessary because we have some docs pages with
-          elements using `id="analytics"` combined with a moment in browser history when IE thought
-          it would be fun (?) to allow accessing HTML elements by their ID on the `window` object:
-            https://w3c.github.io/html/browsers.html#named-access-on-the-window-object.
-          Luckily, a variable in the global scope takes precedence over that kind of access, and
-          sensible access to the ID is done through the HTML `Document` interface (that is to say,
-          via `document.getElementById()` and similar interfaces).  This intentionally uses `var`,
-          rather than `let` to prevent throwing when Segment.io tries to re-declare it.
-        %>
-        var analytics;
-
-        <!-- Segment.io -->
-        !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(n,o);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
-        analytics.load("<%- config.apis.segment %>");
-        analytics.page();
-        }}();
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?<%- theme.apis.baidu %>";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
       </script>
     <% } %>
 
-    // search box
-    <% if (config.apis && config.apis.swiftype) { %>
+    <!-- search box -->
+    <% if (theme.apis && theme.apis.docsearch && theme.apis.docsearch.appKey ) { %>
+      <script type="text/javascript" src="//cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <% } %>
+
+    <% if (theme.apis && theme.apis.swiftype) { %>
       <script>
         ;(function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
         (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
         e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
         })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
-        _st('install','<%- config.apis.swiftype %>','2.0.0');
+        _st('install','<%- theme.apis.swiftype %>','2.0.0');
       </script>
-    <% } else if (config.apis && config.apis.docsearch) { %>
+    <% } else if (theme.apis && theme.apis.docsearch && theme.apis.docsearch.appKey ) { %>
       <script>
         ['desktop'].forEach(function(type) {
           var search = docsearch({
-            apiKey: '<%- config.apis.docsearch.apiKey %>',
+            apiKey: '<%- theme.apis.docsearch.apiKey %>',
             <%#
               A custom deployment, directly through Algolia, requires the 'appId'.  This is useful
               for testing, but is not necessary when using their free Docsearch service.
             %>
-            <% if (config.apis.docsearch.appId) { %>
-              appId: '<%- config.apis.docsearch.appId %>',
+            <% if (theme.apis.docsearch.appId) { %>
+              appId: '<%- theme.apis.docsearch.appId %>',
             <% } %>
-            indexName: '<%- config.apis.docsearch.indexName %>',
+            indexName: '<%- theme.apis.docsearch.indexName %>',
             inputSelector: '#' + type + '-search-input',
             autocompleteOptions: {
               dropdownMenuContainer: '.wrapper-' + type + '-search-results',

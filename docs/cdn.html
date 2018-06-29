@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <!-- Basic -->
-    <title>介绍 | Valine</title>
+    <title>使用 CDN | Valine</title>
     <meta name="description" content="A fast, simple & powerful comment system.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -13,12 +13,12 @@
     <!-- Social -->
     <meta property="og:type" content="article">
     <meta property="og:url" content="http://yoursite.com">
-    <meta property="og:title" content="介绍 | Valine">
-    <meta property="og:description" content="Valine - 一款快速、简洁且高效的无后端评论系统。">
+    <meta property="og:title" content="使用 CDN | Valine">
+    <meta property="og:description" content="">
     <meta property="og:image" content="">
     <meta name="twitter:site" content="@xCss">
-    <meta name="twitter:title" content="介绍 | Valine">
-    <meta name="twitter:description" content="Valine - 一款快速、简洁且高效的无后端评论系统。">
+    <meta name="twitter:title" content="使用 CDN | Valine">
+    <meta name="twitter:description" content="">
     <meta name="twitter:image" content="">
 
     <!-- Misc -->
@@ -59,7 +59,7 @@
     <div class="nav-group right">
       <div class="nav-item show-desktop">
         
-        <a class="link" href="/en/index.html" >
+        <a class="link" href="/en/cdn.html" >
           <span>English Docs</span>
         </a>
       </div>
@@ -102,10 +102,10 @@
             
               
               
-              <li class="item-toc current">
+              <li class="item-toc ">
                 <a
-                  href=""
-                  class="sidebar-link current"
+                  href="."
+                  class="sidebar-link "
                 >
                   <span>介绍</span>
                 </a>
@@ -215,10 +215,10 @@
             
               
               
-              <li class="item-toc ">
+              <li class="item-toc current">
                 <a
-                  href="cdn.html"
-                  class="sidebar-link "
+                  href=""
+                  class="sidebar-link current"
                 >
                   <span>使用 CDN</span>
                 </a>
@@ -264,18 +264,14 @@
         <div class="header-wrapper">
           <div class="title-wrapper">
             <h1 class="title-page">
-              介绍
+              使用 CDN
             </h1>
             
-              <div class="subtitle-page">
-                Valine - 一款快速、简洁且高效的无后端评论系统。
-              </div>
-              
           </div>
 
           <div class="page-actions">
             <div class="actions-group">
-              <a class="btn tertiary small round lowercase" href="https://github.com/xcss/valine/tree/master/source/index.md" target="_blank">
+              <a class="btn tertiary small round lowercase" href="https://github.com/xcss/valine/tree/master/source/cdn.md" target="_blank">
                 <span class="icon-github"></span>
                 <span>在Github上编辑此页</span>
               </a>
@@ -288,41 +284,24 @@
 
       <div class="content-wrapper">
         <div class="document-formatting">
-          <p><a href="https://github.com/xCss/Valine/releases" target="_blank" rel="noopener"><img src="https://img.shields.io/github/release/xCss/Valine.svg?style=flat-square" alt="version"></a>
-<a href="https://www.jsdelivr.com/package/npm/valine" target="_blank" rel="noopener"><img src="https://data.jsdelivr.com/v1/package/npm/valine/badge" alt=""></a>
-<a href="https://www.npmjs.com/package/valine" target="_blank" rel="noopener"><img src="https://img.shields.io/npm/dm/valine.svg?style=flat-square" alt="npm downloads"></a>
-<a href="https://circleci.com/gh/xCss/Valine" target="_blank" rel="noopener"><img src="https://img.shields.io/circleci/project/github/xCss/Valine/master.svg?style=flat-square" alt="build"></a></p>
-<p>Valine 诞生于2017年8月7日，是一款基于<a href="https://leancloud.cn" target="_blank" rel="noopener">Leancloud</a>的快速、简洁且高效的无后端评论系统。  </p>
-<p>理论上支持但不限于静态博客，目前已有<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>、<a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>、<a href="http://typecho.org/" target="_blank" rel="noopener">Typecho</a>等博客程序在使用Valine。</p>
-<h2 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h2><ul>
-<li>快速</li>
-<li>安全</li>
-<li>Emoji 😉</li>
-<li>无后端实现</li>
-<li>MarkDown 全语法支持</li>
-<li>轻量易用(~15kb gzipped)</li>
+          <p><a href="https://www.jsdelivr.com/package/npm/valine" target="_blank" rel="noopener"><img src="https://data.jsdelivr.com/v1/package/npm/valine/badge" alt=""></a></p>
+<p>推荐使用 <a href="https://jsdelivr.com/" target="_blank" rel="noopener">jsdelivr</a> —— 能及时获取到<code>最新版</code>。</p>
+<h2 id="获取最新版本"><a href="#获取最新版本" class="headerlink" title="获取最新版本"></a>获取最新版本</h2><p>根据 jsdelivr 的规则，不指定特定版本号时将引入最新版。</p>
+
+<!-- Has Prism -->
+<pre class="line-numbers" style=""><code class="language-html">&lt;script src=&quot;&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;npm&#x2F;valine&#x2F;dist&#x2F;Valine.min.js&quot;&gt;&lt;&#x2F;script&gt;
+</code></pre>
+<h2 id="获取指定版本"><a href="#获取指定版本" class="headerlink" title="获取指定版本"></a>获取指定版本</h2><p>如果担心频繁地版本更新又可能引入未知 Bug，我们也可以使用具体的版本。规则是 <code>//cdn.jsdelivr.net/npm/valine@VERSION/dist/Valine.min.js</code></p>
+
+<!-- Has Prism -->
+<pre class="line-numbers" style=""><code class="language-html">&lt;script src=&quot;&#x2F;&#x2F;cdn.jsdelivr.net&#x2F;npm&#x2F;valine@1.1.8&#x2F;dist&#x2F;Valine.min.js&quot;&gt;&lt;&#x2F;script&gt;
+</code></pre>
+<blockquote>
+<p>指定 <strong>VERSION</strong> 为 <code>latest</code> 可以强制每次都请求最新版本。</p>
+</blockquote>
+<h2 id="其他-CDN"><a href="#其他-CDN" class="headerlink" title="其他 CDN"></a>其他 CDN</h2><ul>
+<li><a href="https://unpkg.com/valine/dist/Valine.min.js" target="_blank" rel="noopener">https://unpkg.com/valine/dist/Valine.min.js</a></li>
 </ul>
-<h2 id="Todo"><a href="#Todo" class="headerlink" title="Todo"></a>Todo</h2><p>Valine 现在仍处于开发阶段，这里有一些目前还不支持、但已经在计划中的特性：</p>
-<ul>
-<li>文章浏览量统计</li>
-<li>基于<a href="https://firebase.google.com/" target="_blank" rel="noopener">Firebase</a>的评论存储</li>
-</ul>
-<p>欢迎你为 Valine 的开发作出贡献。</p>
-<h2 id="捐赠"><a href="#捐赠" class="headerlink" title="捐赠"></a>捐赠</h2><p>如果你觉得 Valine 对你有帮助，或者想对我微小的工作一点资瓷，欢迎给我捐赠。</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">支付宝</th>
-<th style="text-align:center">微信</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><img width="150" src="/images/alipay.png"></td>
-<td style="text-align:center"><img width="135" src="/images/wechat.png"></td>
-</tr>
-</tbody>
-</table>
 
         </div>
       
@@ -330,12 +309,19 @@
           <div class="content-wrapper">
             
             
+              <a class="link primary prev" href="hexo.html">
+                <span class="subtitle-pagination">
+                  上一篇
+                </span>
+                在Hexo 中使用
+              </a>
             
-              <a class="link primary next" href="quickstart.html">
+            
+              <a class="link primary next" href="contact.html">
                 <span class="subtitle-pagination">
                   下一篇
                 </span>
-                快速开始
+                联系方式
               </a>
             
           </div>

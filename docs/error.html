@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <!-- Basic -->
-    <title>介绍 | Valine</title>
+    <title>错误代码 | Valine</title>
     <meta name="description" content="A fast, simple & powerful comment system.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -13,12 +13,12 @@
     <!-- Social -->
     <meta property="og:type" content="article">
     <meta property="og:url" content="http://yoursite.com">
-    <meta property="og:title" content="介绍 | Valine">
-    <meta property="og:description" content="Valine - 一款快速、简洁且高效的无后端评论系统。">
+    <meta property="og:title" content="错误代码 | Valine">
+    <meta property="og:description" content="">
     <meta property="og:image" content="">
     <meta name="twitter:site" content="@xCss">
-    <meta name="twitter:title" content="介绍 | Valine">
-    <meta name="twitter:description" content="Valine - 一款快速、简洁且高效的无后端评论系统。">
+    <meta name="twitter:title" content="错误代码 | Valine">
+    <meta name="twitter:description" content="">
     <meta name="twitter:image" content="">
 
     <!-- Misc -->
@@ -59,7 +59,7 @@
     <div class="nav-group right">
       <div class="nav-item show-desktop">
         
-        <a class="link" href="/en/index.html" >
+        <a class="link" href="/en/error.html" >
           <span>English Docs</span>
         </a>
       </div>
@@ -102,10 +102,10 @@
             
               
               
-              <li class="item-toc current">
+              <li class="item-toc ">
                 <a
-                  href=""
-                  class="sidebar-link current"
+                  href="."
+                  class="sidebar-link "
                 >
                   <span>介绍</span>
                 </a>
@@ -264,18 +264,14 @@
         <div class="header-wrapper">
           <div class="title-wrapper">
             <h1 class="title-page">
-              介绍
+              错误代码
             </h1>
             
-              <div class="subtitle-page">
-                Valine - 一款快速、简洁且高效的无后端评论系统。
-              </div>
-              
           </div>
 
           <div class="page-actions">
             <div class="actions-group">
-              <a class="btn tertiary small round lowercase" href="https://github.com/xcss/valine/tree/master/source/index.md" target="_blank">
+              <a class="btn tertiary small round lowercase" href="https://github.com/xcss/valine/tree/master/source/error.md" target="_blank">
                 <span class="icon-github"></span>
                 <span>在Github上编辑此页</span>
               </a>
@@ -288,41 +284,34 @@
 
       <div class="content-wrapper">
         <div class="document-formatting">
-          <p><a href="https://github.com/xCss/Valine/releases" target="_blank" rel="noopener"><img src="https://img.shields.io/github/release/xCss/Valine.svg?style=flat-square" alt="version"></a>
-<a href="https://www.jsdelivr.com/package/npm/valine" target="_blank" rel="noopener"><img src="https://data.jsdelivr.com/v1/package/npm/valine/badge" alt=""></a>
-<a href="https://www.npmjs.com/package/valine" target="_blank" rel="noopener"><img src="https://img.shields.io/npm/dm/valine.svg?style=flat-square" alt="npm downloads"></a>
-<a href="https://circleci.com/gh/xCss/Valine" target="_blank" rel="noopener"><img src="https://img.shields.io/circleci/project/github/xCss/Valine/master.svg?style=flat-square" alt="build"></a></p>
-<p>Valine 诞生于2017年8月7日，是一款基于<a href="https://leancloud.cn" target="_blank" rel="noopener">Leancloud</a>的快速、简洁且高效的无后端评论系统。  </p>
-<p>理论上支持但不限于静态博客，目前已有<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>、<a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>、<a href="http://typecho.org/" target="_blank" rel="noopener">Typecho</a>等博客程序在使用Valine。</p>
-<h2 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h2><ul>
-<li>快速</li>
-<li>安全</li>
-<li>Emoji 😉</li>
-<li>无后端实现</li>
-<li>MarkDown 全语法支持</li>
-<li>轻量易用(~15kb gzipped)</li>
+          <h1 id="错误代码"><a href="#错误代码" class="headerlink" title="错误代码"></a>错误代码</h1><h2 id="1"><a href="#1" class="headerlink" title="1"></a>1</h2><ul>
+<li>信息 - <code>Internal server error. No information available.</code></li>
+<li>含义 - 服务器内部错误或者参数错误，一般是因为传入了错误的参数，或者没有在本文档里明确定义的运行时错误，都会以代码 1 指代。</li>
 </ul>
-<h2 id="Todo"><a href="#Todo" class="headerlink" title="Todo"></a>Todo</h2><p>Valine 现在仍处于开发阶段，这里有一些目前还不支持、但已经在计划中的特性：</p>
-<ul>
-<li>文章浏览量统计</li>
-<li>基于<a href="https://firebase.google.com/" target="_blank" rel="noopener">Firebase</a>的评论存储</li>
+<h2 id="100"><a href="#100" class="headerlink" title="100"></a>100</h2><ul>
+<li>信息 - <code>The connection to the AVOS servers failed.</code></li>
+<li>含义 - 无法建立 TCP 连接到 LeanCloud 服务器，通常是因为网络故障，或者Leancloud 服务器故障引起的，Leancloud 服务器状态可以查看 <a href="https://status.leancloud.cn/" target="_blank" rel="noopener">健康状态检查</a>。</li>
 </ul>
-<p>欢迎你为 Valine 的开发作出贡献。</p>
-<h2 id="捐赠"><a href="#捐赠" class="headerlink" title="捐赠"></a>捐赠</h2><p>如果你觉得 Valine 对你有帮助，或者想对我微小的工作一点资瓷，欢迎给我捐赠。</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">支付宝</th>
-<th style="text-align:center">微信</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><img width="150" src="/images/alipay.png"></td>
-<td style="text-align:center"><img width="135" src="/images/wechat.png"></td>
-</tr>
-</tbody>
-</table>
+<h2 id="116"><a href="#116" class="headerlink" title="116"></a>116</h2><ul>
+<li>信息 - <code>The object is too large.</code></li>
+<li>含义 - 要存储的对象超过了大小限制，Leancloud 限制单个对象的最大大小在 16 M。</li>
+</ul>
+<h2 id="117"><a href="#117" class="headerlink" title="117"></a>117</h2><ul>
+<li>信息 - <code>The key is read only.</code></li>
+<li>含义 - 更新的 <code>Key</code> 是只读属性，无法更新。</li>
+</ul>
+<h2 id="124"><a href="#124" class="headerlink" title="124"></a>124</h2><ul>
+<li>信息 - <code>The request timed out on the server. Typically this indicates the request is too expensive.</code></li>
+<li>含义 - 请求超时，超过一定时间（默认 10 秒）没有返回，通常是因为网络故障或者该操作太耗时引起的。</li>
+</ul>
+<h2 id="140"><a href="#140" class="headerlink" title="140"></a>140</h2><ul>
+<li>信息 - <code>超过应用额度，请升级到商用版或联系我们处理。</code></li>
+<li>含义 - 通常是因为超过开发版的使用额度，比如每天 3 万次 API 调用限制、云引擎域名绑定限制等，可以通过升级商用版解决。</li>
+</ul>
+<h2 id="401"><a href="#401" class="headerlink" title="401"></a>401</h2><ul>
+<li>信息 - <code>Unauthorized.</code></li>
+<li>含义 - 未经授权的访问，没有提供 <code>App id</code>，或者 <code>App id</code> 和 <code>App key</code> 校验失败，请检查配置。</li>
+</ul>
 
         </div>
       
@@ -331,11 +320,11 @@
             
             
             
-              <a class="link primary next" href="quickstart.html">
+              <a class="link primary next" href="index.html">
                 <span class="subtitle-pagination">
                   下一篇
                 </span>
-                快速开始
+                介绍
               </a>
             
           </div>

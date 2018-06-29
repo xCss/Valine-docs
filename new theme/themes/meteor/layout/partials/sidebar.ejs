@@ -1,5 +1,6 @@
 <%
   const hasOwn = Object.prototype.hasOwnProperty;
+  const en = page.path.indexOf('en') == 0 ? 'en/' : '';
   function isOutsidePath(path) {
     return hasOwn.call(path, "href") && hasOwn.call(path, "title");
   }
@@ -12,7 +13,7 @@
     }
 
     // The path we've been told to find from _config.yaml.
-    const htmlPath = `${path}.html`
+    const htmlPath = `${en}${path}.html`
 
     const extraClasses = [];
 
@@ -51,7 +52,7 @@
         <span><%- theme.logo.title %> <%- theme.logo.subtitle %></span>
       </a>
     </div>
-    <% _.each(config.nav_links || theme.nav_links, function (link, title) { %>
+    <% _.each(theme.nav_links, function (link, title) { %>
       <div class="panel-item <%- link.active && 'active' %>">
         <a class="" href="<%- link.url || link %>" <%- link.target && 'target=' + link.target %> >
           <span><%- title %></span>
@@ -61,24 +62,11 @@
   </div>
 
   <div class="sidebar-content">
-    <div class="topcap">
-      <span class="title-sidebar"></span>
-      <%= __('history') %>
-      <span class="select version-sidebar nochrome">
-      <% if (config.versions && config.versions.length > 0) { %>
-          <select class="versions-select">
-            <% config.versions.forEach(function (v) { %>
-              <option value="v<%- v %>"><%- v %></option>
-            <% }) %>
-          </select>
-      <% } %>
-      </span>
-    </div>
-
-    <% if (config.apis && config.apis.docsearch) { %>
+    <div class="topcap"></div>
+    <% if (theme.apis && theme.apis.docsearch) { %>
     <div class="wrapper-search">
       <div class="input-symbol small round">
-        <input type="text" placeholder="Search <%- config.subtitle %>" id="desktop-search-input" />
+        <input type="text" placeholder="Search" id="desktop-search-input" />
         <span class="icon-search"></span>
       </div>
       <div class="wrapper-desktop-search-results"></div>
@@ -87,11 +75,11 @@
     <% } %>
 
     <ul class="toc">
-      <% _.each(config.sidebar_categories, function(pages, category) { %>
+      <% _.each(theme.sidebar, function(pages, category) { %>
 
         <li>
           <% if (category !== 'null') { %>
-            <div class="heading-toc"><%- category %></div>
+            <div class="heading-toc"><%- __(category) %></div>
           <% } %>
 
           <ul class="list-toc">

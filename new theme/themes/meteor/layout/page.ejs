@@ -18,7 +18,7 @@
       </div>
       <div class="nav-item">
         <% logo = config.logo || theme.logo %>
-        <a class="logo-wrapper" href="<%- logo.url %>" title="<%- logo.title %> <%- logo.subtitle %>" <%- logo.target && 'target=' + logo.target %> >
+        <a class="logo-wrapper" href="/" title="<%- logo.title %> <%- logo.subtitle %>" <%- logo.target && 'target=' + logo.target %> >
           <img src="<%- relative_url(page.path, logo.nav_mobile) %>" alt="<%- logo.title %>" class="logo"/>
           <% if (logo && logo.subbrand) { %>
             <img src="<%- relative_url(page.path, logo.subbrand) %>" class="logo-subbrand" alt="<%- logo.subtitle %>"/>
@@ -31,6 +31,16 @@
 
 
     <div class="nav-group right">
+      <div class="nav-item show-desktop">
+        <% 
+          var path = page.path;
+          var isEN = path.indexOf('en') == 0; 
+          var LINK = isEN ? path.replace('en','') : '/en/'+path;
+        %>
+        <a class="link" href="<%- LINK %>" >
+          <span><%- __('Docs') %></span>
+        </a>
+      </div>
       <% _.each(config.nav || theme.nav, function (link, title) { %>
         <div class="nav-item show-desktop <%- link.active && 'active' %> <%- link.separator && 'separator' %>">
           <a class="link" href="<%- link.url || link %>" <%- link.target && 'target=' + link.target %> >
@@ -61,7 +71,7 @@
             <div class="actions-group">
               <a class="btn tertiary small round lowercase" href="<%- githubUrl %>" target="_blank">
                 <span class="icon-github"></span>
-                <span>Edit on GitHub</span>
+                <span><%- __('Edit') %></span>
               </a>
               <% if (page.discourseTopicId) { %>
                 <a class="btn tertiary small round lowercase" href="https://forums.meteor.com/t/<%- page.discourseTopicId %>">
@@ -89,7 +99,12 @@
           <div class="content-wrapper">
             <%
               function findAdjacent (direction) {
-                var pagePaths = _.flatten(_.map(config.sidebar_categories, function(vals) { return vals; }));
+                var pagePaths = _.flatten(_.map(theme.sidebar, function(vals) { 
+                  vals = _.map(vals,function(val){
+                    return isEN ? 'en/'+val : val;
+                  })
+                  return vals; 
+                }));
                 var pages = _.map(pagePaths, function (val) { return site.pages.findOne({path: val + '.html'}); });
                 var i = pages.length
                 while (i--) {
@@ -103,34 +118,50 @@
               }
             %>
             <% var prev = findAdjacent(-1); if (prev) { %>
-            
-                <a class="link primary prev" href="<%- relative_url(page.path, prev.path) %>">
-                  <span class="subtitle-pagination">
-                    Previous
-                  </span>
-                  <%- prev.title %>
-                </a>
-            
+              <a class="link primary prev" href="<%- relative_url(page.path, prev.path) %>">
+                <span class="subtitle-pagination">
+                  <%- __('Prev') %>
+                </span>
+                <%- prev.title %>
+              </a>
             <% } %>
             <% var next = findAdjacent(1); if (next) { %>
-                <a class="link primary next" href="<%- relative_url(page.path, next.path) %>">
-                  <span class="subtitle-pagination">
-                    Next
-                  </span>
-                  <%- next.title %>
-                </a>
-              
+              <a class="link primary next" href="<%- relative_url(page.path, next.path) %>">
+                <span class="subtitle-pagination">
+                  <%- __('Next') %>
+                </span>
+                <%- next.title %>
+              </a>
             <% } %>
           </div>
         </div>
-          
-        <div class="vcomment"></div>
+        
+        <% if(page.comments && theme.valine && theme.valine.enable ){ %>
+          <div class="vcomment"></div>
+          <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+          <script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
+          <script>
+            var valine = new Valine();
+            var path = window.location.pathname.replace('index.html','');
+            var isEN = path.indexOf('en') > -1;
+            path = isEN ? path.replace('en/','') : path;
+            valine.init({
+                el: '.vcomment',
+                appId: '<%- theme.valine.appId %>',
+                appKey: '<%- theme.valine.appKey %>',
+                notify: <%- theme.valine.notify %>,
+                placeholder: '<%- theme.valine.placeholder %>',
+                avatar:'<%- theme.valine.avatar %>',
+                path:path,
+                lang: isEN ? 'en' : 'zh-cn'
+            })
+          </script>
+        <% } %>
       </div>
 
       
 
       <div class="github">
-        <a class="link tertiary " href="<%- githubUrl %>" target="_blank">
-          <span class="icon-github"></span>Edit on GitHub</a>
+        Powered By xCss.
       </div>
     </div>

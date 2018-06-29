@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <!-- Basic -->
-    <title>介绍 | Valine</title>
+    <title>多语言支持 | Valine</title>
     <meta name="description" content="A fast, simple & powerful comment system.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -13,12 +13,12 @@
     <!-- Social -->
     <meta property="og:type" content="article">
     <meta property="og:url" content="http://yoursite.com">
-    <meta property="og:title" content="介绍 | Valine">
-    <meta property="og:description" content="Valine - 一款快速、简洁且高效的无后端评论系统。">
+    <meta property="og:title" content="多语言支持 | Valine">
+    <meta property="og:description" content="">
     <meta property="og:image" content="">
     <meta name="twitter:site" content="@xCss">
-    <meta name="twitter:title" content="介绍 | Valine">
-    <meta name="twitter:description" content="Valine - 一款快速、简洁且高效的无后端评论系统。">
+    <meta name="twitter:title" content="多语言支持 | Valine">
+    <meta name="twitter:description" content="">
     <meta name="twitter:image" content="">
 
     <!-- Misc -->
@@ -59,7 +59,7 @@
     <div class="nav-group right">
       <div class="nav-item show-desktop">
         
-        <a class="link" href="/en/index.html" >
+        <a class="link" href="/en/i18n.html" >
           <span>English Docs</span>
         </a>
       </div>
@@ -102,10 +102,10 @@
             
               
               
-              <li class="item-toc current">
+              <li class="item-toc ">
                 <a
-                  href=""
-                  class="sidebar-link current"
+                  href="."
+                  class="sidebar-link "
                 >
                   <span>介绍</span>
                 </a>
@@ -178,10 +178,10 @@
             
               
               
-              <li class="item-toc ">
+              <li class="item-toc current">
                 <a
-                  href="i18n.html"
-                  class="sidebar-link "
+                  href=""
+                  class="sidebar-link current"
                 >
                   <span>多语言支持</span>
                 </a>
@@ -264,18 +264,14 @@
         <div class="header-wrapper">
           <div class="title-wrapper">
             <h1 class="title-page">
-              介绍
+              多语言支持
             </h1>
             
-              <div class="subtitle-page">
-                Valine - 一款快速、简洁且高效的无后端评论系统。
-              </div>
-              
           </div>
 
           <div class="page-actions">
             <div class="actions-group">
-              <a class="btn tertiary small round lowercase" href="https://github.com/xcss/valine/tree/master/source/index.md" target="_blank">
+              <a class="btn tertiary small round lowercase" href="https://github.com/xcss/valine/tree/master/source/i18n.md" target="_blank">
                 <span class="icon-github"></span>
                 <span>在Github上编辑此页</span>
               </a>
@@ -288,41 +284,86 @@
 
       <div class="content-wrapper">
         <div class="document-formatting">
-          <p><a href="https://github.com/xCss/Valine/releases" target="_blank" rel="noopener"><img src="https://img.shields.io/github/release/xCss/Valine.svg?style=flat-square" alt="version"></a>
-<a href="https://www.jsdelivr.com/package/npm/valine" target="_blank" rel="noopener"><img src="https://data.jsdelivr.com/v1/package/npm/valine/badge" alt=""></a>
-<a href="https://www.npmjs.com/package/valine" target="_blank" rel="noopener"><img src="https://img.shields.io/npm/dm/valine.svg?style=flat-square" alt="npm downloads"></a>
-<a href="https://circleci.com/gh/xCss/Valine" target="_blank" rel="noopener"><img src="https://img.shields.io/circleci/project/github/xCss/Valine/master.svg?style=flat-square" alt="build"></a></p>
-<p>Valine 诞生于2017年8月7日，是一款基于<a href="https://leancloud.cn" target="_blank" rel="noopener">Leancloud</a>的快速、简洁且高效的无后端评论系统。  </p>
-<p>理论上支持但不限于静态博客，目前已有<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>、<a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>、<a href="http://typecho.org/" target="_blank" rel="noopener">Typecho</a>等博客程序在使用Valine。</p>
-<h2 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h2><ul>
-<li>快速</li>
-<li>安全</li>
-<li>Emoji 😉</li>
-<li>无后端实现</li>
-<li>MarkDown 全语法支持</li>
-<li>轻量易用(~15kb gzipped)</li>
-</ul>
-<h2 id="Todo"><a href="#Todo" class="headerlink" title="Todo"></a>Todo</h2><p>Valine 现在仍处于开发阶段，这里有一些目前还不支持、但已经在计划中的特性：</p>
+          <h2 id="基本用法"><a href="#基本用法" class="headerlink" title="基本用法"></a>基本用法</h2><p>现在，<code>Valine</code>开始支持多语言。默认内置：</p>
 <ul>
-<li>文章浏览量统计</li>
-<li>基于<a href="https://firebase.google.com/" target="_blank" rel="noopener">Firebase</a>的评论存储</li>
+<li><code>zh-cn</code></li>
+<li><code>en</code></li>
 </ul>
-<p>欢迎你为 Valine 的开发作出贡献。</p>
-<h2 id="捐赠"><a href="#捐赠" class="headerlink" title="捐赠"></a>捐赠</h2><p>如果你觉得 Valine 对你有帮助，或者想对我微小的工作一点资瓷，欢迎给我捐赠。</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">支付宝</th>
-<th style="text-align:center">微信</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><img width="150" src="/images/alipay.png"></td>
-<td style="text-align:center"><img width="135" src="/images/wechat.png"></td>
-</tr>
-</tbody>
-</table>
+
+<!-- Has Prism -->
+<pre class="line-numbers" style=""><code class="language-js">var valine = new Valine();
+valine.init({
+    el:&#39;#vcomment&#39;,
+    appId:&#39;your leancloud appid&#39;,
+    appKey:&#39;your leancloud appkey&#39;,
+    lang:&#39;en&#39; &#x2F;&#x2F; 设置这里就ok
+})
+</code></pre>
+<h2 id="自定义语言"><a href="#自定义语言" class="headerlink" title="自定义语言"></a>自定义语言</h2><p>自定义语言只需三步：</p>
+<ol>
+<li>定义<code>localeName</code>和<code>localeMode</code></li>
+<li>安装语言</li>
+<li>初始化 Valine</li>
+</ol>
+<blockquote>
+<p>请严格按照下面的<code>localeMode</code>格式书写内容:</p>
+</blockquote>
+
+<!-- Has Prism -->
+<pre class="line-numbers" style=""><code class="language-js">&#x2F;&#x2F; 1.定义localeName 和localeMode 
+var localeName = &#39;en&#39;,
+    localeMode = {
+        head:{
+            nick:&#39;NickName&#39;,
+            mail:&#39;E-Mail&#39;,
+            link:&#39;Website(http:&#x2F;&#x2F;)&#39;,
+        },
+        tips:{
+            comments:&#39;Comments&#39;,
+            sofa:&#39;No comments yet.&#39;,
+            busy:&#39;Submit is busy, please wait...&#39;,
+            again:&#39;Sorry, this is a wrong calculation.&#39;,
+            limit:&#39;The largest number of words %d&#39;
+        },
+        ctrl:{
+            reply:&#39;Reply&#39;,
+            ok:&#39;Ok&#39;,
+            sure:&#39;Sure&#39;,
+            cancel:&#39;Cancel&#39;,
+            confirm:&#39;Confirm&#39;,
+            continue:&#39;Continue&#39;,
+            more:&#39;Load More...&#39;,
+            try:&#39;Once More?&#39;,
+        },
+        error:{
+            99:&#39;Initialization failed, Please check the `el` element in the init method.&#39;,
+            100:&#39;Initialization failed, Please check your appId and appKey.&#39;,
+            401:&#39;Unauthorized operation, Please check your appId and appKey.&#39;,
+            403:&#39;Access denied by api domain white list, Please check your security domain.&#39;,
+        },
+        timeago:{
+            seconds:&#39;seconds ago&#39;,
+            minutes:&#39;minutes ago&#39;,
+            hours:&#39;hours ago&#39;,
+            days:&#39;days ago&#39;,
+            now:&#39;just now&#39;
+        }
+    };
+
+var valine = new Valine();
+&#x2F;&#x2F; 2.安装语言
+valine.installLocale(localeName,localeMode)
+&#x2F;&#x2F; 3.初始化Valine
+valine.init({
+    el:&#39;#vcomment&#39;,
+    appId:&#39;&lt;APP_ID&gt;&#39;,
+    appKey:&#39;&lt;APP_KEY&gt;&#39;,
+    lang:localeName
+})
+</code></pre>
+<blockquote>
+<p><code>v1.1.8-beta9</code>开始支持。</p>
+</blockquote>
 
         </div>
       
@@ -330,12 +371,19 @@
           <div class="content-wrapper">
             
             
+              <a class="link primary prev" href="notify.html">
+                <span class="subtitle-pagination">
+                  上一篇
+                </span>
+                邮件提醒
+              </a>
             
-              <a class="link primary next" href="quickstart.html">
+            
+              <a class="link primary next" href="hexo.html">
                 <span class="subtitle-pagination">
                   下一篇
                 </span>
-                快速开始
+                在Hexo 中使用
               </a>
             
           </div>

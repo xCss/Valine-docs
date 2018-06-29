@@ -9,7 +9,7 @@ content_root: 'source'
 css_bundle: meteor
 nav_class: dark
 
-favicon: images/valine
+favicon: /images/favicon.ico
 
 logo:
   nav_mobile: images/valine.png
@@ -17,79 +17,59 @@ logo:
   title: 'A fast, simple & powerful comment system.'
   subtitle: 'Valine'
 
-nav:
-  'Tutorials':
-    url: http://www.meteor.com/tutorials
-    partial: illustration-guide
-    target: _new
-    active: false
-  'Guide':
-    url: http://guide.meteor.com
-    partial: illustration-compass
-    active: false
-  'API Docs':
-    url: http://docs.meteor.com
-    partial: illustration-logs
-    active: false
+
+apis:
+  baidu: 3a67769b7760c62aafb6fa58d51da74c 
+  ga: UA-61934506-3       
+  marketo: 999-999-9999
+  segment: abcabcabcabc
+  docsearch:
+    apiKey: 
+    indexName: 
+
+# nav:
+#   'language':
+#     url: http://www.meteor.com/tutorials
+#     partial: illustration-guide
+#     target: _new
+#     active: false
+#   'Guide':
+#     url: http://guide.meteor.com
+#     partial: illustration-compass
+#     active: false
+#   'API Docs':
+#     url: http://docs.meteor.com
+#     partial: illustration-logs
+#     active: false
+
+
+sidebar:
+  null:
+    - index
+    - quickstart
+    - changelog
+  Config:
+    - configuration
+    - avatar
+    - notify
+    - i18n
+  Other:
+    - hexo
+    - cdn
+    - contact
+    - faq
+
+valine:
+  enable: true
+  appId: 3GiiCyXCrGbOIH3EelCfJ6yw-gzGzoHsz
+  appKey: iuneD4hXPQImdHQSRE0aOcRF
+  notify: true
+  placeholder: ヾﾉ≧∀≦)o来啊，快活啊!
+  avatar: mm 
+  
+
 
 social_links:
   github: 'https://github.com/xCss'
   twitter: '@xCss'
 
-# URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
-
-# Directory
-source_dir: source
-public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
-code_dir: downloads/code
-i18n_dir: :lang
-skip_render:
-
-# Writing
-new_post_name: :title.md # File name of new posts
-default_layout: post
-titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
-filename_case: 0
-render_drafts: false
-post_asset_folder: false
-relative_link: false
-future: true
-
-default_category: uncategorized
-category_map:
-tag_map:
-
-date_format: YYYY-MM-DD
-time_format: HH:mm:ss
-
-per_page: 10
-pagination_dir: page
-
-# Match the GitHub style of breaks, since we generally do edits on GitHub.
-marked:
-  breaks: false
-
-# Disable native Syntax highlighting, in order to allow Prism to work properly.
-highlight:
-  enable: false
-
-# Now, enable Prism, for better syntax highlighting which supports things we
-# need.  Note that individual syntax support is provided by the layout in the
-# theme, located at https://github.com/meteor/meteor-theme-hexo.
-prism_plus:
-  enable: true
-  mode: preprocess
-  default_preset:
-    # Line numbering on by default.
-    lineno: true
-
-deploy:
-  type:

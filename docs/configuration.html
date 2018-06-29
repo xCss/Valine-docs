@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <!-- Basic -->
-    <title>介绍 | Valine</title>
+    <title>配置项 | Valine</title>
     <meta name="description" content="A fast, simple & powerful comment system.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -13,12 +13,12 @@
     <!-- Social -->
     <meta property="og:type" content="article">
     <meta property="og:url" content="http://yoursite.com">
-    <meta property="og:title" content="介绍 | Valine">
-    <meta property="og:description" content="Valine - 一款快速、简洁且高效的无后端评论系统。">
+    <meta property="og:title" content="配置项 | Valine">
+    <meta property="og:description" content="">
     <meta property="og:image" content="">
     <meta name="twitter:site" content="@xCss">
-    <meta name="twitter:title" content="介绍 | Valine">
-    <meta name="twitter:description" content="Valine - 一款快速、简洁且高效的无后端评论系统。">
+    <meta name="twitter:title" content="配置项 | Valine">
+    <meta name="twitter:description" content="">
     <meta name="twitter:image" content="">
 
     <!-- Misc -->
@@ -59,7 +59,7 @@
     <div class="nav-group right">
       <div class="nav-item show-desktop">
         
-        <a class="link" href="/en/index.html" >
+        <a class="link" href="/en/configuration.html" >
           <span>English Docs</span>
         </a>
       </div>
@@ -102,10 +102,10 @@
             
               
               
-              <li class="item-toc current">
+              <li class="item-toc ">
                 <a
-                  href=""
-                  class="sidebar-link current"
+                  href="."
+                  class="sidebar-link "
                 >
                   <span>介绍</span>
                 </a>
@@ -142,10 +142,10 @@
             
               
               
-              <li class="item-toc ">
+              <li class="item-toc current">
                 <a
-                  href="configuration.html"
-                  class="sidebar-link "
+                  href=""
+                  class="sidebar-link current"
                 >
                   <span>配置项</span>
                 </a>
@@ -264,18 +264,14 @@
         <div class="header-wrapper">
           <div class="title-wrapper">
             <h1 class="title-page">
-              介绍
+              配置项
             </h1>
             
-              <div class="subtitle-page">
-                Valine - 一款快速、简洁且高效的无后端评论系统。
-              </div>
-              
           </div>
 
           <div class="page-actions">
             <div class="actions-group">
-              <a class="btn tertiary small round lowercase" href="https://github.com/xcss/valine/tree/master/source/index.md" target="_blank">
+              <a class="btn tertiary small round lowercase" href="https://github.com/xcss/valine/tree/master/source/configuration.md" target="_blank">
                 <span class="icon-github"></span>
                 <span>在Github上编辑此页</span>
               </a>
@@ -288,41 +284,139 @@
 
       <div class="content-wrapper">
         <div class="document-formatting">
-          <p><a href="https://github.com/xCss/Valine/releases" target="_blank" rel="noopener"><img src="https://img.shields.io/github/release/xCss/Valine.svg?style=flat-square" alt="version"></a>
-<a href="https://www.jsdelivr.com/package/npm/valine" target="_blank" rel="noopener"><img src="https://data.jsdelivr.com/v1/package/npm/valine/badge" alt=""></a>
-<a href="https://www.npmjs.com/package/valine" target="_blank" rel="noopener"><img src="https://img.shields.io/npm/dm/valine.svg?style=flat-square" alt="npm downloads"></a>
-<a href="https://circleci.com/gh/xCss/Valine" target="_blank" rel="noopener"><img src="https://img.shields.io/circleci/project/github/xCss/Valine/master.svg?style=flat-square" alt="build"></a></p>
-<p>Valine 诞生于2017年8月7日，是一款基于<a href="https://leancloud.cn" target="_blank" rel="noopener">Leancloud</a>的快速、简洁且高效的无后端评论系统。  </p>
-<p>理论上支持但不限于静态博客，目前已有<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>、<a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>、<a href="http://typecho.org/" target="_blank" rel="noopener">Typecho</a>等博客程序在使用Valine。</p>
-<h2 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h2><ul>
-<li>快速</li>
-<li>安全</li>
-<li>Emoji 😉</li>
-<li>无后端实现</li>
-<li>MarkDown 全语法支持</li>
-<li>轻量易用(~15kb gzipped)</li>
+          <p>Valine 支持两种不同的初始化方式。一种是构造方法初始化对象，另一种是调用<code>init</code>方法：
+
+<!-- Has Prism -->
+<pre class="line-numbers" style=""><code class="language-html">&lt;!-- 方法 1 --&gt;
+&lt;script&gt;
+    new Valine({
+        el:&#39;#vcomment&#39;,
+        appId: &#39;&lt;API_ID&gt;&#39;,
+        appKey: &#39;&lt;API_Key&gt;&#39;
+    })
+&lt;&#x2F;script&gt;
+
+&lt;!-- 方法 2 --&gt;
+&lt;script&gt;
+    var valine = new Valine();
+    valine.init({
+        el:&#39;#vcomment&#39;,
+        appId: &#39;&lt;API_ID&gt;&#39;,
+        appKey: &#39;&lt;API_Key&gt;&#39;
+    })
+&lt;&#x2F;script&gt;
+</code></pre></p>
+<h2 id="el"><a href="#el" class="headerlink" title="el"></a>el</h2><ul>
+<li>类型:<code>String</code></li>
+<li>默认值:<code>null</code></li>
+<li>必要性:<code>true</code></li>
 </ul>
-<h2 id="Todo"><a href="#Todo" class="headerlink" title="Todo"></a>Todo</h2><p>Valine 现在仍处于开发阶段，这里有一些目前还不支持、但已经在计划中的特性：</p>
+<p>Valine 的初始化挂载器。可以是一个<code>CSS 选择器</code>，也可以是一个实际的<code>HTML元素</code>。</p>
+<h2 id="appId"><a href="#appId" class="headerlink" title="appId"></a>appId</h2><ul>
+<li>类型:<code>String</code></li>
+<li>默认值:<code>null</code></li>
+<li>必要性:<code>true</code></li>
+</ul>
+<p>从<code>LeanCloud</code>的应用中得到的<code>appId</code>.</p>
+<blockquote>
+<p><a href="/quickstart.md">获取APP ID 和 APP Key</a>。</p>
+</blockquote>
+<h2 id="appKey"><a href="#appKey" class="headerlink" title="appKey"></a>appKey</h2><ul>
+<li>类型:<code>String</code></li>
+<li>默认值:<code>null</code></li>
+<li>必要性:<code>true</code></li>
+</ul>
+<p>从<code>LeanCloud</code>的应用中得到的<code>APP Key</code>.</p>
+<blockquote>
+<p><a href="/quickstart">获取APP ID 和 APP Key</a>。</p>
+</blockquote>
+<h2 id="region"><a href="#region" class="headerlink" title="region"></a>region</h2><ul>
+<li>类型:<code>String</code></li>
+<li>默认值:<code>cn</code></li>
+<li>必要性:<code>false</code></li>
+</ul>
+<p>存储节点：在<code>Valine</code>中初始化时默认遵循<code>Leancloud SDK</code>的节点规则(<code>默认中国大陆节点</code>)。</p>
+<p>可选值:</p>
 <ul>
-<li>文章浏览量统计</li>
-<li>基于<a href="https://firebase.google.com/" target="_blank" rel="noopener">Firebase</a>的评论存储</li>
+<li><code>cn</code> - 中国大陆节点</li>
+<li><code>us</code> - 海外节点</li>
 </ul>
-<p>欢迎你为 Valine 的开发作出贡献。</p>
-<h2 id="捐赠"><a href="#捐赠" class="headerlink" title="捐赠"></a>捐赠</h2><p>如果你觉得 Valine 对你有帮助，或者想对我微小的工作一点资瓷，欢迎给我捐赠。</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">支付宝</th>
-<th style="text-align:center">微信</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><img width="150" src="/images/alipay.png"></td>
-<td style="text-align:center"><img width="135" src="/images/wechat.png"></td>
-</tr>
-</tbody>
-</table>
+<h2 id="placeholder"><a href="#placeholder" class="headerlink" title="placeholder"></a>placeholder</h2><ul>
+<li>类型:<code>String</code></li>
+<li>默认值:<code>null</code></li>
+<li>必要性:<code>false</code></li>
+</ul>
+<p>评论框<code>占位提示符</code>。</p>
+<h2 id="notify"><a href="#notify" class="headerlink" title="notify"></a>notify</h2><ul>
+<li>类型:<code>Boolean</code></li>
+<li>默认值:<code>false</code></li>
+<li>必要性:<code>false</code></li>
+</ul>
+<p>评论回复邮件提醒，请参考<a href="https://github.com/xCss/Valine/wiki/Valine-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E4%B8%AD%E7%9A%84%E9%82%AE%E4%BB%B6%E6%8F%90%E9%86%92%E8%AE%BE%E7%BD%AE" target="_blank" rel="noopener">配置</a>。</p>
+<h2 id="verify"><a href="#verify" class="headerlink" title="verify"></a>verify</h2><ul>
+<li>类型:<code>Boolean</code></li>
+<li>默认值:<code>false</code></li>
+<li>必要性:<code>false</code></li>
+</ul>
+<p>验证码服务。</p>
+<h2 id="path"><a href="#path" class="headerlink" title="path"></a>path</h2><ul>
+<li>类型:<code>String</code></li>
+<li>默认值:<code>window.location.pathname</code></li>
+<li>必要性:<code>false</code></li>
+</ul>
+<p>当前<code>文章页</code>路径，用于区分不同的<code>文章页</code>，以保证正确读取该<code>文章页</code>下的评论列表。<br>可选值：</p>
+<ul>
+<li><code>window.location.pathname</code> (默认值，推荐)</li>
+<li><code>window.location.href</code></li>
+<li><code>自定义</code> </li>
+</ul>
+<blockquote>
+<ul>
+<li>I. 请保证每个<code>文章页</code>路径的唯一性，否则可能会出现不同<code>文章页</code>下加载相同评论列表的情况。  </li>
+<li>II. 如果值为<code>window.location.href</code>，可能会出现随便加<code>不同参数</code>进入该页面，而被判断成新页面的情况。</li>
+</ul>
+</blockquote>
+<h2 id="avatar"><a href="#avatar" class="headerlink" title="avatar"></a>avatar</h2><ul>
+<li>类型:<code>String</code></li>
+<li>默认值:<code>mm</code></li>
+<li>必要性:<code>false</code></li>
+</ul>
+<p><code>Gravatar</code> 头像展示方式。</p>
+<p>可选值：</p>
+<ul>
+<li><code>&#39;&#39;</code>(空字符串)</li>
+<li><code>mm</code></li>
+<li><code>identicon</code></li>
+<li><code>monsterid</code></li>
+<li><code>wavatar</code></li>
+<li><code>retro</code></li>
+<li><code>hide</code> </li>
+</ul>
+<p>更多信息，请查看<a href="/avatar.html">头像配置</a>。</p>
+<h2 id="guest-info"><a href="#guest-info" class="headerlink" title="guest_info"></a>guest_info</h2><ul>
+<li>类型:<code>Array</code></li>
+<li>默认值:<code>[&#39;nick&#39;,&#39;mail&#39;,&#39;link&#39;]</code></li>
+<li>必要性:<code>false</code></li>
+</ul>
+<p>评论者相关属性。</p>
+<h2 id="pageSize"><a href="#pageSize" class="headerlink" title="pageSize"></a>pageSize</h2><ul>
+<li>类型:<code>Number</code></li>
+<li>默认值:<code>10</code></li>
+<li>必要性:<code>false</code></li>
+</ul>
+<p>评论列表分页，每页条数。</p>
+<h2 id="lang"><a href="#lang" class="headerlink" title="lang"></a>lang</h2><ul>
+<li>类型:<code>String</code></li>
+<li>默认值:<code>zh-cn</code></li>
+<li>必要性:<code>false</code></li>
+</ul>
+<p>多语言支持。</p>
+<p>可选值：</p>
+<ul>
+<li><code>zh-cn</code></li>
+<li><code>en</code></li>
+</ul>
+<p>如需自定义语言，请参考<a href="/i18n.html">i18n</a>。</p>
 
         </div>
       
@@ -331,11 +425,11 @@
             
             
             
-              <a class="link primary next" href="quickstart.html">
+              <a class="link primary next" href="avatar.html">
                 <span class="subtitle-pagination">
                   下一篇
                 </span>
-                快速开始
+                头像设置
               </a>
             
           </div>
