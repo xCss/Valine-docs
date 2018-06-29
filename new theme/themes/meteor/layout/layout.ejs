@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- Basic -->
+    <title><%- page.title %> | <%- config.title %></title>
+    <meta name="description" content="<%- config.description %>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <% if(config.favicon) { %>
+      <link rel="shortcut icon" href="<%- config.favicon %>.ico">
+      <link rel="icon" href="<%- config.favicon %>.png">
+    <% } %>
+    <!-- Social -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="<%- config.url %>">
+    <meta property="og:title" content="<%- page.title %> | <%- config.title %>">
+    <meta property="og:description" content="<%- page.description %>">
+    <meta property="og:image" content="<%- config.logo && config.logo.desktop || theme.logo.desktop %>">
+    <meta name="twitter:site" content="<%- theme.social_links.twitter %>">
+    <meta name="twitter:title" content="<%- page.title %> | <%- config.title %>">
+    <meta name="twitter:description" content="<%- page.description %>">
+    <meta name="twitter:image" content="<%- config.logo && config.logo.desktop || theme.logo.desktop %>">
+
+    <!-- Misc -->
+    <meta name="google-site-verification" content="" />
+
+    <%# We use Prism for syntax highlighting.  Be sure to check out the JS in BODY, below, too! %>
+    <%
+      prismVersion = "1.15.0";
+      prismBase = "//cdn.jsdelivr.net/npm/prismjs@" + prismVersion;
+      prismFlavors = [
+        "bash",
+        "graphql",
+        "json",
+        "jsx",
+        // less: Meteor repositories.
+        "less",
+        // swift: apollo-ios
+        "swift",
+        "typescript",
+        // yaml: CircleCI configurations on Engine documentation.
+        "yaml"
+      ]
+    %>
+    <link href='//cdn.jsdelivr.net/npm/prismjs@<%= prismVersion %>/themes/prism.min.css' rel='stylesheet' type='text/css'>
+    <link href='//cdn.jsdelivr.net/npm/prismjs@<%= prismVersion %>/plugins/line-numbers/prism-line-numbers.min.css' rel='stylesheet' type='text/css'>
+    <link href='//cdn.jsdelivr.net/npm/prismjs@<%= prismVersion %>/plugins/line-highlight/prism-line-highlight.css' rel='stylesheet' type='text/css'>
+
+    <link href='//fonts.loli.net/css?family=Source+Sans+Pro:400,300,200,300italic,400italic' rel='stylesheet' type='text/css'>
+    <% 
+      var css_bundle = config.css_bundle || theme.css_bundle;
+    %>
+    <% if (css_bundle) {  %>
+      <link rel="stylesheet" href="<%= url_for('style/bundle-' + css_bundle + '.css', { relative: true }) %>">
+    <% } else { %>
+      <link rel="stylesheet" href="<%= url_for('style/style.css', { relative: true }) %>">
+    <% } %>
+  </head>
+  <body class="">
+    <%- body %>
+
+    <%# We use Prism for syntax highlighting.  Be sure to check out the CSS in HEAD, above, too! %>
+    <script type="text/javascript" src="<%= prismBase %>/prism.min.js"></script>
+    <script type="text/javascript" src="<%= prismBase %>/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script type="text/javascript" src="<%= prismBase %>/plugins/line-highlight/prism-line-highlight.min.js"></script>
+    <%
+      // This joins all the syntaxes into a single file, for a single request, care of JsDelivr!
+      prismSyntaxJsUrl = "//cdn.jsdelivr.net/combine/" +
+        prismFlavors
+          .map(prismLang => `npm/prismjs@${prismVersion}/components/prism-${prismLang}.min.js`)
+          .join(",")
+    -%>
+    <script type="text/javascript" src="<%= prismSyntaxJsUrl %>"></script>
+
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/smooth-scroll@12.1.5/dist/js/smooth-scroll.min.js"></script>
+
+    <script>
+      // Used by the main.js script below.
+      docsConfigRoot = '<%- config.root %>';
+    </script>
+    <script src="<%= url_for('script/main.js', { relative: true }) %>"></script>
+
+    <% if (config.apis && config.apis.docsearch) { %>
+      <script type="text/javascript" src="//cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <% } %>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/fastclick/1.0.6/fastclick.min.js"></script>
+
+    <script>
+      // nectar ninja
+      (function(){
+        var handle = '@meteorjs';
+        var a = document.createElement('script');
+        var m = document.getElementsByTagName('script')[0];
+        a.async = 1;
+        a.src = 'https://nectar.ninja/api/v1/' + handle.slice(1);
+        m.parentNode.insertBefore(a, m);
+      })();
+    </script>
+
+    <% if (config.apis && config.apis.ga) { %>
+      <script>
+        // Google analytics
+        ;(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', '<%- config.apis.ga %>', 'auto');
+        ga('send', 'pageview');
+      </script>
+    <% } %>
+
+    <% if (config.apis && config.apis.segment) { %>
+      <script>
+        <%#
+          We define `analytics` in the global context to guard against HTML elements on the page
+          potentially named "analytics".  This is necessary because we have some docs pages with
+          elements using `id="analytics"` combined with a moment in browser history when IE thought
+          it would be fun (?) to allow accessing HTML elements by their ID on the `window` object:
+            https://w3c.github.io/html/browsers.html#named-access-on-the-window-object.
+          Luckily, a variable in the global scope takes precedence over that kind of access, and
+          sensible access to the ID is done through the HTML `Document` interface (that is to say,
+          via `document.getElementById()` and similar interfaces).  This intentionally uses `var`,
+          rather than `let` to prevent throwing when Segment.io tries to re-declare it.
+        %>
+        var analytics;
+
+        <!-- Segment.io -->
+        !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var o=document.getElementsByTagName("script")[0];o.parentNode.insertBefore(n,o);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
+        analytics.load("<%- config.apis.segment %>");
+        analytics.page();
+        }}();
+      </script>
+    <% } %>
+
+    // search box
+    <% if (config.apis && config.apis.swiftype) { %>
+      <script>
+        ;(function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
+        (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
+        e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
+        })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
+        _st('install','<%- config.apis.swiftype %>','2.0.0');
+      </script>
+    <% } else if (config.apis && config.apis.docsearch) { %>
+      <script>
+        ['desktop'].forEach(function(type) {
+          var search = docsearch({
+            apiKey: '<%- config.apis.docsearch.apiKey %>',
+            <%#
+              A custom deployment, directly through Algolia, requires the 'appId'.  This is useful
+              for testing, but is not necessary when using their free Docsearch service.
+            %>
+            <% if (config.apis.docsearch.appId) { %>
+              appId: '<%- config.apis.docsearch.appId %>',
+            <% } %>
+            indexName: '<%- config.apis.docsearch.indexName %>',
+            inputSelector: '#' + type + '-search-input',
+            autocompleteOptions: {
+              dropdownMenuContainer: '.wrapper-' + type + '-search-results',
+              debug: true
+            },
+            algoliaOptions: {
+              hitsPerPage: 20
+            }
+          }).autocomplete;
+
+          var sidebar = document.querySelector('.sidebar-content');
+          search.on('autocomplete:opened', function() {
+            sidebar.classList.add('searching');
+          });
+          search.on('autocomplete:closed', function() {
+            sidebar.classList.remove('searching');
+          });
+          search.on('autocomplete:updated', function() {
+            if (search.val() === '') {
+              search.autocomplete.close();
+            }
+          });
+        });
+      </script>
+    <% } %>
+
+    <% if (config.redirects) { %>
+      <script>
+        var REDIRECTS = <%- JSON.stringify(config.redirects, 0, 2) %>;
+
+        function redirect() {
+          // Support redirects of the form /path#hash
+          var locationKey = location.pathname + location.hash;
+          if (REDIRECTS[locationKey]) {
+            location.replace(location.origin + '/' + REDIRECTS[locationKey]);
+          }
+
+          // Support redirects of the form #hash (works for any path)
+          var hashKey = location.hash;
+          if (REDIRECTS[hashKey]) {
+            location.replace(location.origin + '/' + REDIRECTS[hashKey]);
+          }
+        }
+
+        // Redirect now
+        redirect();
+
+        // Redirect on hash change
+        window.onhashchange = redirect;
+      </script>
+    <% } %>
+  </body>
+</html>

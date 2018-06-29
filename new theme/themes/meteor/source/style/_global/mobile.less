@@ -1,0 +1,33 @@
+@screen-mobile: 600px;
+
+// Show only on desktop
+.show-mobile {
+	@media screen and (min-width: @breakpoint) {
+		display: none !important;
+	}
+}
+
+// Mobile-specific styling
+@media (max-width: @screen-mobile) {
+
+	.header-content {
+		.header-wrapper {
+			display: block !important;
+		}
+		.title-page {
+			padding-right: 0 !important;
+		}
+		.page-actions {
+			text-align: left !important;
+		}
+	}
+}
+
+
+
+// Show only on desktop
+.show-desktop {
+	@media screen and (max-width: (@breakpoint - 1px)) {
+		display: none !important;
+	}
+}

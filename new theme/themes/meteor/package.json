@@ -1,0 +1,29 @@
+{
+  "name": "meteor-theme-hexo",
+  "version": "1.0.15",
+  "description": "[Read the docs docs.](https://docs-docs.netlify.com/docs/docs/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meteor/meteor-theme-hexo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meteor/meteor-hexo-theme/issues"
+  },
+  "homepage": "https://github.com/meteor/meteor-hexo-theme#readme",
+  "devDependencies": {
+    "fs-extra": "^5.0.0",
+    "js-yaml": "^3.10.0",
+    "shelljs": "^0.8.1",
+    "simple-git": "^1.89.0",
+    "tarball-extract": "0.0.6",
+    "tmp-promise": "^1.0.4"
+  },
+  "dependencies": {}
+}

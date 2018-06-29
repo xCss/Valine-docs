@@ -1,0 +1,141 @@
+@sidebar-width: 260px;
+@panel-width: 80px;
+@panel-width-tablet: 64px;
+@panel-width-mobile: 48px;
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background: @color-lightest;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.panel {
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 5px 0 inset;
+  background: #2c2f39;
+  z-index: 1;
+}
+
+.sidebar {
+  .position(fixed, @panel-width-tablet, auto, 0, 0, @sidebar-width);
+  background: @color-lighter;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  z-index: 2;
+
+  @media screen and (min-width: @breakpoint) {
+    top: @panel-width-tablet;
+  }
+}
+
+.nav {
+  .position(fixed, 0,0,auto, 0, auto, @panel-width-tablet);
+  opacity: 1;
+  z-index: 3;
+}
+
+.content {
+  .position(relative, 0,0,0,0);
+  .transform(translate3d(0,0,0));
+  background: @color-lightest;
+  min-height: 100vh;
+  padding-top: @panel-width-tablet;
+  z-index: 2;
+
+  @media screen and (min-width: @breakpoint) {
+    padding-top: @panel-width-tablet;
+    margin-left: @sidebar-width;
+  }
+}
+
+// Sidebar toggle
+body {
+  .nav,
+  .content {
+    .transition(all 300ms @easing);
+  }
+  .sidebar,
+  .sidebar-content {
+    .transition(all 300ms @easing);
+  }
+
+  &.sidebar-visible {
+    .sidebar {
+      .transform(translateX(0));
+
+      .sidebar-content {
+        .transform(translateX(0));
+      }
+
+      //@media screen and (min-width: @breakpoint) { left: @panel-width-tablet; }
+
+      //copied from above to override
+      //@media screen and (min-width: (@breakpoint * 1.5)) { left: @panel-width; }
+    }
+
+    .content {
+      //left: @sidebar-width;
+      .transform(translateX(@sidebar-width));
+
+      @media screen and (min-width: (@breakpoint * 1.5)) {
+        .transform(translateX(0));
+      }
+    }
+  }
+}
+
+// Sidebar search desktop
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .topcap {
+    flex: none;
+  }
+
+  .wrapper-search {
+    flex: none;
+  }
+
+  .wrapper-desktop-search-results {
+    .transition(all 300ms @easing);
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+  }
+
+  .toc {
+    flex: 1;
+    .scrollbars(6px, rgba(0,0,0,0.07), rgba(0,0,0,0.05));
+    overflow-y: auto;
+    .transition(all 300ms @easing);
+    max-height: 300rem;
+    opacity: 1;
+  }
+
+  &.searching {
+    .wrapper-search {
+      flex: 1;
+    }
+
+    .wrapper-desktop-search-results {
+      height: 100%;
+      max-height: 100vh;
+      .scrollbars(6px, rgba(0,0,0,0.07), rgba(0,0,0,0.05));
+      opacity: 1;
+    }
+
+    .toc {
+      flex: none;
+      max-height: 0;
+      overflow: hidden;
+      opacity: 0;
+    }
+  }
+}
