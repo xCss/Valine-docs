@@ -51,9 +51,9 @@
       var css_bundle = config.css_bundle || theme.css_bundle;
     %>
     <% if (css_bundle) {  %>
-      <link rel="stylesheet" href="<%= url_for('style/bundle-' + css_bundle + '.css', { relative: true }) %>">
+      <link rel="stylesheet" href="<%= url_for('/style/bundle-' + css_bundle + '.css', { relative: true }) %>">
     <% } else { %>
-      <link rel="stylesheet" href="<%= url_for('style/style.css', { relative: true }) %>">
+      <link rel="stylesheet" href="<%= url_for('/style/style.css', { relative: true }) %>">
     <% } %>
   </head>
   <body class="">

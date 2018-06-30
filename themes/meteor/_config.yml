@@ -12,7 +12,7 @@ nav_class: dark
 favicon: /images/favicon.ico
 
 logo:
-  nav_mobile: images/valine.png
+  nav_mobile: /images/valine.png
   url: '//valine.js.org'
   title: 'A fast, simple & powerful comment system.'
   subtitle: 'Valine'
