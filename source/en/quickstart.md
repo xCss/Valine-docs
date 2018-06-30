@@ -30,6 +30,6 @@ Please include the following HTML code in the appropriate location on the articl
 </body>
 ```
 
-See the [Config](/en/config.html) for more details.
+See the [Config](/en/configuration.html) for more details.
 
 
