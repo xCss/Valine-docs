@@ -22,6 +22,7 @@ If you are concerned about the frequent version of the update may have unknown B
 ```
 
 > Specify *VERSION* for `latest` to force the latest version to be requested each time.
+> `//cdn.jsdelivr.net/npm/valine@latest`
 
 ## Other CDN
 
