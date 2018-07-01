@@ -30,6 +30,31 @@ Please include the following HTML code in the appropriate location on the articl
 </body>
 ```
 
+## npm
+
+Valine has been released to [npm](https://www.npmjs.com/package/valine) and can be installed directly by command:
+``` bash
+# Install leancloud's js-sdk
+npm install leancloud-storage --save
+# Install valine
+npm install valine --save
+```
+
+```js
+// Register AV objects to the global
+window.AV = require('leancloud-storage');
+
+// Use import
+import Valine from 'valine';
+// or Use require
+const Valine = require('valine');
+
+new Valine({
+    el:'#vcomments',
+    // other config
+})
+```
+
 See the [Config](/en/configuration.html) for more details.
 
 

@@ -59,10 +59,16 @@ new Valine({
 
 Valine 现已发布到[npm](https://www.npmjs.com/package/valine)，可以直接用命令安装：
 ``` bash
+# Install leancloud's js-sdk
+npm install leancloud-storage --save
+# Install valine
 npm install valine --save
 ```
 
 ```js
+// Register AV objects to the global
+window.AV = require('leancloud-storage');
+
 // Use import
 import Valine from 'valine';
 // or Use require
@@ -77,9 +83,10 @@ new Valine({
 ## 评论数据管理
 
 由于Valine 是无后端评论系统，所以也就没有开发评论数据管理功能。请自行登录`Leancloud应用`管理。  
-具体步骤：`登录`>`选择你创建的应用`>`存储`>选择Class`Comment`，然后就可以尽情的发挥你的权利啦(～￣▽￣)～
 
-当然，你也可以配合 [@panjunwen](https://github.com/panjunwen) 开发的 [Valine-Admin](https://github.com/panjunwen/Valine-Admin) 进行`评论数据管理`
+具体步骤：`登录`>`选择你创建的应用`>`存储`>选择Class `Comment`，然后就可以尽情的发挥你的权利啦(～￣▽￣)～
+
+> 当然，你也可以配合 [@panjunwen](https://github.com/panjunwen) 开发的 [Valine-Admin](https://github.com/panjunwen/Valine-Admin) 进行`评论数据管理`
 
 ## 安全域名
 
