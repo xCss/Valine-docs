@@ -55,7 +55,7 @@ new Valine({
 ```
 
 
-## NPM 安装
+## npm
 
 Valine 现已发布到[npm](https://www.npmjs.com/package/valine)，可以直接用命令安装：
 ``` bash
