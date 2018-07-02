@@ -108,7 +108,7 @@
     <% } %>
 
     <!-- search box -->
-    <% if (theme.apis && theme.apis.docsearch && theme.apis.docsearch.appKey ) { %>
+    <% if (theme.apis && theme.apis.docsearch && theme.apis.docsearch.apiKey ) { %>
       <script type="text/javascript" src="//cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
     <% } %>
 
@@ -120,7 +120,7 @@
         })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
         _st('install','<%- theme.apis.swiftype %>','2.0.0');
       </script>
-    <% } else if (theme.apis && theme.apis.docsearch && theme.apis.docsearch.appKey ) { %>
+    <% } else if (theme.apis && theme.apis.docsearch && theme.apis.docsearch.apiKey ) { %>
       <script>
         ['desktop'].forEach(function(type) {
           var search = docsearch({
