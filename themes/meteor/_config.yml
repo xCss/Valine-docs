@@ -24,8 +24,8 @@ apis:
   marketo: 999-999-9999
   segment: abcabcabcabc
   docsearch:
-    apiKey: 
-    indexName: 
+    apiKey: c4ef5def993e015b66f3ea438e2be874
+    indexName: valinejs
 
 # nav:
 #   'language':
