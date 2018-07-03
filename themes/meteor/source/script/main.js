@@ -84,7 +84,7 @@
     allLinks.push(h)
     var headerLink = document.createElement('li')
     headerLink.innerHTML =
-      '<a href="#' + h.id + '" data-scroll class="' + h.tagName + '"><span>' + escapeHtml(h.title || h.textContent) + '</span></a>'
+      '<a href="#' + encodeURIComponent(h.id) + '" data-scroll class="' + h.tagName + '"><span>' + escapeHtml(h.title || h.textContent) + '</span></a>'
     headerLink.firstChild.addEventListener('click', onLinkClick)
     return headerLink
   }
@@ -92,7 +92,7 @@
   function makeHeaderLinkable (h) {
     var anchor = document.createElement('a')
     anchor.className = 'anchor'
-    anchor.href = '#' + h.id
+    anchor.href = '#' + encodeURIComponent(h.id)
     anchor.setAttribute('aria-hidden', true)
     anchor.setAttribute('data-scroll', '')
     anchor.innerHTML = '<span class="icon-link"></span>'
@@ -100,7 +100,7 @@
     h.insertBefore(anchor, h.firstChild)
 
     var anchorOffset = document.createElement('div')
-    anchorOffset.id = h.id
+    anchorOffset.id = encodeURIComponent(h.id)
     anchorOffset.className = 'anchor-offset'
     h.insertBefore(anchorOffset, h.firstChild)
 
@@ -150,7 +150,7 @@
       }
     }
     var id = hash.slice(1);
-    var currentActive = document.querySelector('.sub-menu a[href="#' + id + '"]')
+    var currentActive = document.querySelector('.sub-menu a[href="#' + id + '"]');
     if (currentActive !== previousActive) {
       previousActive && previousActive.classList.remove('active')
       currentActive && currentActive.classList.add('active')
