@@ -11,7 +11,7 @@ sence: 2017
 
 timezone:
 
-github_repo: 'xcss/valine'
+github_repo: 'xcss/Valine-docs'
 content_root: 'source'
 
 theme: meteor
