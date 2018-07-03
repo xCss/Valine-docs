@@ -10,7 +10,7 @@ npm run build
 cd docs
 
 # 如果是发布到自定义域名
-echo 'docs.big.moe' > CNAME
+echo 'valine.js.org' > CNAME
 
 cd ..
 
