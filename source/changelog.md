@@ -2,6 +2,13 @@
 title: 更新日志
 ---
 
+## v1.2.0-beta1, 2018-07-07
+
+- `A` 新增前端`xss`防御解决方案
+- `A` 新增[文章阅读量统计](/visitor.html) 
+- `A` 新增评论框高度随内容自动变化 ( by [autosize](https://github.com/jackmoore/autosize) )
+- `U` 缩小`子评论`头像大小
+
 ## v1.2.0-beta, 2018-06-30
 
 - `U` 修改子评论查询方式，减少80%的查询次数

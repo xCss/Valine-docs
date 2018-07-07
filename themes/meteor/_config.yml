@@ -53,6 +53,7 @@ sidebar:
     - avatar
     - notify
     - i18n
+    - visitor
   Other:
     - hexo
     - cdn

@@ -19,12 +19,13 @@ Valine 诞生于2017年8月7日，是一款基于[Leancloud](https://leancloud.c
 - 无后端实现
 - MarkDown 全语法支持
 - 轻量易用(~15kb gzipped)
+- 文章阅读量统计 `v1.2.0-beta1+`
 
 ## Todo
 
 Valine 现在仍处于开发阶段，这里有一些目前还不支持、但已经在计划中的特性：
-- 文章浏览量统计
 - 基于[Firebase](https://firebase.google.com/)的评论存储
+- And more...
 
 欢迎你为 Valine 的开发作出贡献。
 

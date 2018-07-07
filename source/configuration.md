@@ -117,7 +117,7 @@ Valine 的初始化挂载器。可以是一个`CSS 选择器`，也可以是一�
 
 更多信息，请查看[头像配置](/avatar.html)。
 
-## guest_info
+## meta
 - 类型:`Array`
 - 默认值:`['nick','mail','link']`
 - 必要性:`false`
@@ -144,3 +144,11 @@ Valine 的初始化挂载器。可以是一个`CSS 选择器`，也可以是一�
 - `en`
 
 如需自定义语言，请参考[i18n](/i18n.html)。
+
+## visitor
+- 类型:`String`
+- 默认值:`false`
+- 必要性:`false`
+
+[文章访问量统计](/visitor.html)。
+

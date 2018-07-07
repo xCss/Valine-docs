@@ -18,11 +18,12 @@ Theoretically, but not limited to static blog. [Hexo](https://hexo.io/), [Jekyll
 - No server-side implementation.
 - Support for full markdown syntax.
 - Simple and lightweight (~15kB gzipped).
+- Article reading statistics `v1.2.0-beta1+`
 
 ## Todo
 Valine is still in the development phase. Here are some features that are not currently supported but are already planned:
-- Article reading statistics
 - Firebase-based comment store
+- And more...
 
 ## Donate
 If you are enjoying this app, please consider making a donation to keep it alive, I will try my best to dedicate more time or even full time to work on it. 😉

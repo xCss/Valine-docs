@@ -136,3 +136,11 @@ Optional value：
 - `en`
 
 If you need a custom language, please refer to [i18n](/en/i18n.html)。
+
+
+## visitor
+- Type:`String`
+- Default:`false`
+- Required:`false`
+
+[Article reading statistics](/en/visitor.html)。
