@@ -4,6 +4,14 @@ title: Article reading statistics
 
 Valine supports article reading statistics starting with `v1.2.0-beta1`.
 
+``` js
+new Valine({
+    el:'#vcomments',
+    ...
+    visitor: true // Article reading statistics
+})
+```
+
 The web page will automatically find the element with the `class` value of `leancloud_visitors` on the page and get its `id` as the query condition. And populate the resulting value into the child element whose `class` value is `leancloud-visitors-count`:
 
 ``` html

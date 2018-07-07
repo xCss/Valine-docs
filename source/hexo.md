@@ -5,7 +5,6 @@ title: 在Hexo 中使用
 
 当然，我们也欢迎更多开发者自主的提交PR 😄
 
-
 ## hexo-theme-raytaylorism
 > [Open](https://github.com/raytaylorlin/hexo-theme-raytaylorism/pull/115) `latest`
 

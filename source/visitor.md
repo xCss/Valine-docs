@@ -4,6 +4,14 @@ title: 文章阅读量统计
 
 Valine 从 `v1.2.0-beta1` 开始支持文章阅读量统计。
 
+``` js
+new Valine({
+    el:'#vcomments',
+    ...
+    visitor: true // 阅读量统计
+})
+```
+
 
 网页会自动查找页面中`class`值为`leancloud_visitors`的元素，获取其`id`为查询条件。并将得到的值填充到其`class`的值为`leancloud-visitors-count`的子元素里：
 
