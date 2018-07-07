@@ -3,6 +3,9 @@ title: Used in Hexo
 ---
 There are a number of hexo theme built-in valine comment system, more themes are gradually increasing.
 
+## hexo-theme-pure
+> [Open](https://github.com/cofess/hexo-theme-pure/pull/49) `latest`
+
 ## hexo-theme-raytaylorism
 > [Open](https://github.com/raytaylorlin/hexo-theme-raytaylorism/pull/115) `latest`
 
