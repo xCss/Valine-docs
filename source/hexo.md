@@ -5,6 +5,9 @@ title: 在Hexo 中使用
 
 当然，我们也欢迎更多开发者自主的提交PR 😄
 
+## hexo-theme-Anisina
+> [Open](https://github.com/Haojen/hexo-theme-Anisina/pull/94) `latest`
+
 ## hexo-theme-pure
 > [Open](https://github.com/cofess/hexo-theme-pure/pull/49) `latest`
 
