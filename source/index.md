@@ -19,7 +19,7 @@ Valine 诞生于2017年8月7日，是一款基于[Leancloud](https://leancloud.c
 - 无后端实现
 - MarkDown 全语法支持
 - 轻量易用(~15kb gzipped)
-- 文章阅读量统计 `v1.2.0-beta1+`
+- [文章阅读量统计](/visitor.html) `v1.2.0-beta1+`
 
 ## Todo
 

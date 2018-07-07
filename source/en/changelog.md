@@ -5,7 +5,7 @@ title: Change Log
 ## v1.2.0-beta1, 2018-07-07
 
 - `A` New front-end `xss` defense solutions
-- `A` New [article reading statistics](https://valine.js.org/en/visitors.html) 
+- `A` New [article reading statistics](/en/visitor.html) 
 - `A` The height of the new review box changes automatically with the content ( by [autosize](https://github.com/jackmoore/autosize) )
 - `U` Narrowing the size of a `sub-comment`
 
