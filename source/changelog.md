@@ -2,6 +2,11 @@
 title: 更新日志
 ---
 
+## v1.2.0-beta2, 2018-07-08
+
+- `F` 修复`blockquote`元素无样式的 Bug
+- `F` 修复`pathname`为中文时可能出现访问量不统计的 Bug
+
 ## v1.2.0-beta1, 2018-07-07
 
 - `A` 新增前端`xss`防御解决方案
@@ -12,7 +17,7 @@ title: 更新日志
 ## v1.2.0-beta, 2018-06-30
 
 - `U` 修改子评论查询方式，减少80%的查询次数
-- `F` 修复 `rid` 为 `空字符串` 时数据被忽略的Bug [#95](https://github.com/xCss/Valine/issues/95)
+- `F` 修复 `rid` 为 `空字符串` 时数据被忽略的 Bug [#95](https://github.com/xCss/Valine/issues/95)
 
 ## v1.1.9, 2018-06-24
 

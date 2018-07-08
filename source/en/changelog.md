@@ -2,6 +2,11 @@
 title: Change Log
 ---
 
+## v1.2.0-beta2, 2018-07-08
+
+- `F` Fix `blockquote` element without style Bug
+- `F` Fix the bug that the reading of the article does not count when `pathname` is Chinese
+
 ## v1.2.0-beta1, 2018-07-07
 
 - `A` New front-end `xss` defense solutions
