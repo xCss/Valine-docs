@@ -139,7 +139,7 @@ If you need a custom language, please refer to [i18n](/en/i18n.html)。
 
 
 ## visitor
-- Type:`String`
+- Type:`Boolean`
 - Default:`false`
 - Required:`false`
 

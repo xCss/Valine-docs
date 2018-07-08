@@ -146,7 +146,7 @@ Valine 的初始化挂载器。可以是一个`CSS 选择器`，也可以是一�
 如需自定义语言，请参考[i18n](/i18n.html)。
 
 ## visitor
-- 类型:`String`
+- 类型:`Boolean`
 - 默认值:`false`
 - 必要性:`false`
 
