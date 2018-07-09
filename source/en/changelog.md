@@ -26,7 +26,7 @@ title: Change Log
 - `U` Modify comment mode, reduce query time by 80%
 - `F` Fix when `rid` is `empty string` data is ignored [#95](https://github.com/xCss/Valine/issues/95)
 
-## v1.1.9, 2018-06-24
+## v1.1.9-rc3-v1.1.9, 2018-06-24
 
 - `A` New `Emoji` list
 - `A` New quick expression input `:smile: => 😄`  [√Emoji list](https://github.com/xCss/Valine/blob/master/dist/plugins/emojis/light.json)
@@ -34,10 +34,6 @@ title: Change Log
 - `U` Streamlining the code, reduce the size of the library
 - `F` Fix `Error 99` [#93](https://github.com/xCss/Valine/issues/93) 
 - `F` Repair of some web pages may cause `section` style to be rewritten.
-
-## v1.1.9-rc3, 2018-06-24
-
-...
 
 ## v1.1.9-rc2, 2018-06-15
 
