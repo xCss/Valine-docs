@@ -3,13 +3,12 @@ title: Introduction
 description: Valine - A fast, simple & powerful comment system.
 ---
 [![version](https://img.shields.io/github/release/xCss/Valine.svg?style=flat-square)](https://github.com/xCss/Valine/releases)
-[![](https://data.jsdelivr.com/v1/package/npm/valine/badge)](https://www.jsdelivr.com/package/npm/valine)
 [![npm downloads](https://img.shields.io/npm/dm/valine.svg?style=flat-square)](https://www.npmjs.com/package/valine)
 [![build](https://img.shields.io/circleci/project/github/xCss/Valine/master.svg?style=flat-square)](https://circleci.com/gh/xCss/Valine)
 
 Valine was born in August 7, 2017. It's a fast, simple & efficient Leancloud based no back end comment system.
 
-Theoretically, but not limited to static blog. [Hexo](https://hexo.io/), [Jekyll](https://jekyllrb.com/), [Typecho](http://typecho.org/) and other blog programs are currently using Valine.
+Theoretically, but not limited to static blog. [Hexo](https://hexo.io/), [Jekyll](https://jekyllrb.com/), [Typecho](http://typecho.org/), [Hugo](https://gohugo.io/) and other blog programs are currently using Valine.
 
 ## Features
 - Emoji 😉
@@ -18,7 +17,7 @@ Theoretically, but not limited to static blog. [Hexo](https://hexo.io/), [Jekyll
 - No server-side implementation.
 - Support for full markdown syntax.
 - Simple and lightweight (~15kB gzipped).
-- Article reading statistics `v1.2.0-beta1+`
+- Article reading statistics `v1.2.0+`
 
 ## Todo
 Valine is still in the development phase. Here are some features that are not currently supported but are already planned:

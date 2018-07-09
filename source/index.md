@@ -3,13 +3,12 @@ title: 介绍
 description: Valine - 一款快速、简洁且高效的无后端评论系统。
 ---
 [![version](https://img.shields.io/github/release/xCss/Valine.svg?style=flat-square)](https://github.com/xCss/Valine/releases)
-[![](https://data.jsdelivr.com/v1/package/npm/valine/badge)](https://www.jsdelivr.com/package/npm/valine)
 [![npm downloads](https://img.shields.io/npm/dm/valine.svg?style=flat-square)](https://www.npmjs.com/package/valine)
 [![build](https://img.shields.io/circleci/project/github/xCss/Valine/master.svg?style=flat-square)](https://circleci.com/gh/xCss/Valine)
 
 Valine 诞生于2017年8月7日，是一款基于[Leancloud](https://leancloud.cn)的快速、简洁且高效的无后端评论系统。  
 
-理论上支持但不限于静态博客，目前已有[Hexo](https://hexo.io/)、[Jekyll](https://jekyllrb.com/)、[Typecho](http://typecho.org/)等博客程序在使用Valine。
+理论上支持但不限于静态博客，目前已有[Hexo](https://hexo.io/)、[Jekyll](https://jekyllrb.com/)、[Typecho](http://typecho.org/)、[Hugo](https://gohugo.io/) 等博客程序在使用Valine。
 
 ## 特性
 
@@ -19,7 +18,7 @@ Valine 诞生于2017年8月7日，是一款基于[Leancloud](https://leancloud.c
 - 无后端实现
 - MarkDown 全语法支持
 - 轻量易用(~15kb gzipped)
-- [文章阅读量统计](/visitor.html) `v1.2.0-beta1+`
+- [文章阅读量统计](/visitor.html) `v1.2.0+`
 
 ## Todo
 
