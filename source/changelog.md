@@ -2,10 +2,10 @@
 title: 更新日志
 ---
 
-## v1.2.0, 2018-07-09
-
+## v1.2.0-v1.2.2, 2018-07-09
+- `A` 新增`Tab`快捷键
 - `A` 新增 [GFM 任务列表](https://github.github.com/gfm/#task-list-items-extension-) ([marked#1250](https://github.com/markedjs/marked/pull/1250))
-- `U` 一些样式优化
+- `F` 修复`ul`、`ol`列表样式
 - `F` 修复`新文章`不点击详情而`阅读量`为空的 Bug ([hexo-theme-next#345](https://github.com/theme-next/hexo-theme-next/pull/345#issuecomment-403285823))
 
 ## v1.2.0-beta2, 2018-07-08

@@ -2,10 +2,11 @@
 title: Change Log
 ---
 
-## v1.2.0, 2018-07-09
+## v1.2.0-v1.2.2, 2018-07-09
 
+- `A` Add `Tab` Shortcut key
 - `A` Add support for [GFM Task Lists](https://github.github.com/gfm/#task-list-items-extension-) to comply with the GFM spec ([marked#1250](https://github.com/markedjs/marked/pull/1250))
-- `U` Some style modification
+- `F` Fixes list-style
 - `F` Fixes bug that the number of visitors in the new article is empty ([hexo-theme-next#345](https://github.com/theme-next/hexo-theme-next/pull/345#issuecomment-403285823))
 
 ## v1.2.0-beta2, 2018-07-08
