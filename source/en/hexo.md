@@ -6,9 +6,6 @@ There are a number of hexo theme built-in valine comment system, more themes are
 ## hexo-theme-Anisina
 > [Open](https://github.com/Haojen/hexo-theme-Anisina/pull/94) `latest`
 
-## hexo-theme-pure
-> [Open](https://github.com/cofess/hexo-theme-pure/pull/49) `latest`
-
 ## hexo-theme-raytaylorism
 > [Open](https://github.com/raytaylorlin/hexo-theme-raytaylorism/pull/115) `latest`
 
@@ -26,6 +23,9 @@ There are a number of hexo theme built-in valine comment system, more themes are
 
 ## Hexo-Theme-Life  
 > [Supported](https://github.com/WeicMa/Hexo-Theme-Life) `v1.1.7-beta`
+
+## hexo-theme-pure
+> [Merge](https://github.com/cofess/hexo-theme-pure/pull/49) `latest`
 
 ## hexo-theme-typing
 > [Merge](https://github.com/geekplux/hexo-theme-typing/pull/19) `latest`
