@@ -12,7 +12,7 @@ new Valine({
 })
 ```
 
-如果开启了`阅读量统计`，Valine 会`自动检测` leancloud 应用中是否存在`Counter`类，如果不存在`会自动创建`，**无需手动创建**~
+> 如果开启了`阅读量统计`，Valine 会`自动检测` leancloud 应用中是否存在`Counter`类，如果不存在`会自动创建`，**无需手动创建**~
 
 
 Valine会自动查找页面中`class`值为`leancloud_visitors`的元素，获取其`id`为查询条件。并将得到的值填充到其`class`的值为`leancloud-visitors-count`的子元素里：
