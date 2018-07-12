@@ -65,3 +65,6 @@ title: 在Hexo 中使用
 ## hexo-theme-magnetic
 > [Merged](https://github.com/klugjo/hexo-theme-magnetic/pull/14) `v1.1.7`
 
+## hexo-theme-snippet
+> [Open](https://github.com/shenliyang/hexo-theme-snippet) `latest`
+
