@@ -63,3 +63,5 @@ There are a number of hexo theme built-in valine comment system, more themes are
 ## hexo-theme-magnetic
 > [Merged](https://github.com/klugjo/hexo-theme-magnetic/pull/14) `v1.1.7`
 
+## hexo-theme-sinppet
+> [Resolved](https://github.com/shenliyang/hexo-theme-snippet) `v1.2.2`
