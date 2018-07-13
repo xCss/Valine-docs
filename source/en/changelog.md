@@ -5,7 +5,7 @@ title: Change Log
 ## v1.2.3, 2018-07-13
 - `A` Comments can be entered into the `HTML` element
 - `U` Optimizes `anti-XSS` logic
-- `F` Fixes the `undefined` error that occurs when `UserAgent` does not exist
+- `F` Fixes the `undefined` Bug that occurs when `UserAgent` does not exist
 
 ## v1.2.0-v1.2.2, 2018-07-09
 

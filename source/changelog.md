@@ -5,7 +5,7 @@ title: 更新日志
 ## v1.2.3, 2018-07-13
 - `A` 新增评论内容可输入`HTML` 元素
 - `U` 优化防`XSS` 逻辑
-- `F` 修复当`UserAgent` 不存在时出现的`undefined` 错误
+- `F` 修复当`UserAgent` 不存在时出现的`undefined` Bug
 
 ## v1.2.0-v1.2.2, 2018-07-09
 - `A` 新增`Tab`快捷键
