@@ -4,7 +4,7 @@ title: 更新日志
 
 ## v1.2.4, 2018-07-14
 
-- `A` 新增`代码高亮`
+- `A` 新增`代码高亮` by [hanabi](https://github.com/egoist/hanabi)
 - `U` 优化防`XSS` 逻辑
 - `F` 修复`自定义路径`在查询时被替换的 Bug
 - `F` 修复`avatar: ''`被替换成`avatar:'mm'`的 Bug [#102](https://github.com/xCss/Valine/issues/102)

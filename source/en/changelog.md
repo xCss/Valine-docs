@@ -3,7 +3,7 @@ title: Change Log
 ---
 ## v1.2.4, 2018-07-14
 
-- `A` New Feature: `Code highlighting`
+- `A` New Feature: `Code highlighting` by [hanabi](https://github.com/egoist/hanabi)
 - `U` Optimizes `anti-XSS` logic
 - `F` Fix the bug that `custom path` was replaced during query
 - `F` Fix `avatar: ''` is replaced with a bug of `avatar:'mm'` [#102](https://github.com/xCss/Valine/issues/102)
