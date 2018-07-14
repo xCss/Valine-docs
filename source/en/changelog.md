@@ -1,6 +1,12 @@
 ---
 title: Change Log
 ---
+## v1.2.4, 2018-07-14
+
+- `A` New Feature: `Code highlighting`
+- `U` Optimizes `anti-XSS` logic
+- `F` Fix the bug that `custom path` was replaced during query
+- `F` Fix `avatar: ''` is replaced with a bug of `avatar:'mm'` [#102](https://github.com/xCss/Valine/issues/102)
 
 ## v1.2.3, 2018-07-13
 - `A` Comments can be entered into the `HTML` element

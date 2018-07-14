@@ -2,12 +2,21 @@
 title: 更新日志
 ---
 
+## v1.2.4, 2018-07-14
+
+- `A` 新增`代码高亮`
+- `U` 优化防`XSS` 逻辑
+- `F` 修复`自定义路径`在查询时被替换的 Bug
+- `F` 修复`avatar: ''`被替换成`avatar:'mm'`的 Bug [#102](https://github.com/xCss/Valine/issues/102)
+
 ## v1.2.3, 2018-07-13
+
 - `A` 新增评论内容可输入`HTML` 元素
 - `U` 优化防`XSS` 逻辑
 - `F` 修复当`UserAgent` 不存在时出现的`undefined` Bug
 
 ## v1.2.0-v1.2.2, 2018-07-09
+
 - `A` 新增`Tab`快捷键
 - `A` 新增 [GFM 任务列表](https://github.github.com/gfm/#task-list-items-extension-) ([marked#1250](https://github.com/markedjs/marked/pull/1250))
 - `F` 修复`ul`、`ol`列表样式
@@ -56,21 +65,5 @@ title: 更新日志
 ## v1.1.9-beta9, 2018-03-29
 
 - `F` 修复 `location.href` 中含中文时出现的评论刷新消失的Bug
-
-## v1.1.9-beta9, 2018-03-29
-
-- `A` 新增 `预览` 操作
-- `A` 新增 `emoji` 表情
-- `A` 新增 `avatar_cdn` 配置
-- `A` 新增 `insertedAt` 字段，默认倒序
-
-- `U` 优化评论提交检测逻辑
-- `U` 修改 `avatar` 默认镜像为 `gravatar.loli.net`，感谢[@Showfom](https://github.com/Showfom) 提供的镜像服务
-
-- `F` 修复 `Object.assign` 在IE中报错的问题
-- `F` 修复 `String.fromCodePoint` 在IE中报错的问题
-- `F` 尝试性修复在 `单页` 和 `Pjax` 页面中出现的问题 [#66](https://github.com/xCss/Valine/issues/66) [#58](https://github.com/xCss/Valine/issues/58) 
-
----------------
 
 更多[更新日志 >](https://github.com/xCss/Valine/releases)

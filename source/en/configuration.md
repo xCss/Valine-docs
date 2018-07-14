@@ -143,4 +143,12 @@ If you need a custom language, please refer to [i18n](/en/i18n.html)。
 - Default:`false`
 - Required:`false`
 
-[Article reading statistics](/en/visitor.html)。
+[Article reading statistics](/en/visitor.html).
+
+
+## highlight
+- Type:`Boolean`
+- Default:`true`
+- Required:`false`
+
+`Code highlighting`, it's enabled by default, please close it selectively.
