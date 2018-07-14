@@ -2,7 +2,7 @@
 title: 更新日志
 ---
 
-## v1.2.4, 2018-07-14
+## v1.2.4-v1.2.5, 2018-07-14
 
 - `A` 新增`代码高亮` by [hanabi](https://github.com/egoist/hanabi)
 - `U` 优化防`XSS` 逻辑

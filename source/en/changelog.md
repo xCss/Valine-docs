@@ -1,7 +1,7 @@
 ---
 title: Change Log
 ---
-## v1.2.4, 2018-07-14
+## v1.2.4-v1.2.5, 2018-07-14
 
 - `A` New Feature: `Code highlighting` by [hanabi](https://github.com/egoist/hanabi)
 - `U` Optimizes `anti-XSS` logic
