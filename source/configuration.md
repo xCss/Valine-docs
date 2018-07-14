@@ -153,8 +153,8 @@ Valine 的初始化挂载器。可以是一个`CSS 选择器`，也可以是一�
 [文章访问量统计](/visitor.html)。
 
 ## highlight
-- 类型：'Boolean'
-- 默认值: 'true'
-- 必要性: 'false'
+- 类型：`Boolean`
+- 默认值: `true`
+- 必要性: `false`
 
 `代码高亮`，默认开启，请选择性关闭
