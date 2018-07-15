@@ -39,29 +39,6 @@
     <!-- Misc -->
     <meta name="google-site-verification" content="" />
 
-    <%# We use Prism for syntax highlighting.  Be sure to check out the JS in BODY, below, too! %>
-    <%
-      prismVersion = "1.15.0";
-      prismBase = "//cdn.jsdelivr.net/npm/prismjs@" + prismVersion;
-      prismFlavors = [
-        "bash",
-        "graphql",
-        "json",
-        "jsx",
-        // less: Meteor repositories.
-        "less",
-        // swift: apollo-ios
-        "swift",
-        "typescript",
-        // yaml: CircleCI configurations on Engine documentation.
-        "yaml"
-      ]
-    %>
-    <link href='//cdn.jsdelivr.net/npm/prismjs@<%= prismVersion %>/themes/prism.min.css' rel='stylesheet' type='text/css'>
-    <link href='//cdn.jsdelivr.net/npm/prismjs@<%= prismVersion %>/plugins/line-numbers/prism-line-numbers.min.css' rel='stylesheet' type='text/css'>
-    <link href='//cdn.jsdelivr.net/npm/prismjs@<%= prismVersion %>/plugins/line-highlight/prism-line-highlight.css' rel='stylesheet' type='text/css'>
-
-    <link href='//fonts.loli.net/css?family=Source+Sans+Pro:400,300,200,300italic,400italic' rel='stylesheet' type='text/css'>
     <% 
       var css_bundle = config.css_bundle || theme.css_bundle;
     %>
@@ -77,23 +54,11 @@
         enable_page_level_ads: true
       });
     </script>
+    
+    <script src='//unpkg.com/hanabi' ></script>
   </head>
   <body class="">
     <%- body %>
-
-    <%# We use Prism for syntax highlighting.  Be sure to check out the CSS in HEAD, above, too! %>
-    <script type="text/javascript" src="<%= prismBase %>/prism.min.js"></script>
-    <script type="text/javascript" src="<%= prismBase %>/plugins/line-numbers/prism-line-numbers.min.js"></script>
-    <script type="text/javascript" src="<%= prismBase %>/plugins/line-highlight/prism-line-highlight.min.js"></script>
-    <%
-      // This joins all the syntaxes into a single file, for a single request, care of JsDelivr!
-      prismSyntaxJsUrl = "//cdn.jsdelivr.net/combine/" +
-        prismFlavors
-          .map(prismLang => `npm/prismjs@${prismVersion}/components/prism-${prismLang}.min.js`)
-          .join(",")
-    -%>
-    <script type="text/javascript" src="<%= prismSyntaxJsUrl %>"></script>
-
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/smooth-scroll@12.1.5/dist/js/smooth-scroll.min.js"></script>
 
     <script>
@@ -101,6 +66,7 @@
       docsConfigRoot = '<%- config.root %>';
     </script>
     <script src="<%= url_for('/script/main.js', { relative: true }) %>"></script>
+    <script src="<%= url_for('/script/highlight.js', { relative: true }) %>"></script>
 
     <script type="text/javascript" src="//cdn.jsdelivr.net/fastclick/1.0.6/fastclick.min.js"></script>
 
@@ -206,5 +172,6 @@
         window.onhashchange = redirect;
       </script>
     <% } %>
+    
   </body>
 </html>

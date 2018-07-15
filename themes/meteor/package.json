@@ -19,6 +19,7 @@
   "homepage": "https://github.com/meteor/meteor-hexo-theme#readme",
   "devDependencies": {
     "fs-extra": "^5.0.0",
+    "hanabi": "^0.4.0",
     "js-yaml": "^3.10.0",
     "shelljs": "^0.8.1",
     "simple-git": "^1.89.0",
