@@ -4,8 +4,7 @@
         var elements = document.querySelectorAll(selector);
         for(var i=0,el;el=elements[i++];){
             var code = el.textContent;
-            var out = hanabi && hanabi(code) || null;
-            el.innerHTML = out || code;
+            el.innerHTML = hanabi && hanabi(code) || code;
         }
     });
 })();
