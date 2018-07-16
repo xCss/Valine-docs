@@ -23,6 +23,9 @@ title: 在Hexo 中使用
 ## hexo-theme-even
 > [Open](https://github.com/ahonn/hexo-theme-even/pull/179) `v1.1.7`
 
+## hexo-theme-Cards
+> [Supproted](https://github.com/adymilk/hexo-theme-Cards) `latest`
+
 ## Hexo-Theme-Life  
 > [Supported](https://github.com/WeicMa/Hexo-Theme-Life) `v1.1.7-beta`
 
