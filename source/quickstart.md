@@ -95,4 +95,4 @@ new Valine({
 ![设置安全域名](https://ws1.sinaimg.cn/large/006qRazegy1fkxqmddfh1j30qd0go40h.jpg)
 
 
-更多信息请查看[配置](/config.html)。
+更多信息请查看[配置](/configuration.html)。
