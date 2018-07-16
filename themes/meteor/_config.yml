@@ -42,6 +42,8 @@ apis:
 #     partial: illustration-logs
 #     active: false
 
+ad:
+  enable: true
 
 sidebar:
   null:

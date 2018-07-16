@@ -94,6 +94,11 @@
         <div class="document-formatting">
           <%- page.content %>
         </div>
+
+        <% if(theme.ad && theme.ad.enable) { %>
+          <div class="custom-recommend"></div>
+          <script src="<%= url_for('/script/recommend.js', { relative: true }) %>"></script>  
+        <% } %>
       
         <div class="pagination">
           <div class="content-wrapper">
@@ -139,7 +144,7 @@
         <% if(page.comments && theme.valine && theme.valine.enable ){ %>
           <div class="vcomment"></div>
           <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-          <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+          <script src="//unpkg.com/valine"></script>
           <script>
             var valine = new Valine();
             var path = window.location.pathname.replace('index.html','');
