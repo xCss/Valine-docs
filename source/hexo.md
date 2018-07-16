@@ -9,7 +9,7 @@ title: 在Hexo 中使用
 > [Open](https://github.com/Haojen/hexo-theme-Anisina/pull/94) `latest`
 
 ## hexo-theme-Cards
-> [hexo-theme-Cards](https://github.com/adymilk/hexo-theme-Cards)
+> [Open](https://github.com/adymilk/hexo-theme-Cards) `latest`
 
 ## hexo-theme-raytaylorism
 > [Open](https://github.com/raytaylorlin/hexo-theme-raytaylorism/pull/115) `latest`
