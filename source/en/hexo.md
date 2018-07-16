@@ -24,6 +24,9 @@ There are a number of hexo theme built-in valine comment system, more themes are
 ## Hexo-Theme-Life  
 > [Supported](https://github.com/WeicMa/Hexo-Theme-Life) `v1.1.7-beta`
 
+## hexo-theme-Cards
+> [Supproted](https://github.com/adymilk/hexo-theme-Cards) `latest`
+
 ## hexo-theme-pure
 > [Merge](https://github.com/cofess/hexo-theme-pure/pull/49) `latest`
 
