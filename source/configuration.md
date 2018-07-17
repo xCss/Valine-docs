@@ -38,7 +38,7 @@ Valine 的初始化挂载器。可以是一个`CSS 选择器`，也可以是一�
 
 从`LeanCloud`的应用中得到的`appId`.
 
-> [获取APP ID 和 APP Key](/quickstart.md)。
+> [获取APP ID 和 APP Key](/quickstart.html)。
 
 ## appKey
 - 类型:`String`
@@ -47,15 +47,18 @@ Valine 的初始化挂载器。可以是一个`CSS 选择器`，也可以是一�
 
 从`LeanCloud`的应用中得到的`APP Key`.
 
-> [获取APP ID 和 APP Key](/quickstart)。
+> [获取APP ID 和 APP Key](/quickstart.html)。
 
 
-## region
+## <del>region</del>
 - 类型:`String`
 - 默认值:`cn`
 - 必要性:`false`
 
 存储节点：在`Valine`中初始化时默认遵循`Leancloud SDK`的节点规则(`默认中国大陆节点`)。
+
+> Leancloud js-sdk 从 `v3.8.0`版本开始删除了`region`选项:  
+> [leancloud/javascript-sdk/releases/tag/v3.8.0](https://github.com/leancloud/javascript-sdk/releases/tag/v3.8.0)
 
 可选值:
 - `cn` - 中国大陆节点
@@ -63,7 +66,7 @@ Valine 的初始化挂载器。可以是一个`CSS 选择器`，也可以是一�
 
 ## placeholder
 - 类型:`String`
-- 默认值:`null`
+- 默认值:`Just go go`
 - 必要性:`false`
 
 评论框`占位提示符`。

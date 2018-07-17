@@ -45,12 +45,16 @@ Application `<APP_ID>` from `Leancloud`.
 
 Application `<APP_KEY>` from `Leancloud`.
 
-## region
+## <del>region</del>
 - Type:`String`
 - Default:`cn`
 - Required:`false`
 
 Storage node.
+
+> Leancloud sdk removed the region option in `v3.8.0`:  
+>  [leancloud/javascript-sdk/releases/tag/v3.8.0](https://github.com/leancloud/javascript-sdk/releases/tag/v3.8.0)
+
 Optional value:
 
 - `cn` - Chinese mainland node
@@ -109,7 +113,7 @@ Optional value:
 See the [Avatar setting](/en/avatar.html) for more details.
 
 
-## guest_info
+## meta
 - Type:`Array`
 - Default:`['nick','mail','link']`
 - Required:`false`
