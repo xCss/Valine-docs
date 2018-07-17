@@ -5,9 +5,6 @@ title: 在Hexo 中使用
 
 当然，我们也欢迎更多开发者自主的提交PR 😄
 
-## hexo-theme-Anisina
-> [Open](https://github.com/Haojen/hexo-theme-Anisina/pull/94) `latest`
-
 ## hexo-theme-raytaylorism
 > [Open](https://github.com/raytaylorlin/hexo-theme-raytaylorism/pull/115) `latest`
 
@@ -28,6 +25,9 @@ title: 在Hexo 中使用
 
 ## Hexo-Theme-Life  
 > [Supported](https://github.com/WeicMa/Hexo-Theme-Life) `v1.1.7-beta`
+
+## hexo-theme-Anisina
+> [Merge](https://github.com/Haojen/hexo-theme-Anisina/pull/94) `latest`
 
 ## hexo-theme-pure
 > [Merge](https://github.com/cofess/hexo-theme-pure/pull/49) `latest`
