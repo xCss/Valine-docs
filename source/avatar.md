@@ -22,7 +22,7 @@ Valine 目前使用的是[Gravatar][1] 作为评论列表头像。
 `monsterid`|![小怪物](https://gravatar.cat.net/avatar/adb831a7fdd83dd1e2a309ce7591dff8?s=40&d=monsterid)|小怪物
 `wavatar`|![用不同面孔和背景组合生成的头像](https://gravatar.cat.net/avatar/adb831a7fdd83dd1e2a309ce7591dff8?s=40&d=wavatar)|用不同面孔和背景组合生成的头像
 `retro`|![八位像素复古头像](https://gravatar.cat.net/avatar/adb831a7fdd83dd1e2a309ce7591dff8?s=40&d=retro)|八位像素复古头像
-`robohash`|![机器人](https://gravatar.cat.net/avatar/00000000000000000000000000000000?d=robohash&f=y)|一种具有不同颜色、面部等的机器人
+`robohash`|![机器人](https://gravatar.cat.net/avatar/00000000000000000000000000000000?s=40&d=robohash&f=y)|一种具有不同颜色、面部等的机器人
 `hide`|&nbsp;|不显示头像
 
 ```js

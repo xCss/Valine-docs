@@ -11,7 +11,7 @@ Empty string:`''`|![Gravatar official graphics](https://gravatar.cat.net/avatar/
 `identicon`|![Abstract geometry](https://gravatar.cat.net/avatar/adb831a7fdd83dd1e2a309ce7591dff8?s=40&d=identicon)|Abstract geometry
 `monsterid`|![little monster](https://gravatar.cat.net/avatar/adb831a7fdd83dd1e2a309ce7591dff8?s=40&d=monsterid)|little monster
 `wavatar`|![A combination of different faces and backgrounds](https://gravatar.cat.net/avatar/adb831a7fdd83dd1e2a309ce7591dff8?s=40&d=wavatar)|A combination of different faces and backgrounds
-`robohash`|![a generated robot with different colors, faces, etc](https://gravatar.cat.net/avatar/00000000000000000000000000000000?d=robohash&f=y)|a generated robot with different colors, faces, etc
+`robohash`|![a generated robot with different colors, faces, etc](https://gravatar.cat.net/avatar/00000000000000000000000000000000?s=40&d=robohash&f=y)|a generated robot with different colors, faces, etc
 `retro`|![Eight-pixel retro portrait](https://gravatar.cat.net/avatar/adb831a7fdd83dd1e2a309ce7591dff8?s=40&d=retro)|Eight-pixel retro portrait
 `hide`|&nbsp;|Hidden avatar
 
