@@ -1,5 +1,5 @@
 ---
-title: 头像设置
+title: 头像配置
 ---
 Valine 目前使用的是[Gravatar][1] 作为评论列表头像。
 

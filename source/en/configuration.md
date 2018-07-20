@@ -108,6 +108,7 @@ Optional value:
 - `monsterid`
 - `wavatar`
 - `retro`
+- `robohash`
 - `hide` 
 
 See the [Avatar setting](/en/avatar.html) for more details.

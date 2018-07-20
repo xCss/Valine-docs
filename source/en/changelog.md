@@ -1,6 +1,13 @@
 ---
 title: Change Log
 ---
+
+## v1.2.6, 2018-07-20
+
+- `U` Modify button style
+- `F` Fix bug that comment box does not restore after submitting comment
+- `F` Fix bugs that can customize the font size of comments
+
 ## v1.2.4-v1.2.5, 2018-07-14
 
 - `A` New Feature: `Code highlighting` by [hanabi](https://github.com/egoist/hanabi)
