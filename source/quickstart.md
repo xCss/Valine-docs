@@ -48,9 +48,8 @@ new Valine({
     appKey: '<APP_KEY>',
     notify:false, 
     verify:false, 
-    avatar:'mm' 
-    placeholder: 'just go go',
-    path:window.location.pathname, 
+    avatar:'mm', 
+    placeholder: 'just go go' 
 });
 ```
 
