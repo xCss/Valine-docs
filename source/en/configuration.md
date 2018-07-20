@@ -103,7 +103,7 @@ Optional value:
 
 Optional value:
 - `''`(Empty string)
-- `mm`
+- `mp`
 - `identicon`
 - `monsterid`
 - `wavatar`
