@@ -28,7 +28,7 @@ Valine 目前使用的是[Gravatar][1] 作为评论列表头像。
 ```js
 new Valine({
     ...
-    avatar:'' // (''/mp/identicon/monsterid/wavatar/retro/hide)
+    avatar:'' // (''/mp/identicon/monsterid/wavatar/robohash/retro/hide)
 });
 ```
 
