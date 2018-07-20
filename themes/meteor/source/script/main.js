@@ -29,10 +29,10 @@
   }
 
   // create sub links for h2s
-  var h2s = document.querySelectorAll('h2')
+  var h2s = document.querySelectorAll('.document-formatting h2')
 
   // find all h3s and nest them under their h2s
-  var h3s = document.querySelectorAll('h3')
+  var h3s = document.querySelectorAll('.document-formatting h3')
 
   var isAfter = function(e1, e2) {
     return e1.compareDocumentPosition(e2) & Node.DOCUMENT_POSITION_FOLLOWING;
