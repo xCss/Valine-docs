@@ -2,6 +2,10 @@
 title: Change Log
 ---
 
+## v1.2.7- v1.2.8, 2018-07-23
+
+- `A` New error handling logic
+
 ## v1.2.6, 2018-07-20
 
 - `U` Modify button style
