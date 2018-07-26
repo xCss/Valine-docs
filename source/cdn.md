@@ -9,6 +9,7 @@ title: 使用 CDN
 ## 获取最新版本
 
 ``` html
+<!-- do not set the version number -->
 <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
 <!-- or set latest -->
 <script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script>
