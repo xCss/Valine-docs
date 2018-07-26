@@ -2,6 +2,11 @@
 title: Change Log
 ---
 
+## v1.2.9, 2018-07-26
+
+- `U` style optimization
+- `F` urgently restores possible `xss` security vulnerabilities in `iframe`.
+
 ## v1.2.7- v1.2.8, 2018-07-23
 
 - `A` New error handling logic

@@ -2,6 +2,11 @@
 title: 更新日志
 ---
 
+## v1.2.9, 2018-07-26
+
+- `U` 样式优化
+- `F` 紧急修复在`iframe`中可能出现的`xss`安全漏洞
+
 ## v1.2.7- v1.2.8, 2018-07-23
 
 - `A` 新的错误处理逻辑
@@ -67,13 +72,5 @@ title: 更新日志
 - `F` 修复评论区变成数字的 Bug [#89](https://github.com/xCss/Valine/issues/89) 
 - `F` 修复评论列表中日期出现 `undefined` 的 Bug
 
-
-## v1.1.9-rc1, 2018-06-15
-
-...
-
-## v1.1.9-beta9, 2018-03-29
-
-- `F` 修复 `location.href` 中含中文时出现的评论刷新消失的Bug
 
 更多[更新日志 >](https://github.com/xCss/Valine/releases)
