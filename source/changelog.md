@@ -54,23 +54,6 @@ title: 更新日志
 - `U` 修改子评论查询方式，减少80%的查询次数
 - `F` 修复 `rid` 为 `空字符串` 时数据被忽略的 Bug [#95](https://github.com/xCss/Valine/issues/95)
 
-## v1.1.9-rc3-v1.1.9, 2018-06-24
-
-- `A` 新的Emoji列表
-- `A` 新增快捷表情输入 `:smile: => 😄`  [√Emoji 对应表](https://github.com/xCss/Valine/blob/master/dist/plugins/emojis/light.json)
-- `U` 优化样式
-- `U` 修改 `子评论` 展示方式
-- `U` 精简优化代码，缩减库大小
-- `F` 修复页面中出现的 `Error 99` 错误 [#93](https://github.com/xCss/Valine/issues/93) 
-- `F` 修复某些网页中可能出现 `section` 样式被重写的问题\
-
-## v1.1.9-rc2, 2018-06-15
-
-- `A` 新增对 `MathJax` 的支持 [#67](https://github.com/xCss/Valine/issues/67) 
-- `U` 更新 `init()` 逻辑
-- `U` 更新 `init()` 状态值
-- `F` 修复评论区变成数字的 Bug [#89](https://github.com/xCss/Valine/issues/89) 
-- `F` 修复评论列表中日期出现 `undefined` 的 Bug
-
+---------------------
 
 更多[更新日志 >](https://github.com/xCss/Valine/releases)
