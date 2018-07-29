@@ -2,6 +2,13 @@
 title: Change Log
 ---
 
+## v1.3.0, 2018-07-29
+
+- `A` added `pid` field
+- `A` added `at` anchor positioning
+- `U` filters out HTML elements such as `iframe`
+- `F` BUG fix
+
 ## v1.2.9, 2018-07-26
 
 - `U` style optimization
