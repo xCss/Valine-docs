@@ -30,6 +30,5 @@ description: Valine 评论系统中的邮件提醒设置
 
 ## 第三方支持
 
-如果你对Valine自带的`邮件提醒`不是很满意，其实还使用更完善的第三方`邮件提醒`：
-- [Valine-Admin](https://github.com/panjunwen/Valine-Admin) (by [@panjunwen](https://github.com/panjunwen))
+如果你对Valine自带的`邮件提醒`不满意，其实还使用更完善的第三方`邮件提醒`：
 - [Valine-Admin](https://github.com/zhaojun1998/Valine-Admin) (by [@zhaojun1998](https://github.com/zhaojun1998/Valine-Admin))
