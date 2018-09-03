@@ -19,13 +19,13 @@ Valine会自动查找页面中`class`值为`leancloud-visitors`的元素，获�
 
 ``` html
 <!-- id 将作为查询条件 -->
-<span id="Path/Name[.html]" class="leancloud-visitors" data-flag-title="文章阅读量统计">
-    <i class="post-meta-item-text">阅读量 </i>
+<span id="<Path/Name>" class="leancloud-visitors" data-flag-title="文章阅读量统计">
+    <em class="post-meta-item-text">阅读量 </em>
     <i class="leancloud-visitors-count">1000000</i>
 </span>
 ```
 <span id="/visitor.html" class="leancloud-visitors" data-flag-title="文章阅读量统计">
-    <i class="post-meta-item-text"> 当前页访问次数 </i>
+    <em class="post-meta-item-text"> 当前页访问次数 </em>
     <i class="leancloud-visitors-count">0</i>
 </span>
 
