@@ -16,12 +16,12 @@ The web page will automatically find the element with the `class` value of `lean
 
 ``` html
 <!-- id as the query condition -->
-<span id="/visitor.html" class="leancloud-visitors" data-flag-title="文章阅读量统计">
-    <span class="post-meta-item-text">article reading statistics </span>
-    <span class="leancloud-visitors-count">1000000</span>
+<span id="<Your/Path/Name>" class="leancloud-visitors" data-flag-title="Your Article Title">
+    <em class="post-meta-item-text">article reading statistics  </em>
+    <i class="leancloud-visitors-count">1000000</i>
 </span>
 ```
 <span id="/visitor.html" class="leancloud_visitors" data-flag-title="文章阅读量统计">
-    <span class="post-meta-item-text"> article reading statistics </span>
+    <em class="post-meta-item-text"> article reading statistics </em>
     <i class="leancloud-visitors-count">0</i>
 </span>
