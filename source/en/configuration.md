@@ -158,7 +158,7 @@ If you need a custom language, please refer to [i18n](/en/i18n.html)。
 
 `Code highlighting`, it's enabled by default, please close it selectively.
 
-## avatar_force
+## avatarForce
 - Type:`Boolean`
 - Default:`false`
 - Required:`false`

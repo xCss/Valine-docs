@@ -163,7 +163,7 @@ Valine 的初始化挂载器。可以是一个`CSS 选择器`，也可以是一�
 
 `代码高亮`，默认开启，若不需要，请手动关闭
 
-## avatar_force
+## avatarForce
 - 类型: `Boolean`
 - 默认值: `false`
 - 必要性: `false`
