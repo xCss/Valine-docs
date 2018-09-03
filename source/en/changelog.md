@@ -4,20 +4,20 @@ title: Change Log
 
 ## v1.3.1, 2018-09-03
 
-- `A` added `avatarForce` field, force update avatar every time you visit
+- `A` Added `avatarForce` field, force update avatar every time you visit
 - `F` Fix bug that comment box does not reset after submitting a comment
 
 ## v1.3.0, 2018-07-29
 
-- `A` added `pid` field
-- `A` added `at` anchor positioning
-- `U` filters out HTML elements such as `iframe`
+- `A` Added `pid` field
+- `A` Added `at` anchor positioning
+- `U` Filters out HTML elements such as `iframe`
 - `F` BUG fix
 
 ## v1.2.9, 2018-07-26
 
-- `U` style optimization
-- `F` urgently restores possible `xss` security vulnerabilities in `iframe`.
+- `U` Style optimization
+- `F` Urgently restores possible `xss` security vulnerabilities in `iframe`.
 
 ## v1.2.7- v1.2.8, 2018-07-23
 
