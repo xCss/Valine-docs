@@ -157,3 +157,10 @@ If you need a custom language, please refer to [i18n](/en/i18n.html)。
 - Required:`false`
 
 `Code highlighting`, it's enabled by default, please close it selectively.
+
+## avatar_force
+- Type:`Boolean`
+- Default:`false`
+- Required:`false`
+  
+Each time you access `forced' pulls the latest avatar

@@ -2,6 +2,11 @@
 title: Change Log
 ---
 
+## v1.3.1, 2018-09-03
+
+- `A` added `avatar_force` field, force update avatar every time you visit
+- `F` Fix bug that comment box does not reset after submitting a comment
+
 ## v1.3.0, 2018-07-29
 
 - `A` added `pid` field
