@@ -20,6 +20,9 @@ title: 在Hexo 中使用
 ## hexo-theme-even
 > [Open](https://github.com/ahonn/hexo-theme-even/pull/179) `v1.1.7`
 
+## hexo-theme-material-x
+> [Supported](https://github.com/xaoxuu/hexo-theme-material-x/commit/05ba5ec30a95f4d05d69d76a99abf576304e4a6b) `latest`
+
 ## hexo-theme-Cards
 > [Supproted](https://github.com/adymilk/hexo-theme-Cards) `latest`
 
