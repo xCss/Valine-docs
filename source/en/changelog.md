@@ -2,6 +2,10 @@
 title: Change Log
 ---
 
+## v1.3.3, 2018-09-26
+
+- `F` Fix bugs that can customize `CSS`
+
 ## v1.3.1, 2018-09-03
 
 - `A` Added `avatarForce` field, force update avatar every time you visit
