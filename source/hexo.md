@@ -73,3 +73,6 @@ title: 在Hexo 中使用
 
 ## hexo-theme-snippet
 > [Resolved](https://github.com/shenliyang/hexo-theme-snippet) `v1.2.2`
+
+## hexo-theme-casper
+> [Supported](https://github.com/xzhih/hexo-theme-casper) `latest`
