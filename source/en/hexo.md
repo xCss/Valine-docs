@@ -71,3 +71,6 @@ There are a number of hexo theme built-in valine comment system, more themes are
 
 ## hexo-theme-sinppet
 > [Resolved](https://github.com/shenliyang/hexo-theme-snippet) `v1.2.2`
+
+## hexo-theme-casper
+> [Supported](https://github.com/xzhih/hexo-theme-casper) `latest`
