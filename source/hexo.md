@@ -14,6 +14,9 @@ title: 在Hexo 中使用
 ## hexo-theme-spfk
 > [Open](https://github.com/luuman/hexo-theme-spfk/pull/77) `latest`
 
+## hexo-them-ochuunn
+> [Open](https://github.com/ochukai/hexo-theme-ochuunn) `latest`
+
 ## cactus-dark
 > [Open](https://github.com/probberechts/cactus-dark/pull/54) `latest`
 
