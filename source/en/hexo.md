@@ -15,6 +15,9 @@ There are a number of hexo theme built-in valine comment system, more themes are
 ## cactus-dark
 > [Open](https://github.com/probberechts/cactus-dark/pull/54) `latest`
 
+## hexo-them-ochuunn
+> [Open](https://github.com/ochukai/hexo-theme-ochuunn) `latest`
+
 ## hexo-theme-yilia
 > [Open](https://github.com/litten/hexo-theme-yilia/pull/646) `latest`
 
