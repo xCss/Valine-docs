@@ -2,6 +2,11 @@
 title: Change Log
 ---
 
+## v1.3.4, 2018-11-24
+- `F` Fix `xss` security vulnerabilities in `img`.
+- `F` Fix `xss` security vulnerabilities in `embed`.
+- `F` Fix bug that comment box content does not restore.
+
 ## v1.3.3, 2018-09-26
 
 - `F` Fix bugs that can customize `CSS`
