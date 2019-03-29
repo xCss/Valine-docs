@@ -2,10 +2,10 @@
 title: Change Log
 ---
 ## v1.3.5, 2019-03-29
-`A` Added privacy protection: remove sensitive (E-mail) data from the page
-`A` Add `recordIP` attribute (`Boolean`): Add IP statistics by [@Showfom](https://github.com/Showfom) [#160](https://github.com/xCss/Valine/issues/160) 
-`U` Some style modifications
-`U` Code logic optimization
+- `A` Added privacy protection: remove sensitive (E-mail) data from the page
+- `A` Add `recordIP` attribute (`Boolean`): Add IP statistics by [@Showfom](https://github.com/Showfom) [#160](https://github.com/xCss/Valine/issues/160) 
+- `U` Some style modifications
+- `U` Code logic optimization
 
 ## v1.3.4, 2018-11-24
 - `F` Fix `xss` security vulnerabilities in `img`.
