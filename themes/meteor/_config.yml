@@ -57,6 +57,7 @@ sidebar:
     - i18n
     - visitor
   Other:
+    - jekyll
     - hexo
     - cdn
     - contact
