@@ -163,4 +163,11 @@ If you need a custom language, please refer to [i18n](/en/i18n.html)。
 - Default:`false`
 - Required:`false`
   
-Each time you access `forced` pulls the latest avatar
+Each time you access `forced` pulls the latest avatar.
+
+## recordIP
+- Type:`Boolean`
+- Default:`false`
+- Required:`false`
+
+Record reviewer IP.

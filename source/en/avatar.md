@@ -7,7 +7,7 @@ Has `seven` optional values:
 value|style|memo
 :-:|:-:|-
 Empty string:`''`|![Gravatar official graphics](https://gravatar.cat.net/avatar/adb831a7fdd83dd1e2a309ce7591dff8?s=40)|Gravatar official graphics
-`mm`|![Mystic man (a grayhead)](https://gravatar.cat.net/avatar/adb831a7fdd83dd1e2a309ce7591dff8?s=40&d=mp)|Mystic man (a grayhead)
+`mp`|![Mystic man (a grayhead)](https://gravatar.cat.net/avatar/adb831a7fdd83dd1e2a309ce7591dff8?s=40&d=mp)|Mystic man (a grayhead)
 `identicon`|![Abstract geometry](https://gravatar.cat.net/avatar/adb831a7fdd83dd1e2a309ce7591dff8?s=40&d=identicon)|Abstract geometry
 `monsterid`|![little monster](https://gravatar.cat.net/avatar/adb831a7fdd83dd1e2a309ce7591dff8?s=40&d=monsterid)|little monster
 `wavatar`|![A combination of different faces and backgrounds](https://gravatar.cat.net/avatar/adb831a7fdd83dd1e2a309ce7591dff8?s=40&d=wavatar)|A combination of different faces and backgrounds

@@ -1,6 +1,11 @@
 ---
 title: 更新日志
 ---
+## v1.3.5, 2019-03-29
+`A` 新增隐私保护：移除页面中的敏感(E-mail)数据 
+`A` 新增`recordIP` 属性(`Boolean`)：增加IP统计 by [@Showfom](https://github.com/Showfom) [#160](https://github.com/xCss/Valine/issues/160) 
+`U` 一些样式修改
+`U` 代码逻辑优化
 
 ## v1.3.4, 2018-11-24
 - `F` 修复`img`的`xss`安全漏洞
