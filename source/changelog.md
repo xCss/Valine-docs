@@ -3,7 +3,7 @@ title: 更新日志
 ---
 ## v1.3.6, 2019-04-01
 - `F` 修复代码高亮失败的 `Bug`
-- `F` 修复以前可以使用`Pjax`而`v1.3.5`版本失败的 `Bug` by [@sxyugao](https://github.com/sxyugao) 
+- `F` 修复以前可以使用`Pjax`而`v1.3.5`版本失败的 `Bug` by [@sxyugao](https://github.com/sxyugao)
 - `F` 修复评论内容中点击 `@NickName` 而跳转到新页面的 `Bug`
 - `F` 其他 `Bug` 修复
 
@@ -26,6 +26,14 @@ title: 更新日志
 
 - `A` 新增 `avatarForce` 字段，每次访问强制拉取最新的`评论列表头像`
 - `F` 修复提交评论后，评论框不重置的 Bug
+
+## v1.3.0, 2018-07-29
+
+- `A` 新增 `pid` 字段
+- `A` 新增`at`锚点定位
+- `U` 过滤掉 `iframe` 等HTML元素
+- `F` BUG 修复
+
 
 ---------------------
 
