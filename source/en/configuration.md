@@ -171,3 +171,5 @@ Each time you access `forced` pulls the latest avatar.
 - Required:`false`
 
 Record reviewer IP.
+
+> `v1.3.5+`
