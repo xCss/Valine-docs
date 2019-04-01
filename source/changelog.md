@@ -2,8 +2,8 @@
 title: 更新日志
 ---
 ## v1.3.6, 2019-04-01
-- `F` 修复代码高亮失败的 `Bug`
-- `F` 修复以前可以使用`Pjax`而`v1.3.5`版本失败的 `Bug` by [@sxyugao](https://github.com/sxyugao)
+- `F` 修复代码高亮失效的 `Bug`
+- `F` 修复以前可以使用`Pjax`而`v1.3.5`版本失效的 `Bug` (感谢小伙伴 [@sxyugao](https://github.com/sxyugao) 提供的建议)
 - `F` 修复评论内容中点击 `@NickName` 而跳转到新页面的 `Bug`
 - `F` 其他 `Bug` 修复
 
