@@ -38,3 +38,5 @@ title: 更新日志
 ---------------------
 
 更多[更新日志 >](https://github.com/xCss/Valine/releases)
+
+---------------------

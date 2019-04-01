@@ -34,6 +34,9 @@ title: Change Log
 - `U` Filters out HTML elements such as `iframe`
 - `F` BUG fix
 
----------------
+---------------------
 
 [more logs >](https://github.com/xCss/Valine/releases)
+
+
+---------------------
