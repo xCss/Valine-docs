@@ -5,7 +5,7 @@ title: Change Log
 - `F` Fix Code Highlighting Failure `Bug`
 - `F` Fix `Bug` by [@sxyugao](https://github.com/sxyugao) that previously failed to use `Pjax` and `v1.3.5`
 - `F` Fix the comment content by clicking `@NickName` and jumping to the new page `Bug`
-- `F` other `Bug` fixes
+- `F` Other `Bug` fixes
 
 ## v1.3.5, 2019-03-29
 - `A` Added privacy protection: remove sensitive (E-mail) data from the page
