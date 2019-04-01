@@ -48,7 +48,7 @@ new Valine({
     appKey: '<APP_KEY>',
     notify:false, 
     verify:false, 
-    avatar:'mm', 
+    avatar:'mp', 
     placeholder: 'just go go' 
 });
 ```
