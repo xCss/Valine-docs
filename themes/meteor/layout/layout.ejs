@@ -50,6 +50,16 @@
     
     <script src='//unpkg.com/hanabi@0.4.0/dist/hanabi.min.js' ></script>
 
+    <% if(theme.ad && theme.ad.enable) { %>
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-3540467103914375",
+            enable_page_level_ads: true
+          });
+        </script>
+        <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"> </script>
+    <% } %>
   </head>
   <body class="">
     <%- body %>
@@ -64,15 +74,6 @@
 
     <script type="text/javascript" src="//cdn.jsdelivr.net/fastclick/1.0.6/fastclick.min.js"></script>
 
-    <% if(theme.ad && theme.ad.enable) { %>
-          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-          <script>
-            (adsbygoogle = window.adsbygoogle || []).push({
-              google_ad_client: "ca-pub-3540467103914375",
-              enable_page_level_ads: true
-            });
-          </script>
-        <% } %>
         
     <% if (theme.apis && theme.apis.ga) { %>
       <script>
