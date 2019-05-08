@@ -8,3 +8,8 @@ title: 在Jekyll中使用
 
 ## staticblog.github.io
 > [Supported](https://github.com/staticblog/staticblog.github.io/pull/39) `latest`
+
+## eillon.github.io
+> [Blog](https://eillon.github.io) 展示Valine实例
+
+> [Repository](https://github.com/eillon/eillon.github.io) 代码仓库
