@@ -8,6 +8,9 @@ description: Valine - 一款快速、简洁且高效的无后端评论系统。
 
 > 由于LeanCloud国内域名解析问题，造成LeanCloud相关API不可用。Valine目前版本的数据存储全依托于LeanCloud，也受到此次事故波及。
 > 目前Valine已更新到[v1.3.7](/changelog.html) ，用于修复LeanCloud服务不可用的问题。
+> 新版Valine会自动引入`av-min.js`，如果你使用的是Valine的[CDN](/cdn.html)，那么请删除网页中原有`av-min.js`的引用代码。
+> 如果你使用的是本地路径，请下载[Valine.min.js](https://raw.githubusercontent.com/xCss/Valine/master/dist/Valine.min.js)自行替换，然后删除`av-min.js`的引用代码。
+> Good Lucky!
 
 Valine 诞生于2017年8月7日，是一款基于[LeanCloud](https://leancloud.cn)的快速、简洁且高效的无后端评论系统。  
 
