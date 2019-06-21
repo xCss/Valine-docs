@@ -7,7 +7,7 @@ description: Valine 评论系统中的邮件提醒设置
 
 进入`Leancloud`>选择你的评论所存放的`应用`>`设置`>`邮件模板`，按下图设置好用于`重置密码`的邮件主题>然后保存:
 
-![](https://ws1.sinaimg.cn/large/006qRazegy1fiht7mk8cqj311y0di0uj.jpg)
+![](https://i.loli.net/2019/06/21/5d0c9a81bf9e219729.jpg)
 
 > **注**：请注意修改链接为你的`博客`或者`网站首页`。
 
