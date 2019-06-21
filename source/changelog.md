@@ -1,6 +1,11 @@
 ---
 title: 更新日志
 ---
+## v1.3.7, 2019-06-21  
+- `A` 新增`clazzName`字段，自定义配置LeanCloud表名 [#162](https://github.com/xCss/Valine/issues/162)
+- `F` **修复LeanCloud服务不可访问问题**
+- `F` 修复待办事项列表渲染`Bug` [#182](https://github.com/xCss/Valine/issues/182)
+- `F` 尝试性修复字体大小问题 [#175](https://github.com/xCss/Valine/issues/175)
 ## v1.3.6, 2019-04-01
 - `F` 修复代码高亮失效的 `Bug`
 - `F` 修复以前可以使用`Pjax`而`v1.3.5`版本失效的 `Bug` (感谢小伙伴 [@sxyugao](https://github.com/sxyugao) 提供的建议)
