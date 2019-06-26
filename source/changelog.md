@@ -1,6 +1,12 @@
 ---
 title: 更新日志
 ---
+## v1.3.8, 2019-06-26  
+- `A` 新的SDK加载逻辑
+- `F` 修复`字体样式`/`待办事项`渲染问题 [#175](https://github.com/xCss/Valine/issues/175) [#182](https://github.com/xCss/Valine/issues/182) 
+- `F` 修复各节点无法访问的Bug [#188](https://github.com/xCss/Valine/issues/188) [#189](https://github.com/xCss/Valine/issues/189) [#190](https://github.com/xCss/Valine/issues/190) 
+- `F` 其他 Bug 修复
+
 ## v1.3.7, 2019-06-21  
 - `A` 新增`clazzName`字段，自定义配置LeanCloud表名 [#162](https://github.com/xCss/Valine/issues/162)
 - `F` **修复LeanCloud服务不可访问问题**
