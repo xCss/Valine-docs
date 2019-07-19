@@ -82,3 +82,6 @@ title: 在Hexo 中使用
 
 ## hexo-theme-casper
 > [Supported](https://github.com/xzhih/hexo-theme-casper) `latest`
+
+## hexo-theme-adagio
+> [Merged](https://github.com/Hanlin-Dong/hexo-theme-adagio) `latest`
