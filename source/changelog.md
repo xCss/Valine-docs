@@ -1,10 +1,18 @@
 ---
 title: 更新日志
 ---
-## v1.3.8, 2019-06-26  
+## v1.3.10, 2019-08-29  
+- `A` 新的SDK加载逻辑
+- `A` 新增**可选**配置项`serverURLs`，默认`http://自动检测节点.avoscloud.com` [#206](https://github.com/xCss/Valine/issues/206) [#203](https://github.com/xCss/Valine/issues/203) [#194](https://github.com/xCss/Valine/issues/194)
+- `F` 修复列表页阅读量统计失效BUG [#136](https://github.com/xCss/Valine/issues/136) 
+- `F` 其他BUG修复
+
+
+## v1.3.8,v1.3.9, 2019-06-26  
 - `A` 新的SDK加载逻辑
 - `F` 修复`字体样式`/`待办事项`渲染问题 [#175](https://github.com/xCss/Valine/issues/175) [#182](https://github.com/xCss/Valine/issues/182) 
 - `F` 修复各节点无法访问的Bug [#188](https://github.com/xCss/Valine/issues/188) [#189](https://github.com/xCss/Valine/issues/189) [#190](https://github.com/xCss/Valine/issues/190) 
+- `F` 紧急修复`无回复按钮` Bug
 - `F` 其他 Bug 修复
 
 ## v1.3.7, 2019-06-21  
