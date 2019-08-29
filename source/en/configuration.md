@@ -173,3 +173,10 @@ Each time you access `forced` pulls the latest avatar.
 Record reviewer IP.
 
 > `v1.3.5+`
+
+## serverURLs  
+- Type: `Boolean`
+- Default: `[tab/us].avoscloud.com`
+- Required: `false`
+
+> ⚠️ This configuration is suitable for domestic `custom domain name` users, `overseas version` will be automatically detected (no need to manually fill in) `v1.3.10+`
