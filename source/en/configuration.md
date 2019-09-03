@@ -175,7 +175,7 @@ Record reviewer IP.
 > `v1.3.5+`
 
 ## serverURLs  
-- Type: `Boolean`
+- Type: `String`
 - Default: `[tab/us].avoscloud.com`
 - Required: `false`
 
