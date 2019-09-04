@@ -183,7 +183,7 @@ Valine 的初始化挂载器。可以是一个`CSS 选择器`，也可以是一�
 
 ## serverURLs  
 - 类型: `String`
-- 默认值: `[tab/us].avoscloud.com`
+- 默认值: `http[s]://[tab/us].avoscloud.com`
 - 必要性: `false`
 
 > ⚠️ 该配置适用于国内`自定义域名`用户, `海外版本`会自动检测(无需手动填写) `v1.3.10+`

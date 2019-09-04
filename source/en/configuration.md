@@ -176,7 +176,7 @@ Record reviewer IP.
 
 ## serverURLs  
 - Type: `String`
-- Default: `[tab/us].avoscloud.com`
+- Default: `http[s]://[tab/us].avoscloud.com`
 - Required: `false`
 
 > ⚠️ This configuration is suitable for domestic `custom domain name` users, `overseas version` will be automatically detected (no need to manually fill in) `v1.3.10+`
