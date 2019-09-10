@@ -5,6 +5,9 @@ title: 在Hexo 中使用
 
 当然，我们也欢迎更多开发者自主的提交PR 😄
 
+## hexo-theme-matery
+> [Supported](https://github.com/blinkfox/hexo-theme-matery) `latest`
+
 ## hexo-theme-stun
 > [Supported](https://github.com/liuyib/hexo-theme-stun/commit/170fcb38f939851971fc756f03ffd8f01f7a49a3) `latest`
 
