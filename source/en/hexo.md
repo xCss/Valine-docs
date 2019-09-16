@@ -3,6 +3,9 @@ title: Used in Hexo
 ---
 There are a number of hexo theme built-in valine comment system, more themes are gradually increasing.
 
+## hexo-theme-matery
+> [Supported](https://github.com/blinkfox/hexo-theme-matery) `latest`
+
 ## hexo-theme-stun
 > [Supported](https://github.com/liuyib/hexo-theme-stun/commit/170fcb38f939851971fc756f03ffd8f01f7a49a3) `latest`
 
