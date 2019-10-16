@@ -1,26 +1,26 @@
 ---
-title: 在VuePress中使用
+title: Use in Vuepress
 ---
 
-目前，[vuepress-plugin-comment](https://github.com/dongyuanxin/vuepress-plugin-comment) 支持在 Vuepress 中使用 Valine，自动管理 SPA路由 相关的工作。
+Now, [vuepress-plugin-comment](https://github.com/dongyuanxin/vuepress-plugin-comment) has supported to use Valine in Vuepress. And it will manage h5 route automaticly.
 
-## 安装 
+## Install
 
-如果使用 `npm`：
+If `npm`：
 
 ```sh
 npm install --save vuepress-plugin-comment
 ```
 
-如果使用 `yarn`:
+If `yarn`:
 
 ```sh
 yarn add vuepress-plugin-comment -D
 ```
 
-## 快速使用
+## Quick Start
 
-将 `vuepress-plugin-comment` 添加到vuepress项目的插件配置中：
+Add `vuepress-plugin-comment` to Vuepress project configuration file:
 
 ```javascript
 module.exports = {
@@ -41,6 +41,6 @@ module.exports = {
 }
 ```
 
-## 进阶用法
+## Advanced 
 
 - [docs](https://www.npmjs.com/package/vuepress-plugin-comment)
