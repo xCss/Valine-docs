@@ -59,6 +59,7 @@ sidebar:
   Other:
     - jekyll
     - hexo
+    - vuepress
     - cdn
     - contact
     - faq
