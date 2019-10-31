@@ -86,3 +86,6 @@ There are a number of hexo theme built-in valine comment system, more themes are
 
 ## hexo-theme-casper
 > [Supported](https://github.com/xzhih/hexo-theme-casper) `latest`
+
+## hexo-theme-snark
+> [Supported](https://github.com/Litreily/hexo-theme-snark) `latest`
