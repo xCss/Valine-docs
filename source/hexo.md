@@ -75,7 +75,7 @@ title: 在Hexo 中使用
 > [Merged](https://github.com/Halyul/hexo-theme-mdui/pull/74) `latest`
 
 ## hexo-theme-next
-> [Merged](https://github.com/iissnan/hexo-theme-next/pull/1983) `latest`
+> [Merged](https://github.com/theme-next/hexo-theme-next/pull/345) `latest`
 
 ## hexo-theme-material
 > [Merged](https://github.com/viosey/hexo-theme-material/pull/558) `latest`
