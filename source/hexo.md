@@ -94,3 +94,6 @@ title: 在Hexo 中使用
 
 ## hexo-theme-adagio
 > [Merged](https://github.com/Hanlin-Dong/hexo-theme-adagio) `latest`
+
+## hexo-theme-fluid
+> [Supported](https://github.com/fluid-dev/hexo-theme-fluid) `latest`
