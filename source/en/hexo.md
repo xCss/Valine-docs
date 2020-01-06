@@ -89,3 +89,6 @@ There are a number of hexo theme built-in valine comment system, more themes are
 
 ## hexo-theme-fluid
 > [Supported](https://github.com/fluid-dev/hexo-theme-fluid) `latest`
+
+## hexo-theme-freemind.bithack
+> [Supported](https://github.com/Ares-X/hexo-theme-freemind.bithack) `latest`
