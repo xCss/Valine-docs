@@ -97,3 +97,6 @@ title: 在Hexo 中使用
 
 ## hexo-theme-fluid
 > [Supported](https://github.com/fluid-dev/hexo-theme-fluid) `latest`
+
+## hexo-theme-freemind.bithack
+> [Supported](https://github.com/Ares-X/hexo-theme-freemind.bithack) `latest`
