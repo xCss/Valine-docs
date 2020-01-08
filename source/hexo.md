@@ -75,7 +75,7 @@ title: 在Hexo 中使用
 > [Merged](https://github.com/Halyul/hexo-theme-mdui/pull/74) `latest`
 
 ## hexo-theme-next
-> [Merged](https://github.com/iissnan/hexo-theme-next/pull/1983) `latest`
+> [Merged](https://github.com/theme-next/hexo-theme-next/pull/345) `latest`
 
 ## hexo-theme-material
 > [Merged](https://github.com/viosey/hexo-theme-material/pull/558) `latest`
@@ -94,3 +94,9 @@ title: 在Hexo 中使用
 
 ## hexo-theme-adagio
 > [Merged](https://github.com/Hanlin-Dong/hexo-theme-adagio) `latest`
+
+## hexo-theme-fluid
+> [Supported](https://github.com/fluid-dev/hexo-theme-fluid) `latest`
+
+## hexo-theme-freemind.bithack
+> [Supported](https://github.com/Ares-X/hexo-theme-freemind.bithack) `latest`
