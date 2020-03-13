@@ -100,3 +100,6 @@ title: 在Hexo 中使用
 
 ## hexo-theme-freemind.bithack
 > [Supported](https://github.com/Ares-X/hexo-theme-freemind.bithack) `latest`
+
+## hexo-theme-yun
+> [Supported](https://github.com/YunYouJun/hexo-theme-yun) `latest`
