@@ -70,7 +70,8 @@ valine:
   appKey: iuneD4hXPQImdHQSRE0aOcRF
   notify: true
   placeholder: Just Go Go.
-  avatar: mm 
+  avatar: mp
+  cdn: /script/Valine.min.js # https://cdn.jsdelivr.net/npm/valine
   
 
 
