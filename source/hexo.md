@@ -26,6 +26,9 @@ title: 在Hexo 中使用
 ## cactus-dark
 > [Open](https://github.com/probberechts/cactus-dark/pull/54) `latest`
 
+## cactus-white-cn
+> [Open](https://github.com/xuthus5/hexo-theme-cactus) `latest`
+
 ## hexo-theme-yilia
 > [Open](https://github.com/litten/hexo-theme-yilia/pull/646) `latest`
 
