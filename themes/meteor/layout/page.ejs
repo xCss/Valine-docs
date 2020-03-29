@@ -162,13 +162,13 @@
                 el: '.vcomment',
                 appId: '<%- theme.valine.appId %>',
                 appKey: '<%- theme.valine.appKey %>',
-                notify: <%- theme.valine.notify %>,
                 placeholder: '<%- theme.valine.placeholder %>',
                 avatar:'<%- theme.valine.avatar %>',
                 path:path,
                 recordIP:true,
                 lang: isEN ? 'en' : 'zh-cn',
-                visitor:true
+                visitor:true,
+                mathJax: true
             })
           </script>
         <% } %>
