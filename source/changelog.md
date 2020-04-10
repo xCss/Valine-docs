@@ -1,6 +1,21 @@
 ---
 title: 更新日志
 ---
+## v1.4.0, 2019-04-10  
+- `A` 新的SDK加载逻辑
+- `A` 新增图片`表情`
+- `A` 新增`截图粘贴`上传
+- `A` 新增`图片拖拽至评论框`上传
+- `A` 新增对`MathJax`的支持
+- `A` 新增评论框`楼内回复`
+- `A` 新增对`夜间模式`的支持
+- `A` 全新的评论区UI界面
+- `A` 新增对`zh-CN/zh-TW/en/jp`等多国语言的支持
+- `F` 修复回复评论时评论数据需要刷新才会显示的`Bug`
+- `F` 修复`表情`和`预览`只能点开不能收回的`Bug`
+- `U` 删除对自带的`邮件提醒`支持
+- `U` 代码逻辑优化
+
 ## v1.3.10, 2019-08-29  
 - `A` 新的SDK加载逻辑
 - `A` 新增**可选**配置项`serverURLs`，默认`http://自动检测节点.avoscloud.com` [#206](https://github.com/xCss/Valine/issues/206) [#203](https://github.com/xCss/Valine/issues/203) [#194](https://github.com/xCss/Valine/issues/194)

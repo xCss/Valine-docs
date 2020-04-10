@@ -1,6 +1,22 @@
 ---
 title: Change Log
 ---
+## v1.4.0, 2019-04-10  
+- `A` New SDK loading logic
+- `A` New picture `expressions`
+- `A` Added `screenshot paste` upload
+- `A` Add `Image Drag and Drop to Comment Box` Upload
+- `A` Add support for `MathJax`
+- `A` New comment box `Floor response`
+- `A` New support for `night mode`
+- `A` New UI interface for the comments area
+- `A` Added support for multilingualism such as `zh-CN/zh-TW/en/jp`
+- `F` Fix `Bug` where comment data needs to be refreshed to display when replying to a comment
+- `F` Fix `Emoji` and `Preview` `Bug` that can only be opened and not retracted.
+- `U` Remove support for self-contained `mail alerts`
+- `U` Code logic optimization
+
+
 ## v1.3.6, 2019-04-01
 - `F` Fix Code Highlighting Failure `Bug`
 - `F` Fix `Bug` by [@sxyugao](https://github.com/sxyugao) that previously failed to use `Pjax` and `v1.3.5`

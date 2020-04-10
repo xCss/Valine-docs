@@ -180,3 +180,13 @@ Record reviewer IP.
 - Required: `false`
 
 > ⚠️ This configuration is suitable for domestic `custom domain name` users, `overseas version` will be automatically detected (no need to manually fill in) `v1.3.10+`
+
+
+## mathJax
+- Type: `Boolean`
+- Default: `false`
+- Required: `false`
+
+Enable or disable `MathJax`
+
+> `v1.4.0+`
