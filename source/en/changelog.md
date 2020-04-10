@@ -1,7 +1,7 @@
 ---
 title: Change Log
 ---
-## v1.4.0, 2019-04-11  
+## v1.4.0,v1.4.1, 2020-04-11  
 - `A` New SDK loading logic
 - `A` New picture `expressions`
 - `A` Added `screenshot paste` upload
