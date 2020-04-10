@@ -71,19 +71,22 @@ Valine 的初始化挂载器。可以是一个`CSS 选择器`，也可以是一�
 
 评论框`占位提示符`。
 
-## notify
+## <del>notify</del>
 - 类型:`Boolean`
 - 默认值:`false`
 - 必要性:`false`
 
-评论回复邮件提醒，请参考[配置](https://github.com/xCss/Valine/wiki/Valine-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E4%B8%AD%E7%9A%84%E9%82%AE%E4%BB%B6%E6%8F%90%E9%86%92%E8%AE%BE%E7%BD%AE)。
+> `v1.4.0+` 已废弃
 
-## verify
+
+## <del>verify</del>
 - 类型:`Boolean`
 - 默认值:`false`
 - 必要性:`false`
 
 验证码服务。
+
+> `v1.4.0+` 已废弃
 
 
 ## path
@@ -138,14 +141,16 @@ Valine 的初始化挂载器。可以是一个`CSS 选择器`，也可以是一�
 
 ## lang
 - 类型:`String`
-- 默认值:`zh-cn`
+- 默认值:`zh-CN`
 - 必要性:`false`
 
 多语言支持。
 
 可选值：
-- `zh-cn`
+- `zh-CN`
+- `zh-TW`
 - `en`
+- `ja`
 
 如需自定义语言，请参考[i18n](/i18n.html)。
 
