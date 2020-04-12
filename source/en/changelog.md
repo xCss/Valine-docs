@@ -28,6 +28,8 @@ title: Change Log
 - `U` Delete the accompanying `mail alert` [#20](https://github.com/xCss/Valine/issues/20)
 - `U` Code logic optimization
 
+> `Note`: `MathJax` and `KaTex` require the current page to be loaded and configured with the relevant resource files.
+
 
 ## v1.3.6, 2019-04-01
 - `F` Fix Code Highlighting Failure `Bug`

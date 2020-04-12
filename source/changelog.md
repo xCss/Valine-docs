@@ -28,6 +28,8 @@ title: 更新日志
 - `U` 删除自带的`邮件提醒` [#20](https://github.com/xCss/Valine/issues/20)
 - `U` 代码逻辑优化
 
+> `注`: `MathJax` 和 `KaTex` 需要当前页面已加载并配置好相关的资源文件.
+
 ## v1.3.10, 2019-08-29  
 - `A` 新的SDK加载逻辑
 - `A` 新增**可选**配置项`serverURLs`，默认`http://自动检测节点.avoscloud.com` [#206](https://github.com/xCss/Valine/issues/206) [#203](https://github.com/xCss/Valine/issues/203) [#194](https://github.com/xCss/Valine/issues/194)
