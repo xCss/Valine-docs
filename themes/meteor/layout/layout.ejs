@@ -36,10 +36,11 @@
     <meta name="twitter:image" content="<%- config.logo && config.logo.desktop || theme.logo.desktop %>">
     
     <meta name="description" content="Valine - 一款快速、简洁且高效的无后端社会化评论系统。" />
-    <meta name="keywords" content="评论系统,Valine,Valine 评论系统, 社会化评论系统, 快速,简洁,高效,快速简洁高效的评论系统,无后端评论系统" />
+    <meta name="keywords" content="评论系统,Valine,Valine评论系统, 社会化评论系统, 快速,简洁,高效,快速简洁高效的评论系统,无后端评论系统" />
     <!-- Misc -->
     <meta name="google-site-verification" content="" />
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+    
     <% 
       var css_bundle = config.css_bundle || theme.css_bundle;
     %>
@@ -178,5 +179,24 @@
       </script>
     <% } %>
     
+    <script async src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+    onload="renderMathInElement(document.body,{delimiters:[{left: '$$', right: '$$', display: true},{left: '$', right: '$', display: false}]});"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
+    <script>
+      window['MathJax'] = {
+          tex: {
+            inlineMath: [ ['$','$']],
+          },
+          svg: {
+            fontCache: 'global'
+          }
+      };
+      try {(new Function("'use strict'; let a; const b = 2;"))()} catch (e) {
+        var polyfill = document.createElement("script");
+          polyfill.src = "https://polyfill.io/v3/polyfill.min.js?features=es5%2Ces6%2Ces7%2CArray.prototype.forEach%2CElement.prototype.closest'";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(polyfill, s);
+      }
+    </script>
   </body>
 </html>
