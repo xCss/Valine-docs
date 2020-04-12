@@ -21,6 +21,6 @@ Empty string:`''`|![Gravatar official graphics](https://gravatar.cat.net/avatar/
 ```js
 new Valine({
     ...
-    avatar:'' // (''/mm/identicon/monsterid/wavatar/robohash/retro/hide)
+    avatar:'' // (''/mp/identicon/monsterid/wavatar/robohash/retro/hide)
 });
 ```
