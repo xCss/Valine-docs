@@ -3,6 +3,8 @@ title: 介绍
 description: Valine - 一款快速、简洁且高效的无后端评论系统。
 ---
 
+> 由于某些原因，`src目录`将从`v1.4.0`后暂停更新.  
+
 [![version](https://img.shields.io/github/release/xCss/Valine.svg?style=flat-square)](https://github.com/xCss/Valine/releases)
 [![npm downloads](https://img.shields.io/npm/dm/valine.svg?style=flat-square)](https://www.npmjs.com/package/valine)
 [![build](https://img.shields.io/circleci/project/github/xCss/Valine/master.svg?style=flat-square)](https://circleci.com/gh/xCss/Valine)
@@ -18,7 +20,7 @@ Valine 诞生于2017年8月7日，是一款基于[LeanCloud](https://leancloud.c
 - Emoji 😉
 - 无后端实现
 - MarkDown 全语法支持
-- 轻量易用(~15kb gzipped)
+- 轻量易用
 - [文章阅读量统计](/visitor.html) `v1.2.0+`
 
 ## Todo
