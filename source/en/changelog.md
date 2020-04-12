@@ -9,22 +9,24 @@ title: Change Log
 - `A` Added `screenshot paste` upload
 - `A` Add `Image Drag and Drop to Comment Box` Upload
 - `A` Add support for `MathJax`
+- `A` Additional support for `KaTex`
 - `A` New comment box `Floor response`
 - `A` New support for `dark mode` [#221](https://github.com/xCss/Valine/issues/221)
 - `A` New UI interface for the comments area 
 - `A` Added support for multilingualism such as `zh-CN/zh-TW/en/jp`
-- `F` Fix `Bug` that requires comment data to be refreshed to display when replying to comments [#257](https://github.com/xCss/Valine/issues/257) 
+- `F` Fix `Bug` [#257](https://github.com/xCss/Valine/issues/257) that requires comment data to be refreshed to display when replying to comments
 - `F` Fix `Emoji` and `Preview` `Bug` that can only be opened and not retrieved [#254](https://github.com/xCss/Valine/issues/254)
-- `F` Fix `Bug` for recognizing `Edge browser` as `Chrome` [#250](https://github.com/xCss/Valine/issues/250)
+- `F` Fix `Bug` for `Edge browser` recognition as `Chrome` [#250](https://github.com/xCss/Valine/issues/250)
 - `F` Fix `Bug` for `Storage is not defined` [#242](https://github.com/xCss/Valine/issues/242)
 - `F` Fix possible `xss vulnerabilities` [#218](https://github.com/xCss/Valine/issues/218)
 - `F` Fix pagination `Bug` [#196](https://github.com/xCss/Valine/issues/196)
 - `F` Fix `click` to expand more `bug` hits [#180](https://github.com/xCss/Valine/issues/180)
-- `U` Removal of captcha [#207](https://github.com/xCss/Valine/issues/207)
-- `U` Remove support for built-in `mail notify` [#20](https://github.com/xCss/Valine/issues/20)
+- `F` Fix `Bug` for individual UA identification failure
+- `F` Fix `Bug` where the number of comments changed to 1 after replying to a comment [#264](https://github.com/xCss/Valine/issues/264) 
+- `U` expression picture lazy loading [#261](https://github.com/xCss/Valine/issues/261) 
+- `U` Delete `certification code` [#207](https://github.com/xCss/Valine/issues/207)
+- `U` Delete the accompanying `mail alert` [#20](https://github.com/xCss/Valine/issues/20)
 - `U` Code logic optimization
-
-Translated with www.DeepL.com/Translator (free version)
 
 
 ## v1.3.6, 2019-04-01
