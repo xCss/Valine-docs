@@ -186,7 +186,15 @@
       window['MathJax'] = {
           tex: {
             inlineMath: [ ['$','$']],
+            autoload: {
+                verb: ['verb'],
+                color: [],
+                colorV2: ['color'],
+                require:['require']
+            },
+            packages: {'[+]': ['braket']}
           },
+          loader: {load: ['[tex]/braket']},
           svg: {
             fontCache: 'global'
           }
