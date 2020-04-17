@@ -152,11 +152,10 @@
           
           <script src="<%= theme.valine.cdn %>"></script>
           <script>
-            var valine = new Valine();
             var path = window.location.pathname.replace('index.html','');
             var isEN = path.indexOf('en') > -1;
             path = isEN ? path.replace('en/','') : path;
-            valine.init({
+            new Valine({
                 el: '.vcomment',
                 appId: '<%- theme.valine.appId %>',
                 appKey: '<%- theme.valine.appKey %>',

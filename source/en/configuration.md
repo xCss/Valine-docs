@@ -67,20 +67,23 @@ Optional value:
 
 Comment box placeholders.
 
-## notify
+## <del>notify</del>
 - Type:`Boolean`
 - Default:`false`
 - Required:`false`
 
 Mail notifier, Please refer to the [configuration](https://github.com/xCss/Valine/wiki/Valine-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E4%B8%AD%E7%9A%84%E9%82%AE%E4%BB%B6%E6%8F%90%E9%86%92%E8%AE%BE%E7%BD%AE).
 
+> `v1.4.0+` Deprecated configurations
 
-## verify
+## <del>verify</del>
 - Type:`Boolean`
 - Default:`false`
 - Required:`false`
 
 Validation code.
+
+> `v1.4.0+` Deprecated configurations
 
 ## path
 - Type:`String`
@@ -131,14 +134,16 @@ Number of pages per page.
 
 ## lang
 - Type:`String`
-- Default:`zh-cn`
+- Default:`zh-CN`
 - Required:`false`
 
 Multilingual support.
 
 Optional value：
-- `zh-cn`
+- `zh-CN`
+- `zh-TW`
 - `en`
+- `ja`
 
 If you need a custom language, please refer to [i18n](/en/i18n.html)。
 
@@ -180,3 +185,4 @@ Record reviewer IP.
 - Required: `false`
 
 > ⚠️ This configuration is suitable for domestic `custom domain name` users, `overseas version` will be automatically detected (no need to manually fill in) `v1.3.10+`
+

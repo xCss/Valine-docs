@@ -2,6 +2,9 @@
 title: Introduction
 description: Valine - A fast, simple & powerful comment system.
 ---
+
+> For some reason, the `src directory` will be suspended from updating after `v1.4.0`.
+
 [![version](https://img.shields.io/github/release/xCss/Valine.svg?style=flat-square)](https://github.com/xCss/Valine/releases)
 [![npm downloads](https://img.shields.io/npm/dm/valine.svg?style=flat-square)](https://www.npmjs.com/package/valine)
 [![build](https://img.shields.io/circleci/project/github/xCss/Valine/master.svg?style=flat-square)](https://circleci.com/gh/xCss/Valine)
@@ -16,7 +19,7 @@ Theoretically, but not limited to static blog. [Hexo](/en/hexo.html), [Jekyll](/
 - Safe by default.
 - No server-side implementation.
 - Support for full markdown syntax.
-- Simple and lightweight (~15kB gzipped).
+- Simple and lightweight 
 - Article reading statistics `v1.2.0+`
 
 ## Todo
