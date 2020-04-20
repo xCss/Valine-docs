@@ -102,5 +102,5 @@ There are a number of hexo theme built-in valine comment system, more themes are
 ## hexo-theme-yun
 > [Supported](https://github.com/YunYouJun/hexo-theme-yun) `latest`
 
-	## hexo-theme-arknights
+## hexo-theme-arknights
 > [Supported](https://github.com/Yue-plus/hexo-theme-arknights) `latest`
