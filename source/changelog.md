@@ -7,6 +7,7 @@ title: 更新日志
 - `F` 修复marked渲染错误的Bug [#275](https://github.com/xCss/Valine/issues/275) [#269](https://github.com/xCss/Valine/issues/269)
 - `F` 修复代码高亮样式被覆盖的Bug [#270](https://github.com/xCss/Valine/issues/270)
 - `F` 修复阅读次数异常的Bug [#272](https://github.com/xCss/Valine/issues/272)
+- `F` 修复在夜间模式下的样式渲染异常
 - `U` 一些样式优化
 - `U` 代码逻辑优化
 

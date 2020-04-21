@@ -7,6 +7,7 @@ title: Change Log
 - `F` Bug Fix for Marked Rendering Error [#275](https://github.com/xCss/Valine/issues/275) [#269](https://github.com/xCss/Valine/issues/269)
 - `F` Fix bug where code highlighting style is overwritten [#270](https://github.com/xCss/Valine/issues/270)
 - `F` Fix a bug in the reading count exception [#272](https://github.com/xCss/Valine/issues/272)
+- `F` Fixes style rendering anomaly in night mode
 - `U` Some style optimization
 - `U` Code logic optimization
 
