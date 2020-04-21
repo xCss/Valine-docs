@@ -1,7 +1,14 @@
 ---
 title: Change Log
 ---
-
+## v1.4.5, 2020-04-21
+- `A` Added support for QQ avatars. [#192](https://github.com/xCss/Valine/issues/192)
+- `A` Add custom emoticons [#261](https://github.com/xCss/Valine/issues/261) [#260](https://github.com/xCss/Valine/issues/260) [#150](https://github.com/xCss/Valine/issues/150)
+- `F` Bug Fix for Marked Rendering Error [#275](https://github.com/xCss/Valine/issues/275) [#269](https://github.com/xCss/Valine/issues/269)
+- `F` Fix bug where code highlighting style is overwritten [#270](https://github.com/xCss/Valine/issues/270)
+- `F` Fix a bug in the reading count exception [#272](https://github.com/xCss/Valine/issues/272)
+- `U` Some style optimization
+- `U` Code logic optimization
 
 ## v1.4.0~v1.4.4, 2020-04-11  
 - `A` New SDK loading logic

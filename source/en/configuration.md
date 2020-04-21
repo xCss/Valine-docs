@@ -186,3 +186,22 @@ Record reviewer IP.
 
 > ⚠️ This configuration is suitable for domestic `custom domain name` users, `overseas version` will be automatically detected (no need to manually fill in) `v1.3.10+`
 
+
+## emojiCDN
+- Type: `String`
+- Default: ``
+- Required: `false`
+
+Set `Emoji Pack CDN`, refer to [Custom Emoji](/en/emoji.html)
+
+> `v1.4.5+` 
+
+
+## emojiMaps
+- Type: `Object`
+- Default: `null`
+- Required: `false`
+
+Set `Emoji Packet Mapping', refer to [Custom Emoji](/en/emoji.html)
+
+> `v1.4.5+` 
