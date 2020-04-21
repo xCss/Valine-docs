@@ -2,12 +2,12 @@
 title: 更新日志
 ---
 ## v1.4.5, 2020-04-21
-- `A` 新增QQ头像的支持 [#192](https://github.com/xCss/Valine/issues/192)
+- `A` 新增QQ头像的支持(`昵称框`输入QQ号试试) [#192](https://github.com/xCss/Valine/issues/192)
 - `A` 新增自定义表情 [#261](https://github.com/xCss/Valine/issues/261) [#260](https://github.com/xCss/Valine/issues/260) [#150](https://github.com/xCss/Valine/issues/150)
 - `F` 修复marked渲染错误的Bug [#275](https://github.com/xCss/Valine/issues/275) [#269](https://github.com/xCss/Valine/issues/269)
 - `F` 修复代码高亮样式被覆盖的Bug [#270](https://github.com/xCss/Valine/issues/270)
 - `F` 修复阅读次数异常的Bug [#272](https://github.com/xCss/Valine/issues/272)
-- `F` 修复在夜间模式下的样式渲染异常
+- `F` 修复在夜间模式下样式渲染异常的Bug
 - `U` 一些样式优化
 - `U` 代码逻辑优化
 
