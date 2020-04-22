@@ -3,6 +3,12 @@ title: 介绍
 description: Valine - 一款快速、简洁且高效的无后端评论系统。
 ---
 
+> `v1.4.7+` 出现`Code 98` 提示是已知Bug，将在下个版本更新。
+  若要自己动手解决，请先确认是否开启了主题自带的`leancloud_visitor`，如果开启了请先关闭(和Valine有冲突)。
+  然后删掉页面中的`av-min.js`再试！
+  
+
+
 > 由于某些原因，`src目录`将从`v1.4.0`后暂停更新.  
 
 [![version](https://img.shields.io/github/release/xCss/Valine.svg?style=flat-square)](https://github.com/xCss/Valine/releases)
