@@ -2,7 +2,7 @@
 title: Change Log
 ---
 
-## v1.4.6, 2020-04-22
+## v1.4.6~v1.4.7, 2020-04-22
 - `A` New `Required field` setting [#281](https://github.com/xCss/Valine/issues/281) [#59](https://github.com/xCss/Valine/issues/59)
 - `A` Added `Comment box` to get `QQ avatar` and `QQ nickname` to enable the attribute `enableQQ`, need to actively enable [#277](https://github.com/xCss/Valine/issues/277)
 - `F` Fix bugs where styles are overwritten [#284](https://github.com/xCss/Valine/issues/284) [#270](https://github.com/xCss/Valine/issues/270)
