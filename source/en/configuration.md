@@ -205,3 +205,25 @@ Set `Emoji Pack CDN`, refer to [Custom Emoji](/en/emoji.html)
 Set `Emoji Packet Mapping', refer to [Custom Emoji](/en/emoji.html)
 
 > `v1.4.5+` 
+
+
+## enableQQ
+- Type: `Boolean`
+- Default: `false`
+- Required: `false`
+
+Whether to enable the `Nickname box` to automatically get `QQ Nickname` and `QQ Avatar`, the default is `off`, you need the `blogger/webmaster` to actively enable
+
+> `v1.4.6+`
+
+## requiredFields
+- Type: `Array`
+- Default: `[]`
+- Required: `false`
+
+Set `required fields`, default `anonymous`, optional values:
+
+- `['nick']`
+- `['nick','mail']`
+
+> `v1.4.6+`

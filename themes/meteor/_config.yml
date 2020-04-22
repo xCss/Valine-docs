@@ -72,6 +72,7 @@ valine:
   notify: true
   placeholder: Just Go Go.
   avatar: mp
+  enableQQ: true
   cdn: //unpkg.com/valine/dist/Valine.min.js # /script/Valine.min.js # https://cdn.jsdelivr.net/npm/valine
   
 
