@@ -2,8 +2,8 @@
 title: 更新日志
 ---
 ## v1.4.6, 2020-04-22
-- `A` 新增`必填项`设置 #281 #59
-- `A` 新增`评论框`获取`QQ头像`和`QQ昵称`启用属性`enableQQ`，需主动启用 #277
+- `A` 新增`必填项`设置 [#281](https://github.com/xCss/Valine/issues/281) [#59](https://github.com/xCss/Valine/issues/59)
+- `A` 新增`评论框`获取`QQ头像`和`QQ昵称`启用属性`enableQQ`，需主动启用 [#277](https://github.com/xCss/Valine/issues/277)
 - `F` 修复样式被覆盖的Bug [#284](https://github.com/xCss/Valine/issues/284) [#270](https://github.com/xCss/Valine/issues/270)
 - `F` 修复使用了低版本的`av-min.js`造成的初始化错误
 - `U` 一些样式优化
