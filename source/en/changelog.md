@@ -1,6 +1,12 @@
 ---
 title: Change Log
 ---
+## v1.4.8, 2020-04-23  
+- `F` Optimize SDK loading logic, fix `Code 98` error [#289](https://github.com/xCss/Valine/issues/289) [#288](https://github.com/xCss/Valine/issues/288) [#285](https://github.com/xCss/Valine/issues/285)
+- `F` Fix bug for failed article list `read count` backfill [#287](https://github.com/xCss/Valine/issues/287) [#272](https://github.com/xCss/Valine/issues/272) 
+- `F` Fix emoji failure bug [#286](https://github.com/xCss/Valine/issues/286)
+- `U` Some Style Optimization [#283](https://github.com/xCss/Valine/issues/283)
+- `U` Code logic optimization
 
 ## v1.4.6~v1.4.7, 2020-04-22
 - `A` New `Required field` setting [#281](https://github.com/xCss/Valine/issues/281) [#59](https://github.com/xCss/Valine/issues/59)
