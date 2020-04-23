@@ -1,10 +1,9 @@
 ---
 title: 更新日志
 ---
-## v1.4.8, 2020-04-23  
+## v1.4.8~v1.4.9, 2020-04-23  
 - `F` 优化SDK加载逻辑，修复`Code 98`错误 [#289](https://github.com/xCss/Valine/issues/289) [#288](https://github.com/xCss/Valine/issues/288) [#285](https://github.com/xCss/Valine/issues/285)
 - `F` 修复文章列表`阅读次数`回填失败的Bug [#287](https://github.com/xCss/Valine/issues/287) [#272](https://github.com/xCss/Valine/issues/272) 
-- `F` 修复表情判断失败的Bug [#286](https://github.com/xCss/Valine/issues/286)
 - `U` 一些样式优化 [#283](https://github.com/xCss/Valine/issues/283)
 - `U` 代码逻辑优化
 
