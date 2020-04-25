@@ -1,7 +1,7 @@
 ---
 title: 更新日志
 ---
-## v1.4.10,2020-04-25
+## v1.4.10, 2020-04-25
 - `F` 修复表情判断失败的Bug [#286](https://github.com/xCss/Valine/issues/286) [#296](https://github.com/xCss/Valine/issues/296) 
 - `F` 修复可能存在的xss漏洞 [#294](https://github.com/xCss/Valine/issues/294) [#293](https://github.com/xCss/Valine/issues/293) 
 - `F` 修复阅读数回填失败的Bug
