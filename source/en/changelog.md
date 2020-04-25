@@ -3,8 +3,9 @@ title: Change Log
 ---
 ## v1.4.10,2020-04-25
 - `F` Fixing the failed emoticon-judgement bug [#286](https://github.com/xCss/Valine/issues/286) [#296](https://github.com/xCss/Valine/issues/296) 
-- `F` Fix possible xss vulnerabilities
+- `F` Fix possible xss vulnerabilities [#294](https://github.com/xCss/Valine/issues/294) [#293](https://github.com/xCss/Valine/issues/293) 
 - `F` Fix bug in failed backfilling of reading numbers
+- `F` Fix the cache bug when getting QQ messages
 - `F` expression size adapted to fix [#295](https://github.com/xCss/Valine/issues/295) 
 - `U` Some stylistic changes
 - `U` Code logic optimization

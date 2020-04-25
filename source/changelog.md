@@ -5,6 +5,7 @@ title: 更新日志
 - `F` 修复表情判断失败的Bug [#286](https://github.com/xCss/Valine/issues/286) [#296](https://github.com/xCss/Valine/issues/296) 
 - `F` 修复可能存在的xss漏洞 [#294](https://github.com/xCss/Valine/issues/294) [#293](https://github.com/xCss/Valine/issues/293) 
 - `F` 修复阅读数回填失败的Bug
+- `F` 修复获取QQ信息时的缓存Bug
 - `F` 表情size适配修复 [#295](https://github.com/xCss/Valine/issues/295) 
 - `U` 一些样式修改
 - `U` 代码逻辑优化
