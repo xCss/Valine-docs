@@ -1,7 +1,7 @@
 ---
 title: 更新日志
 ---
-## v1.4.11,v1.4.12, 2020-04-26
+## v1.4.11~v1.4.13, 2020-04-26
 - `F` 紧急重新修复可能存在的xss漏洞 [#298](https://github.com/xCss/Valine/issues/298) [#294](https://github.com/xCss/Valine/issues/294) [#293](https://github.com/xCss/Valine/issues/293)
 - `F` 再次修复阅读数回填失败的Bug
 - `F` 修复某些异常未正常捕获的Bug
