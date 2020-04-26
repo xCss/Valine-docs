@@ -2,7 +2,7 @@
 title: Change Log
 ---
 
-## v1.4.11~v1.4.13, 2020-04-26
+## v1.4.11~v1.4.14, 2020-04-26
 - `F` Urgently re-fix possible xss vulnerabilities [#298](https://github.com/xCss/Valine/issues/298) [#294](https://github.com/xCss/Valine/issues/294) [#293](https://github.com/xCss/Valine/issues/293)
 - `F` Repaired the bug of failed backfilling of the reading count
 - `F` Fix bugs not caught by some exceptions
