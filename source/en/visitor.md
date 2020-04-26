@@ -14,8 +14,6 @@ new Valine({
 
 The web page will automatically find the element with the `class` value of `leancloud-visitors` on the page and get its `id` as the query condition. And populate the resulting value into the child element whose `class` value is `leancloud-visitors-count`:
 
-> `Note`: `v1.4.x` has been upgraded to make `data-xid` a query condition (compatible with `id` queries).
-
 ``` html
 <!-- id as the query condition -->
 <span id="<Your/Path/Name>" class="leancloud-visitors" data-flag-title="Your Article Title">

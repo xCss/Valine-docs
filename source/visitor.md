@@ -17,7 +17,6 @@ new Valine({
 
 Valine会自动查找页面中`class`值为`leancloud_visitors`的元素，获取其`id`为查询条件。并将得到的值填充到其`class`的值为`leancloud-visitors-count`的子元素里：
 
-> `注`: `v1.4.x` 已升级为将`data-xid`作为查询条件(兼容`id`查询)
 
 ``` html
 <!-- id 将作为查询条件 -->
