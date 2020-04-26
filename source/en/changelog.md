@@ -1,6 +1,11 @@
 ---
 title: Change Log
 ---
+
+## v1.4.11, 2020-04-26
+- `F` Urgently re-fix possible xss vulnerabilities [#298](https://github.com/xCss/Valine/issues/298) [#294](https://github.com/xCss/Valine/issues/294) [#293](https://github.com/xCss/Valine/issues/293)
+- `F` Repaired the bug of failed backfilling of the reading count
+
 ## v1.4.10, 2020-04-25
 - `F` Fixing the failed emoticon-judgement bug [#286](https://github.com/xCss/Valine/issues/286) [#296](https://github.com/xCss/Valine/issues/296) 
 - `F` Fix possible xss vulnerabilities [#294](https://github.com/xCss/Valine/issues/294) [#293](https://github.com/xCss/Valine/issues/293) 
