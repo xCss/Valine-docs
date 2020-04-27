@@ -23,8 +23,8 @@ Please include the following HTML code in the appropriate location on the articl
     <script>
         new Valine({
             el: '#vcomment' ,
-            appId: '<APP_ID>',
-            appKey: '<APP_Key>'
+            appId: 'Your appId',
+            appKey: 'Your appKey'
         });
     </script>
 </body>

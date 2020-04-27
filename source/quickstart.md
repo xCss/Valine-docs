@@ -30,8 +30,8 @@ title: 快速开始
     <script>
         new Valine({
             el: '#vcomments',
-            appId: '<API_ID>',
-            appKey: '<API_Key>'
+            appId: 'Your appId',
+            appKey: 'Your appKey'
         })
     </script>
 </body>
@@ -39,16 +39,12 @@ title: 快速开始
 
 ## 配置
 
-修改初始化对象中的`APP_ID`和`APP_KEY`的值为上面刚刚获取到的值即可(`其他可以默认`)。
+修改初始化对象中的`appId`和`appKey`的值为上面刚刚获取到的值即可(`其他可以默认`)。
 ``` js
 new Valine({
     el: '#vcomments' ,
-    appId: '<APP_ID>',
-    appKey: '<APP_KEY>',
-    notify:false, 
-    verify:false, 
-    avatar:'mp', 
-    placeholder: 'just go go' 
+    appId: 'Your appId',
+    appKey: 'Your appKey'
 });
 ```
 

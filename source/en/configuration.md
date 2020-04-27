@@ -8,8 +8,8 @@ title: Config Reference
 <script>
     new Valine({
         el:'#vcomment',
-        appId:'<APP_ID>',
-        appKey:'<APP_KEY>'
+        appId:'Your appId',
+        appKey:'Your appKey'
     })
 </script>
 
@@ -18,8 +18,8 @@ title: Config Reference
     var valine = new Valine();
     valine.init({
         el:'#vcomment',
-        appId:'<APP_ID>',
-        appKey:'<APP_KEY>'
+        appId:'Your appId',
+        appKey:'Your appKey'
     })
 </script>
 ```
@@ -36,14 +36,14 @@ The DOM element to be mounted on initialization. It can be a CSS selector string
 - Default:`null`
 - Required:`true`
 
-Application `<APP_ID>` from `Leancloud`.
+Application `appId` from `Leancloud`.
 
 ## appKey
 - Type:`String`
 - Default:`null`
 - Required:`true`
 
-Application `<APP_KEY>` from `Leancloud`.
+Application `appKey` from `Leancloud`.
 
 ## <del>region</del>
 - Type:`String`

@@ -8,8 +8,8 @@ Valine 支持两种不同的初始化方式。一种是构造方法初始化对�
 <script>
     new Valine({
         el:'#vcomment',
-        appId: '<API_ID>',
-        appKey: '<API_Key>'
+        appId: 'Your appId',
+        appKey: 'Your appKey'
     })
 </script>
 
@@ -18,8 +18,8 @@ Valine 支持两种不同的初始化方式。一种是构造方法初始化对�
     var valine = new Valine();
     valine.init({
         el:'#vcomment',
-        appId: '<API_ID>',
-        appKey: '<API_Key>'
+        appId: 'Your appId',
+        appKey: 'Your appKey'
     })
 </script>
 ```
@@ -38,16 +38,16 @@ Valine 的初始化挂载器。可以是一个`CSS 选择器`，也可以是一�
 
 从`LeanCloud`的应用中得到的`appId`.
 
-> [获取APP ID 和 APP Key](/quickstart.html)。
+> [获取appId 和 appKey](/quickstart.html)。
 
 ## appKey
 - 类型:`String`
 - 默认值:`null`
 - 必要性:`true`
 
-从`LeanCloud`的应用中得到的`APP Key`.
+从`LeanCloud`的应用中得到的`appKey`.
 
-> [获取APP ID 和 APP Key](/quickstart.html)。
+> [获取appId 和 appKey](/quickstart.html)。
 
 
 ## <del>region</del>
