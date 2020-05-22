@@ -2,8 +2,6 @@
 title: Used in Gatsby
 ---
 
-![CI](https://github.com/wizcas/gatsby-plugin-valine/workflows/CI/badge.svg)
-
 Valine can be embedded to Gatsby pages with [`gatsby-plugin-valine`](https://www.npmjs.com/package/gatsby-plugin-valine)
 
 This plugin comes with TypeScript support (as written in TypeScript), and currently supports Gatsby v2 only.
@@ -14,11 +12,9 @@ This plugin comes with TypeScript support (as written in TypeScript), and curren
 
     ```shell
     npm install --save gatsby-plugin-valine
-    ```
 
-    Or with `yarn`:
+    # Or with yarn
 
-    ```shell
     yarn add gatsby-plugin-valine
     ```
 

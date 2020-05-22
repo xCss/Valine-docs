@@ -2,8 +2,6 @@
 title: 在Gatsby中使用
 ---
 
-![CI](https://github.com/wizcas/gatsby-plugin-valine/workflows/CI/badge.svg)
-
 可以使用[`gatsby-plugin-valine`](https://www.npmjs.com/package/gatsby-plugin-valine)插件在 Gatsby 站点中嵌入 Valine 组件。
 
 本插件支持 TypeScript（因为就是用 TypeScript 写的），目前仅支持 Gatsby v2。
@@ -14,11 +12,9 @@ title: 在Gatsby中使用
 
     ```shell
     npm install --save gatsby-plugin-valine
-    ```
 
-    或者用 `yarn`:
+    # 或者用 yarn:
 
-    ```shell
     yarn add gatsby-plugin-valine
     ```
 
