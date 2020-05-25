@@ -1,5 +1,5 @@
 ---
-title: use CDN
+title: Use CDN
 ---
 
 Recommended: [unpkg](https://unpkg.com/), which will reflect the latest version as soon as it is published to npm.

@@ -1,5 +1,5 @@
 ---
-title: Use in Vuepress
+title: Used in Vuepress
 ---
 
 Now, [vuepress-plugin-comment](https://github.com/dongyuanxin/vuepress-plugin-comment) has supported to use Valine in Vuepress. And it will manage h5 route automaticly.
