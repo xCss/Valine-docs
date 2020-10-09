@@ -99,7 +99,7 @@ Optional value:
 
 ## avatar
 - Type:`String`
-- Default:`mm`
+- Default:`mp`
 - Required:`false`
 
 `Gravatar` type. 
