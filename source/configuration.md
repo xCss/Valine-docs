@@ -106,7 +106,7 @@ Valine 的初始化挂载器。可以是一个`CSS 选择器`，也可以是一�
 
 ## avatar
 - 类型:`String`
-- 默认值:`mm`
+- 默认值:`mp`
 - 必要性:`false`
 
 `Gravatar` 头像展示方式。
