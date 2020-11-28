@@ -61,3 +61,6 @@ new Valine({
     } 
 })
 ```
+
+## 表情包
+[Valine-Magic](https://github.com/GamerNoTitle/Valine-Magic)：更多的表情包！
