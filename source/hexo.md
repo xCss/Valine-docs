@@ -112,3 +112,6 @@ title: 在Hexo 中使用
 
 ## hexo-theme-arknights
 > [Supported](https://github.com/Yue-plus/hexo-theme-arknights) `latest`
+
+## Kratos-Rebirth
+> [Supported](https://github.com/Candinya/Kratos-Rebirth) `latest`
