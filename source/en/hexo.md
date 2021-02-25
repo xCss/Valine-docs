@@ -106,3 +106,6 @@ There are a number of hexo theme built-in valine comment system, more themes are
 
 ## hexo-theme-arknights
 > [Supported](https://github.com/Yue-plus/hexo-theme-arknights) `latest`
+
+## Kratos-Rebirth
+> [Supported](https://github.com/Candinya/Kratos-Rebirth) `latest`
