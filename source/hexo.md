@@ -1,12 +1,12 @@
 ---
-title: 在Hexo 中使用
+title: 在Hexo中使用
 ---
 目前，已有部分Hexo主题内置了Valine 评论系统，更多的主题正在逐步增加中(由于个人精力有限，内置Valine的PR将不定时提交)。
 
 当然，我们也欢迎更多开发者自主的提交PR 😄
 
-## hexo-theme-ils
-> [Supported](https://github.com/XPoet/hexo-theme-ils) `latest`
+## hexo-theme-keep
+> [Supported](https://github.com/XPoet/hexo-theme-keep) `latest`
 
 ## hexo-theme-matery
 > [Supported](https://github.com/blinkfox/hexo-theme-matery) `latest`

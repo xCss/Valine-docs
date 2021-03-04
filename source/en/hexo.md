@@ -2,8 +2,8 @@
 title: Used in Hexo
 ---
 There are a number of hexo theme built-in valine comment system, more themes are gradually increasing.
-## hexo-theme-ils
-> [Supported](https://github.com/XPoet/hexo-theme-ils) `latest`
+## hexo-theme-keep
+> [Supported](https://github.com/XPoet/hexo-theme-keep) `latest`
 
 ## hexo-theme-matery
 > [Supported](https://github.com/blinkfox/hexo-theme-matery) `latest`
