@@ -114,4 +114,7 @@ title: 在Hexo 中使用
 > [Supported](https://github.com/Yue-plus/hexo-theme-arknights) `latest`
 
 ## Kratos-Rebirth
-> [Supported](https://github.com/Candinya/Kratos-Rebirth) `latest`
+> [Supported](https://github.com/Candinya/Kratos-Rebirth) `latest` 
+
+## Hexo-Theme-MengD
+> [Supported](https://github.com/lete114/hexo-theme-MengD) `latest`
