@@ -5,6 +5,9 @@ title: 在Hexo 中使用
 
 当然，我们也欢迎更多开发者自主的提交PR 😄
 
+## hexo-theme-Fan
+> [Supported](https://github.com/fan-lv/Fan) `latest`
+
 ## hexo-theme-ils
 > [Supported](https://github.com/XPoet/hexo-theme-ils) `latest`
 
