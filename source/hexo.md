@@ -5,6 +5,9 @@ title: 在Hexo 中使用
 
 当然，我们也欢迎更多开发者自主的提交PR 😄
 
+## hexo-theme-Ayer
+> [Supported](https://github.com/Shen-Yu/hexo-theme-ayer) `latest`
+
 ## hexo-theme-ils
 > [Supported](https://github.com/XPoet/hexo-theme-ils) `latest`
 
