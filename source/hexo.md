@@ -115,3 +115,6 @@ title: 在Hexo 中使用
 
 ## Kratos-Rebirth
 > [Supported](https://github.com/Candinya/Kratos-Rebirth) `latest`
+
+## hexo-theme-nexmoe
+> [Supported](https://github.com/theme-nexmoe/hexo-theme-nexmoe) `latest`
