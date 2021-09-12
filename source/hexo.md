@@ -23,7 +23,7 @@ title: 在Hexo 中使用
 ## hexo-theme-spfk
 > [Open](https://github.com/luuman/hexo-theme-spfk/pull/77) `latest`
 
-## hexo-them-ochuunn
+## hexo-theme-ochuunn
 > [Open](https://github.com/ochukai/hexo-theme-ochuunn) `latest`
 
 ## cactus-dark
