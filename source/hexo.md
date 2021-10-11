@@ -5,6 +5,9 @@ title: 在Hexo 中使用
 
 当然，我们也欢迎更多开发者自主的提交PR 😄
 
+## hexo-theme-bamboo
+> [Supported](https://github.com/yuang01/hexo-theme-bamboo) `latest`
+
 ## hexo-theme-ils
 > [Supported](https://github.com/XPoet/hexo-theme-ils) `latest`
 
