@@ -12,7 +12,7 @@ description: Valine - 一款快速、简洁且高效的无后端评论系统。
 
 Valine 诞生于2017年8月7日，是一款基于[LeanCloud](https://leancloud.cn)的快速、简洁且高效的无后端评论系统。  
 
-理论上支持但不限于静态博客，目前已有[Hexo](/hexo.html)、[Jekyll](/jekyll.html)、[Typecho](http://typecho.org/)、[Hugo](https://gohugo.io/)、[Ghost](https://ghost.org) 等博客程序在使用Valine。
+理论上支持但不限于静态博客，目前已有[Hexo](/hexo.html)、[Jekyll](/jekyll.html)、[Typecho](http://typecho.org/)、[Hugo](https://gohugo.io/)、[Ghost](https://ghost.org)、[Docsify](https://github.com/daidi/docsify-valine/) 等博客和文档程序在使用Valine。
 
 ## 特性
 
