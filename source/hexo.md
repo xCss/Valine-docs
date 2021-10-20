@@ -118,3 +118,6 @@ title: 在Hexo中使用
 
 ## hexo-theme-melody
 > [Supported](https://github.com/Molunerfinn/hexo-theme-melody) `latest`
+
+## Hexo-Theme-MengD
+> [Supported](https://github.com/lete114/hexo-theme-MengD) `latest`
