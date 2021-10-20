@@ -1,6 +1,14 @@
 ---
 title: 更新日志
 ---
+## v1.4.16, 2021-10-19
+- `F` 修复昵称的xss漏洞 [#368](https://github.com/xCss/Valine/issues/368) [#363](https://github.com/xCss/Valine/issues/363) [#352](https://github.com/xCss/Valine/issues/352) [#348](https://github.com/xCss/Valine/issues/348) 
+- `F` 修复遍历`Array`问题 [#358](https://github.com/xCss/Valine/issues/358) 
+- `F` 修复评论内容中超链接`target`定向错误问题 [#318](https://github.com/xCss/Valine/issues/318) 
+- `F` 更新Leancloud域名 [#320](https://github.com/xCss/Valine/issues/320) 
+- `F` 修复某些异常未正常捕获的Bug [#344](https://github.com/xCss/Valine/issues/344) 
+- `F` 修复QQ昵称获取失败的问题 [#354](https://github.com/xCss/Valine/issues/354) 
+
 ## v1.4.11~v1.4.14, 2020-04-26
 - `F` 紧急重新修复可能存在的xss漏洞 [#298](https://github.com/xCss/Valine/issues/298) [#294](https://github.com/xCss/Valine/issues/294) [#293](https://github.com/xCss/Valine/issues/293)
 - `F` 再次修复阅读数回填失败的Bug

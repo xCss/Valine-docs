@@ -2,6 +2,14 @@
 title: Change Log
 ---
 
+## v1.4.16, 2021-10-19
+- `F` Fix possible xss vulnerabilities [#368](https://github.com/xCss/Valine/issues/368) [#363](https://github.com/xCss/Valine/issues/363) [#352](https://github.com/xCss/Valine/issues/352) [#348](https://github.com/xCss/Valine/issues/348) 
+- `F` Fix the problem of traversing `Array` [#358](https://github.com/xCss/Valine/issues/358) 
+- `F` Fix the wrong orientation of hyperlink `target` in comment content [#318](https://github.com/xCss/Valine/issues/318) 
+- `F` Update Leancloud domain name [#320](https://github.com/xCss/Valine/issues/320) 
+- `F` Fix bugs not caught by some exceptions [#344](https://github.com/xCss/Valine/issues/344) 
+- `F` Fix the cache bug when getting QQ messages [#354](https://github.com/xCss/Valine/issues/354) 
+
 ## v1.4.11~v1.4.14, 2020-04-26
 - `F` Urgently re-fix possible xss vulnerabilities [#298](https://github.com/xCss/Valine/issues/298) [#294](https://github.com/xCss/Valine/issues/294) [#293](https://github.com/xCss/Valine/issues/293)
 - `F` Repaired the bug of failed backfilling of the reading count
