@@ -2,6 +2,10 @@
 title: Used in Hexo
 ---
 There are a number of hexo theme built-in valine comment system, more themes are gradually increasing.
+
+## hexo-theme-bamboo
+> [Supported](https://github.com/yuang01/hexo-theme-bamboo) `latest`
+
 ## hexo-theme-keep
 > [Supported](https://github.com/XPoet/hexo-theme-keep) `latest`
 
