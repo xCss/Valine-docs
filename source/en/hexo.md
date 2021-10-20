@@ -112,3 +112,6 @@ There are a number of hexo theme built-in valine comment system, more themes are
 
 ## hexo-theme-melody
 > [Supported](https://github.com/Molunerfinn/hexo-theme-melody) `latest`
+
+## Hexo-Theme-MengD
+> [Supported](https://github.com/lete114/hexo-theme-MengD) `latest`
