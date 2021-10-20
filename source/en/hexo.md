@@ -26,7 +26,7 @@ There are a number of hexo theme built-in valine comment system, more themes are
 ## cactus-white-cn
 > [Open](https://github.com/xuthus5/hexo-theme-cactus) `latest`
 
-## hexo-them-ochuunn
+## hexo-theme-ochuunn
 > [Open](https://github.com/ochukai/hexo-theme-ochuunn) `latest`
 
 ## hexo-theme-yilia
@@ -109,3 +109,6 @@ There are a number of hexo theme built-in valine comment system, more themes are
 
 ## Kratos-Rebirth
 > [Supported](https://github.com/Candinya/Kratos-Rebirth) `latest`
+
+## hexo-theme-melody
+> [Supported](https://github.com/Molunerfinn/hexo-theme-melody) `latest`
