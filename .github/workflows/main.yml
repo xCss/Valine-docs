@@ -17,7 +17,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '10'
-          
+
       # 生成静态文件
       - name: Build Pages
         run: |
@@ -30,7 +30,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
           token: ${{ secrets.GH_TOKEN }}
-          repositoryName: xCss/driver.js
+          repository-name: xCss/driver.js
           branch: gh-pages
           folder: public
-          commitMessage: GitHub Actions Auto Builder Docs at date +"%Y-%m-%d %H:%M"
+          commit-message: GitHub Actions Auto Builder Docs at date +"%Y-%m-%d %H:%M"
