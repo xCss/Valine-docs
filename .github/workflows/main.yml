@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Set current date as env variable
-        run: echo "NOW::$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
+        run: echo "CURR_DATE=$(NOW::$(date +'%Y-%m-%dT%H:%M:%S'))" >> $GITHUB_ENV
 
       # 拉取代码
       - name: Checkout
@@ -40,4 +40,4 @@ jobs:
           repository-name: ${{ secrets.GH_REPO}}
           branch: gh-pages
           folder: public
-          # commit-message: GitHub Actions Auto Builder Docs at $NOW
+          commit-message: GitHub Actions Auto Builder Docs at $CURR_DATE
