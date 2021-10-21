@@ -9,6 +9,7 @@ description: Valine - A fast, simple & powerful comment system.
 [![Cdnjs](https://img.shields.io/cdnjs/v/valine)](https://cdnjs.com/libraries/valine) 
 [![npm downloads](https://img.shields.io/npm/dm/valine.svg?style=flat-square)](https://www.npmjs.com/package/valine) 
 ![build](https://img.shields.io/circleci/project/github/xCss/Valine/master.svg?style=flat-square) 
+![pages](https://github.com/xCss/Valine-docs/actions/workflows/main.yml/badge.svg) 
 
 Valine was born in August 7, 2017. It's a fast, simple & efficient Leancloud based no back end comment system.
 
