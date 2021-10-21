@@ -26,7 +26,6 @@ jobs:
         run: |
           npm i hexo-cli -g 
           hexo g
-          ls -R public/
 
       # 部署到 GitHub Pages
       - name: Deploy site
