@@ -1,5 +1,5 @@
 ---
-title: 在Hexo 中使用
+title: 在Hexo中使用
 ---
 目前，已有部分Hexo主题内置了Valine 评论系统，更多的主题正在逐步增加中(由于个人精力有限，内置Valine的PR将不定时提交)。
 
@@ -8,8 +8,11 @@ title: 在Hexo 中使用
 ## hexo-theme-bamboo
 > [Supported](https://github.com/yuang01/hexo-theme-bamboo) `latest`
 
-## hexo-theme-ils
-> [Supported](https://github.com/XPoet/hexo-theme-ils) `latest`
+## hexo-theme-zhaoo
+> [Supported](https://github.com/zhaoo/hexo-theme-zhaoo) `latest`
+
+## hexo-theme-keep
+> [Supported](https://github.com/XPoet/hexo-theme-keep) `latest`
 
 ## hexo-theme-matery
 > [Supported](https://github.com/blinkfox/hexo-theme-matery) `latest`
@@ -26,7 +29,7 @@ title: 在Hexo 中使用
 ## hexo-theme-spfk
 > [Open](https://github.com/luuman/hexo-theme-spfk/pull/77) `latest`
 
-## hexo-them-ochuunn
+## hexo-theme-ochuunn
 > [Open](https://github.com/ochukai/hexo-theme-ochuunn) `latest`
 
 ## cactus-dark
@@ -118,3 +121,9 @@ title: 在Hexo 中使用
 
 ## Kratos-Rebirth
 > [Supported](https://github.com/Candinya/Kratos-Rebirth) `latest`
+
+## hexo-theme-melody
+> [Supported](https://github.com/Molunerfinn/hexo-theme-melody) `latest`
+
+## Hexo-Theme-MengD
+> [Supported](https://github.com/lete114/hexo-theme-MengD) `latest`

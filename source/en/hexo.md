@@ -2,8 +2,11 @@
 title: Used in Hexo
 ---
 There are a number of hexo theme built-in valine comment system, more themes are gradually increasing.
-## hexo-theme-ils
-> [Supported](https://github.com/XPoet/hexo-theme-ils) `latest`
+## hexo-theme-zhaoo
+> [Supported](https://github.com/zhaoo/hexo-theme-zhaoo) `latest`
+
+## hexo-theme-keep
+> [Supported](https://github.com/XPoet/hexo-theme-keep) `latest`
 
 ## hexo-theme-matery
 > [Supported](https://github.com/blinkfox/hexo-theme-matery) `latest`
@@ -26,7 +29,7 @@ There are a number of hexo theme built-in valine comment system, more themes are
 ## cactus-white-cn
 > [Open](https://github.com/xuthus5/hexo-theme-cactus) `latest`
 
-## hexo-them-ochuunn
+## hexo-theme-ochuunn
 > [Open](https://github.com/ochukai/hexo-theme-ochuunn) `latest`
 
 ## hexo-theme-yilia
@@ -109,3 +112,9 @@ There are a number of hexo theme built-in valine comment system, more themes are
 
 ## Kratos-Rebirth
 > [Supported](https://github.com/Candinya/Kratos-Rebirth) `latest`
+
+## hexo-theme-melody
+> [Supported](https://github.com/Molunerfinn/hexo-theme-melody) `latest`
+
+## Hexo-Theme-MengD
+> [Supported](https://github.com/lete114/hexo-theme-MengD) `latest`

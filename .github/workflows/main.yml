@@ -1,0 +1,39 @@
+name: Deploy GitHub Pages
+on: 
+  push:
+    branches:
+      - master 
+
+# 任务
+jobs: 
+  build-and-deploy:
+    # 服务器环境：最新版 Ubuntu
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set current date as env variable
+        run: echo "NOW=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
+
+      # 拉取代码
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 12
+
+      # 生成静态文件
+      - name: Generate pages
+        run: |
+          npm i hexo-cli -g 
+          npm i 
+          hexo g
+
+      # 部署到 GitHub Pages
+      - name: Deploy site
+        uses: JamesIves/github-pages-deploy-action@releases/v4
+        with:
+          token: ${{ secrets.GH_TOKEN }}
+          repository-name: ${{ secrets.GH_REPO}}
+          branch: gh-pages
+          folder: public
+          commit-message: GitHub Actions Auto Builder Docs at ${{ env.NOW }}

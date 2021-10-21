@@ -11,7 +11,7 @@ description: Valine - A fast, simple & powerful comment system.
 
 Valine was born in August 7, 2017. It's a fast, simple & efficient Leancloud based no back end comment system.
 
-Theoretically, but not limited to static blog. [Hexo](/en/hexo.html), [Jekyll](/em/jekyll.html), [Typecho](http://typecho.org/), [Hugo](https://gohugo.io/), [Ghost](https://ghost.org) and other blog programs are currently using Valine.
+Theoretically, but not limited to static blog. [Hexo](/en/hexo.html), [Jekyll](/em/jekyll.html), [Typecho](http://typecho.org/), [Hugo](https://gohugo.io/), [Ghost](https://ghost.org), [Docsify](https://github.com/daidi/docsify-valine/) and other blog or document programs are currently using Valine.
 
 ## Features
 - Emoji 😉
