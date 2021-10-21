@@ -5,11 +5,11 @@ description: Valine - A fast, simple & powerful comment system.
 
 > For some reason, the `src directory` will be suspended from updating after `v1.4.0`.
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/xCss/Valine)](https://github.com/xCss/Valine/releases) 
-[![Cdnjs](https://img.shields.io/cdnjs/v/valine)](https://cdnjs.com/libraries/valine) 
-[![npm downloads](https://img.shields.io/npm/dm/valine.svg?style=flat-square)](https://www.npmjs.com/package/valine) 
-![build](https://img.shields.io/circleci/project/github/xCss/Valine/master.svg?style=flat-square) 
-![pages](https://github.com/xCss/Valine-docs/actions/workflows/main.yml/badge.svg) 
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/xCss/Valine?style=for-the-badge)](https://github.com/xCss/Valine/releases) 
+[![Cdnjs](https://img.shields.io/cdnjs/v/valine?style=for-the-badge)](https://cdnjs.com/libraries/valine) 
+[![npm downloads](https://img.shields.io/npm/dm/valine.svg?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/valine) 
+![build](https://img.shields.io/circleci/project/github/xCss/Valine/master.svg?style=for-the-badge&logo=circleci) 
+![pages](https://github.com/xCss/Valine-docs/actions/workflows/main.yml/badge.svg?style=for-the-badge&logo=githubpages) 
 
 Valine was born in August 7, 2017. It's a fast, simple & efficient Leancloud based no back end comment system.
 

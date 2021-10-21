@@ -6,11 +6,11 @@ description: Valine - 一款快速、简洁且高效的无后端评论系统。
 
 > 由于某些原因，`src目录`将从`v1.4.0`后暂停更新.  
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/xCss/Valine)](https://github.com/xCss/Valine/releases) 
-[![Cdnjs](https://img.shields.io/cdnjs/v/valine)](https://cdnjs.com/libraries/valine) 
-[![npm downloads](https://img.shields.io/npm/dm/valine.svg?style=flat-square)](https://www.npmjs.com/package/valine) 
-![build](https://img.shields.io/circleci/project/github/xCss/Valine/master.svg?style=flat-square) 
-![pages](https://github.com/xCss/Valine-docs/actions/workflows/main.yml/badge.svg) 
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/xCss/Valine?style=for-the-badge)](https://github.com/xCss/Valine/releases) 
+[![Cdnjs](https://img.shields.io/cdnjs/v/valine?style=for-the-badge)](https://cdnjs.com/libraries/valine) 
+[![npm downloads](https://img.shields.io/npm/dm/valine.svg?style=for-the-badge&logo=npm)](https://www.npmjs.com/package/valine) 
+![build](https://img.shields.io/circleci/project/github/xCss/Valine/master.svg?style=for-the-badge&logo=circleci) 
+![pages](https://github.com/xCss/Valine-docs/actions/workflows/main.yml/badge.svg?style=for-the-badge&logo=githubpages) 
 
 Valine 诞生于2017年8月7日，是一款基于[LeanCloud](https://leancloud.cn)的快速、简洁且高效的无后端评论系统。  
 
