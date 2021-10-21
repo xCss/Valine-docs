@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Set current date as env variable
-        run: echo "CURR_DATE=$(NOW::$(date +'%Y-%m-%dT%H:%M:%S'))" >> $GITHUB_ENV
+        run: echo "NOW=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
 
       # 拉取代码
       - name: Checkout
@@ -19,16 +19,12 @@ jobs:
 
       - uses: actions/setup-node@v2
         with:
-          node-version: '12'
+          node-version: 12.x
 
-      # 
-      - name: Setup environment
-        run: |
-          npm i hexo-cli -g 
-          npm ci 
       # 生成静态文件
       - name: Generate pages
         run: |
+          npm i hexo-cli -g 
           hexo g
           ls -R public/
 
@@ -40,4 +36,4 @@ jobs:
           repository-name: ${{ secrets.GH_REPO}}
           branch: gh-pages
           folder: public
-          commit-message: GitHub Actions Auto Builder Docs at $CURR_DATE
+          commit-message: GitHub Actions Auto Builder Docs at $NOW
