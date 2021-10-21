@@ -10,6 +10,10 @@ jobs:
     # 服务器环境：最新版 Ubuntu
     runs-on: ubuntu-latest
     steps:
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d %H:%M')"
+
       # 拉取代码
       - name: Checkout
         uses: actions/checkout@v2
@@ -33,4 +37,4 @@ jobs:
           repository-name: xCss/driver.js
           branch: gh-pages
           folder: public
-          # commit-message: GitHub Actions Auto Builder Docs at date +"%Y-%m-%d %H:%M"
+          commit-message: GitHub Actions Auto Builder Docs at ${{ steps.date.outputs.date }}
