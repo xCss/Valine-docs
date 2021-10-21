@@ -33,4 +33,4 @@ jobs:
           repository-name: xCss/driver.js
           branch: gh-pages
           folder: public
-          commit-message: GitHub Actions Auto Builder Docs at date +"%Y-%m-%d %H:%M"
+          # commit-message: GitHub Actions Auto Builder Docs at date +"%Y-%m-%d %H:%M"
