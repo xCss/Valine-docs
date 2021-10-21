@@ -5,6 +5,9 @@ title: 在Hexo中使用
 
 当然，我们也欢迎更多开发者自主的提交PR 😄
 
+## hexo-theme-zhaoo
+> [Supported](https://github.com/zhaoo/hexo-theme-zhaoo) `latest`
+
 ## hexo-theme-keep
 > [Supported](https://github.com/XPoet/hexo-theme-keep) `latest`
 
