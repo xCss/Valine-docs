@@ -6,6 +6,9 @@ There are a number of hexo theme built-in valine comment system, more themes are
 ## hexo-theme-bamboo
 > [Supported](https://github.com/yuang01/hexo-theme-bamboo) `latest`
 
+## hexo-theme-zhaoo
+> [Supported](https://github.com/zhaoo/hexo-theme-zhaoo) `latest`
+
 ## hexo-theme-keep
 > [Supported](https://github.com/XPoet/hexo-theme-keep) `latest`
 
