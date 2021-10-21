@@ -25,6 +25,7 @@ jobs:
       - name: Generate pages
         run: |
           npm i hexo-cli -g 
+          npm i 
           hexo g
 
       # 部署到 GitHub Pages
