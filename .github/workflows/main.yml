@@ -36,4 +36,4 @@ jobs:
           repository-name: ${{ secrets.GH_REPO}}
           branch: gh-pages
           folder: public
-          commit-message: GitHub Actions Auto Builder Docs at $NOW
+          commit-message: GitHub Actions Auto Builder Docs at ${{ env.NOW }}
