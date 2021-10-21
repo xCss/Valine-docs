@@ -5,9 +5,10 @@ description: Valine - A fast, simple & powerful comment system.
 
 > For some reason, the `src directory` will be suspended from updating after `v1.4.0`.
 
-[![version](https://img.shields.io/github/release/xCss/Valine.svg?style=flat-square)](https://github.com/xCss/Valine/releases)
-[![npm downloads](https://img.shields.io/npm/dm/valine.svg?style=flat-square)](https://www.npmjs.com/package/valine)
-[![build](https://img.shields.io/circleci/project/github/xCss/Valine/master.svg?style=flat-square)](https://circleci.com/gh/xCss/Valine)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/xCss/Valine)](https://github.com/xCss/Valine/releases) 
+[![Cdnjs](https://img.shields.io/cdnjs/v/valine)](https://cdnjs.com/libraries/valine) 
+[![npm downloads](https://img.shields.io/npm/dm/valine.svg?style=flat-square)](https://www.npmjs.com/package/valine) 
+![build](https://img.shields.io/circleci/project/github/xCss/Valine/master.svg?style=flat-square) 
 
 Valine was born in August 7, 2017. It's a fast, simple & efficient Leancloud based no back end comment system.
 
