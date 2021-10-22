@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - master 
+env:
+  TZ: Asia/Shanghai
 
 # 任务
 jobs: 
@@ -11,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Set current date as env variable
-        run: echo "NOW=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
+        run: echo "NOW=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
 
       # 拉取代码
       - name: Checkout
