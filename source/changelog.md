@@ -1,6 +1,10 @@
 ---
 title: 更新日志
 ---
+## v1.4.17~v1.4.18, 2022-93-21
+- `F` 修复可能的xss漏洞 [#65](https://github.com/xCss/Valine-Docs/issues/65) 
+- `U` 更新CDN地址 `jsdelivr`->`unpkg`
+
 ## v1.4.16, 2021-10-19
 - `F` 修复昵称的xss漏洞 [#368](https://github.com/xCss/Valine/issues/368) [#363](https://github.com/xCss/Valine/issues/363) [#352](https://github.com/xCss/Valine/issues/352) [#348](https://github.com/xCss/Valine/issues/348) 
 - `F` 修复遍历`Array`问题 [#358](https://github.com/xCss/Valine/issues/358) 

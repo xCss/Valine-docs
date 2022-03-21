@@ -2,6 +2,10 @@
 title: Change Log
 ---
 
+## v1.4.17~v1.4.18, 2022-93-21
+- `F` Fix possible XSS vulnerabilities [#65](https://github.com/xCss/Valine-Docs/issues/65) 
+- `U` Update CDN address `jsdelivr`->`unpkg`
+
 ## v1.4.16, 2021-10-19
 - `F` Fix possible xss vulnerabilities [#368](https://github.com/xCss/Valine/issues/368) [#363](https://github.com/xCss/Valine/issues/363) [#352](https://github.com/xCss/Valine/issues/352) [#348](https://github.com/xCss/Valine/issues/348) 
 - `F` Fix the problem of traversing `Array` [#358](https://github.com/xCss/Valine/issues/358) 
