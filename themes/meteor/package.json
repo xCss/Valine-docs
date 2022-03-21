@@ -22,7 +22,7 @@
     "hanabi": "^0.4.0",
     "js-yaml": "^3.10.0",
     "shelljs": "^0.8.1",
-    "simple-git": "^1.89.0",
+    "simple-git": ">=3.3.0",
     "tarball-extract": "0.0.6",
     "tmp-promise": "^1.0.4"
   },
