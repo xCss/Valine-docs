@@ -1,7 +1,7 @@
 ---
 title: 更新日志
 ---
-## v1.4.17~v1.4.18, 2022-93-21
+## v1.4.17~v1.4.18, 2022-03-21
 - `F` 修复可能的xss漏洞 [#65](https://github.com/xCss/Valine-Docs/issues/65) 
 - `U` 更新CDN地址 `jsdelivr`->`unpkg`
 

@@ -2,7 +2,7 @@
 title: Change Log
 ---
 
-## v1.4.17~v1.4.18, 2022-93-21
+## v1.4.17~v1.4.18, 2022-03-21
 - `F` Fix possible XSS vulnerabilities [#65](https://github.com/xCss/Valine-Docs/issues/65) 
 - `U` Update CDN address `jsdelivr`->`unpkg`
 
