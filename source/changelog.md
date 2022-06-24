@@ -1,6 +1,11 @@
 ---
 title: 更新日志
 ---
+## v1.5.0, 2022-06-24
+- `U` 优化UA判断，增加对`Windows 11`的支持  
+- `F` 修复可能存在的xss漏洞 [#400](https://github.com/xCss/Valine/issues/400)  
+- `F` 修复图片无法上传的问题 [#396](https://github.com/xCss/Valine/issues/396)  [#380](https://github.com/xCss/Valine/issues/380)  
+
 ## v1.4.17~v1.4.18, 2022-03-21
 - `F` 修复可能的xss漏洞 [#65](https://github.com/xCss/Valine-Docs/issues/65) 
 - `U` 更新CDN地址 `jsdelivr`->`unpkg`

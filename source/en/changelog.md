@@ -2,6 +2,12 @@
 title: Change Log
 ---
 
+## v1.5.0, 2022-06-24
+- `U` Optimize code logic, add support for `Windows 11`  
+- `F` Fix possible xss bug [#400](https://github.com/xCss/Valine/issues/400)  
+- `F` Modify image upload logic [#396](https://github.com/xCss/Valine/issues/396)  [#380](https://github.com/xCss/Valine/issues/380)  
+
+
 ## v1.4.17~v1.4.18, 2022-03-21
 - `F` Fix possible XSS vulnerabilities [#65](https://github.com/xCss/Valine-Docs/issues/65) 
 - `U` Update CDN address `jsdelivr`->`unpkg`
