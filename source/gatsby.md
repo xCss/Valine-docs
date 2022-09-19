@@ -1,14 +1,14 @@
 ---
-title: 在Gatsby中使用
+title: 在 Gatsby 中使用
 ---
 
-可以使用[`gatsby-plugin-valine`](https://www.npmjs.com/package/gatsby-plugin-valine)插件在 Gatsby 站点中嵌入 Valine 组件。
+可以使用 [`gatsby-plugin-valine`](https://www.npmjs.com/package/gatsby-plugin-valine) 插件在 Gatsby 站点中嵌入 Valine 组件。
 
 本插件支持 TypeScript（因为就是用 TypeScript 写的），目前仅支持 Gatsby v2。
 
 ## 安装
 
-1. 通过 `npm` 下载和安装本插件:
+1. 通过 `npm` 下载和安装本插件：
 
     ```shell
     npm install --save gatsby-plugin-valine
@@ -18,7 +18,7 @@ title: 在Gatsby中使用
     yarn add gatsby-plugin-valine
     ```
 
-2. 在项目的 `gatsby-config.js` 文件中加入插件配置:
+2. 在项目的 `gatsby-config.js` 文件中加入插件配置：
 
     ```js
     // gatsby-config.js
@@ -29,7 +29,7 @@ title: 在Gatsby中使用
     }
     ```
 
-3. 在 `gatsby-config.js` 中配置插件时，也支持设置插件选项，比如这样:
+3. 在 `gatsby-config.js` 中配置插件时，也支持设置插件选项，比如这样：
 
     ```js
     // gatsby-config.js
@@ -65,7 +65,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       ...
-      <!-- 在页面框架最后添加Valine标签 -->
+      <!-- 在页面框架最后添加 Valine 标签 -->
       <Valine appId="LEANCLOUD_APP_ID" appKey="LEANCLOUD_APP_KEY"/>
     </Layout>
   )
@@ -82,7 +82,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
 
 如前文所述，Valine 选项可以通过**插件选项**或**组件属性**进行设置。**除`el`以外**，本插件支持 Valine `1.4.14`版本所提供的所有可用选项。`el`属性在插件中会被改写，因此设置了也没效果。
 
-关于 Valine 选项的更多详细描述，请参阅[配置项](https://valine.js.org/configuration.html)。
+关于 Valine 选项的更多详细描述，请参阅 [配置项](https://valine.js.org/configuration.html)。
 
 `Valine`组件的各属性已经编写了详细的注释，TypeScript 开发者可以在支持的代码编辑器中直接查看。
 
