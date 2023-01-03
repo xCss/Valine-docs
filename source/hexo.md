@@ -127,3 +127,6 @@ title: 在Hexo中使用
 
 ## Hexo-Theme-MengD
 > [Supported](https://github.com/lete114/hexo-theme-MengD) `latest`
+
+## Hexo-Theme-flexblock
+> [Supported](https://github.com/miiiku/hexo-theme-flexblock) `latest`
