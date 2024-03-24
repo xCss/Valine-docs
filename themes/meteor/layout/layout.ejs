@@ -89,6 +89,9 @@
         ga('send', 'pageview');
       </script>
     <% } %>
+    <% if (theme.apis && theme.apis.umami ){ %>
+      <script defer src="https://ut.src.im/ct.js" data-host-url="https://ut.src.im" data-website-id="<%- theme.apis.umami %>"></script>
+    <% } %>
 
     <% if (theme.apis && theme.apis.baidu ){ %>
       <script>
