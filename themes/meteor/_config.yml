@@ -61,6 +61,7 @@ sidebar:
   Other:
     - jekyll
     - hexo
+    - hugo
     - vuepress
     - gatsby
     - cdn
