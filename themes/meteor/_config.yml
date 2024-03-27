@@ -19,10 +19,11 @@ logo:
 
 
 apis:
-  baidu: 3a67769b7760c62aafb6fa58d51da74c 
-  ga: UA-61934506-3       
-  marketo: 999-999-9999
-  segment: abcabcabcabc
+  baidu: # 3a67769b7760c62aafb6fa58d51da74c 
+  ga: # UA-61934506-3       
+  marketo: # 999-999-9999
+  segment: # abcabcabcabc
+  umami: 0adc1236-d655-4dea-95c3-51578f71060f
   docsearch:
     apiKey: c4ef5def993e015b66f3ea438e2be874
     indexName: valinejs
@@ -43,7 +44,7 @@ apis:
 #     active: false
 
 ad:
-  enable: true
+  enable: false
 
 sidebar:
   null:
@@ -74,6 +75,7 @@ valine:
   placeholder: Just Go Go.
   avatar: mp
   enableQQ: true
+  avatarCdn: 'https://cravatar.cn/avatar/'
   cdn: //unpkg.com/valine/dist/Valine.min.js # /script/Valine.min.js # https://cdn.jsdelivr.net/npm/valine
   
 

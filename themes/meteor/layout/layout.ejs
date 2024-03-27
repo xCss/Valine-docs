@@ -9,8 +9,7 @@
     <link rel="dns-prefetch" href="//valine.js.org">
     <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
     <link rel="dns-prefetch" href="//fonts.loli.net">
-    <link rel="dns-prefetch" href="//gravatar.loli.net">
-    <link rel="dns-prefetch" href="//i.loli.net">
+    <link rel="dns-prefetch" href="//cravatar.cn">
     <link rel="dns-prefetch" href="//gstatic.loli.net">
     <meta name="description" content="<%- config.description %>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -53,8 +52,8 @@
     
     <script src='//unpkg.com/hanabi@0.4.0/dist/hanabi.min.js' ></script>
 
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <% if(theme.ad && theme.ad.enable) { %>
+      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       <script>
           (adsbygoogle = window.adsbygoogle || []).push({
                 google_ad_client: "ca-pub-3540467103914375",
@@ -100,6 +99,9 @@
           s.parentNode.insertBefore(hm, s);
         })();
       </script>
+    <% } %>
+    <% if (theme.apis && theme.apis.umami ) { %>
+      <script defer src="//ut.src.im/ct.js" data-host-url="https://ut.src.im" data-website-id="<%- theme.apis.umami %>"></script>
     <% } %>
 
     <!-- search box -->
