@@ -34,8 +34,8 @@ jobs:
       - name: Deploy site
         uses: JamesIves/github-pages-deploy-action@releases/v4
         with:
-          token: ${{ secrets.GH_TOKEN }}
-          repository-name: ${{ secrets.GH_REPO}}
+          token: ${{ secrets.GITHUB_TOKEN  }}
+          repository-name: xCss/Valine
           branch: gh-pages
           folder: public
           commit-message: GitHub Actions Auto Builder Docs at ${{ env.NOW }}
