@@ -3,8 +3,8 @@ title: Quick start
 ---
 
 ## Get APP_ID and APP_Key
-[Click here](https://leancloud.cn/dashboard/login.html#/signup) to register or login in `leancloud`.  
-[Click here](https://leancloud.cn/dashboard/applist.html#/newapp) Create new application in `Leancloud`, and you will get `APP ID`/`APP Key`.
+[Click here](https://console.leancloud.cn/login) to register or login in `leancloud`.  
+[Click here](https://console.leancloud.cn/apps) Create new application in `Leancloud`, and you will get `AppID`/`AppKey`.
 
 ## HTML structure
 
@@ -13,7 +13,6 @@ Please include the following HTML code in the appropriate location on the articl
 ```html
 <head>
     ...
-    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
     <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
     ...
 </head>
