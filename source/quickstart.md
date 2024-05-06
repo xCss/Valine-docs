@@ -4,7 +4,7 @@ title: 快速开始
 
 如果你想在某个网页或者文章页中使用Valine，请参照以下步骤配置
 
-## 获取AppID 和 AppKey
+## 获取AppID和AppKey
 
 请先[登录](https://console.leancloud.cn/login)或[注册](https://console.leancloud.cn/register) `LeanCloud`, 进入[控制台](https://console.leancloud.cn/apps)后点击左上角`创建应用`：
 

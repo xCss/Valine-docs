@@ -2,7 +2,7 @@
 title: Quick start
 ---
 
-## Get APP_ID and APP_Key
+## Get AppID and AppKey
 [Click here](https://console.leancloud.cn/login) to register or login in `leancloud`.  
 [Click here](https://console.leancloud.cn/apps) Create new application in `Leancloud`, and you will get `AppID`/`AppKey`.
 
