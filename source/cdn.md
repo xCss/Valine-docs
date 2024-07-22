@@ -20,5 +20,5 @@ title: 使用 CDN
 ## 获取指定版本
 
 ```html
-<script src="//unpkg.com/valine@1.4.4/dist/Valine.min.js"></script>
+<script src="//unpkg.com/valine@1.5.2/dist/Valine.min.js"></script>
 ```

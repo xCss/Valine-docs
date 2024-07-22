@@ -127,3 +127,6 @@ title: 在Hexo中使用
 
 ## Hexo-Theme-MengD
 > [Supported](https://github.com/lete114/hexo-theme-MengD) `latest`
+
+## hexo-theme-onenote
+> [Supported](https://github.com/Alanrk/hexo-theme-onenote) `latest`
