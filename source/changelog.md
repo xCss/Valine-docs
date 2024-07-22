@@ -1,6 +1,12 @@
 ---
 title: 更新日志
 ---
+## v1.5.2, 2024-07-22  
+- `A` 新增`onCommentSubmmited`回调，用于自定义提交评论后的操作 [#431](https://github.com/xCss/Valine/issues/431)
+- `U` 优化CDN地址 `unpkg`->`elemecdn` [#404](https://github.com/xCss/Valine-Docs/issues/404) 
+- `F` 修复IP地址获取失败
+- `F` 修改当昵称为必填时的字数限制 [#361](https://github.com/xCss/Valine/issues/361)
+
 ## v1.5.0, 2022-06-24
 - `U` 优化UA判断，增加对`Windows 11`的支持  
 - `F` 修复可能存在的xss漏洞 [#400](https://github.com/xCss/Valine/issues/400)  
