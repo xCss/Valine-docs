@@ -130,3 +130,9 @@ title: 在Hexo中使用
 
 ## hexo-theme-onenote
 > [Supported](https://github.com/Alanrk/hexo-theme-onenote) `latest`
+
+## hexo-theme-nexmoe
+> [Supported](https://github.com/theme-nexmoe/hexo-theme-nexmoe) `latest`
+
+## Hexo-Theme-flexblock
+> [Supported](https://github.com/miiiku/hexo-theme-flexblock) `latest`

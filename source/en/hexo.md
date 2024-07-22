@@ -125,3 +125,9 @@ There are a number of hexo theme built-in valine comment system, more themes are
 
 ## hexo-theme-onenote
 > [Supported](https://github.com/Alanrk/hexo-theme-onenote) `latest`
+
+## hexo-theme-nexmoe
+> [Supported](https://github.com/theme-nexmoe/hexo-theme-nexmoe) `latest`
+
+## Hexo-Theme-flexblock
+> [Supported](https://github.com/miiiku/hexo-theme-flexblock) `latest`
