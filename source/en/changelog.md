@@ -5,8 +5,8 @@ title: Change Log
 ## v1.5.2, 2024-07-22  
 - `A` Added `onCommentSubmmited` callback for customizing operations after comment submission [#431](https://github.com/xCss/Valine/issues/431)
 - `U` Optimized CDN address from `unpkg` to `elemecdn` [#404](https://github.com/xCss/Valine-Docs/issues/404) 
+- `U` Optimized the character limit when the nickname is required [#361](https://github.com/xCss/Valine/issues/361)
 - `F` Fixed the issue of IP address retrieval failure
-- `F` Modified the character limit when the nickname is required [#361](https://github.com/xCss/Valine/issues/361)
 
 
 ## v1.5.0, 2022-06-24
