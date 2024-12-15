@@ -29,12 +29,6 @@ Valine is still in the development phase. Here are some features that are not cu
 - Firebase-based comment store
 - And more...
 
-## Donate
-If you are enjoying this app, please consider making a donation to keep it alive, I will try my best to dedicate more time or even full time to work on it. 😉
-
-| Alipay | Wechat | 
-| :------: | :------: | 
-| <img width="150" src="/images/alipay.png"> | <img width="135" src="/images/wechat.png"> | 
 
 If you are not available for this, simply spreading the word for us would help too!
 

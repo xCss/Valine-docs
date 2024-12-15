@@ -1,6 +1,12 @@
 ---
 title: 更新日志
 ---
+## v1.5.3, 2024-12-15
+- `F` 修复`QQ昵称`获取失败的问题 #[432](https://github.com/xCss/Valine/issues/432)
+- `F` 修复中文域名检测失败的问题
+- `F` 修复SDK链接失效的问题
+- `U` 优化CDN地址 `elemecdn`->`jsdelivr`
+
 ## v1.5.2, 2024-07-22  
 - `A` 新增`onCommentSubmmited`回调，用于自定义提交评论后的操作 [#431](https://github.com/xCss/Valine/issues/431)
 - `U` 优化CDN地址 `unpkg`->`elemecdn` [#404](https://github.com/xCss/Valine-Docs/issues/404) 

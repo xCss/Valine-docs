@@ -1,6 +1,11 @@
 ---
 title: Change Log
 ---
+## v1.5.3, 2024-12-15
+- `F` Fixed `QQ nickname` retrieval failure #[432](https://github.com/xCss/Valine/issues/432)
+- `F` Fixed Chinese domain name detection failure
+- `F` Fixed SDK link expiration
+- `U` Optimized CDN address from `elemecdn` to `jsdelivr`
 
 ## v1.5.2, 2024-07-22  
 - `A` Added `onCommentSubmmited` callback for customizing operations after comment submission [#431](https://github.com/xCss/Valine/issues/431)
